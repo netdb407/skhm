@@ -1,0 +1,30 @@
+{
+	"records": [	{
+		"time": 10,
+		"delta_disk_usage": 9842688,
+		"waf": -24,
+		"gc": 0,
+		"nand_write": 2736
+	}
+	, {
+		"time": 20,
+		"delta_disk_usage": 16302080,
+		"waf": -76,
+		"gc": 0,
+		"nand_write": 3888
+	}
+	, {
+		"time": 30,
+		"delta_disk_usage": 4235264,
+		"waf": 28,
+		"gc": 1,
+		"nand_write": 768
+	}
+	, {
+		"time": 40,
+		"delta_disk_usage": 0,
+		"waf": 0,
+		"gc": 0,
+		"nand_write": 0
+	}
+]}

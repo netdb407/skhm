@@ -1,0 +1,106 @@
+{
+	"records": [	{
+		"Window Time": 0.0,
+		"Number of IO": 105,
+		"Size of IO": 54985328,
+		"Latency": 0.572041,
+		"Kernel Time": 0.43815,
+		"Driver Time": 0.47069,
+		"Device Time": 0.481156,
+		"max": 0.2002402,
+		"min": 0.32842,
+		"var": 0.000000,
+		"std": 0.000570
+	}
+, 	{
+		"Window Time": 10.0,
+		"Number of IO": 33,
+		"Size of IO": 46772844,
+		"Latency": 0.286683,
+		"Kernel Time": 0.32030,
+		"Driver Time": 0.114271,
+		"Device Time": 0.140381,
+		"max": 0.1768242,
+		"min": 0.86496,
+		"var": 0.000000,
+		"std": 0.000293
+	}
+, 	{
+		"Window Time": 20.0,
+		"Number of IO": 22,
+		"Size of IO": 40227188,
+		"Latency": 0.257067,
+		"Kernel Time": 0.28026,
+		"Driver Time": 0.49253,
+		"Device Time": 0.179786,
+		"max": 0.621406,
+		"min": 0.95787,
+		"var": 0.000000,
+		"std": 0.000152
+	}
+, 	{
+		"Window Time": 30.0,
+		"Number of IO": 37,
+		"Size of IO": 26299419,
+		"Latency": 0.192345,
+		"Kernel Time": 0.33709,
+		"Driver Time": 0.59064,
+		"Device Time": 0.99571,
+		"max": 0.529264,
+		"min": 0.43586,
+		"var": 0.000000,
+		"std": 0.000130
+	}
+, 	{
+		"Window Time": 40.0,
+		"Number of IO": 18,
+		"Size of IO": 34952533,
+		"Latency": 0.191706,
+		"Kernel Time": 0.32787,
+		"Driver Time": 0.45892,
+		"Device Time": 0.113026,
+		"max": 0.372495,
+		"min": 0.46492,
+		"var": 0.000000,
+		"std": 0.000095
+	}
+, 	{
+		"Window Time": 50.0,
+		"Number of IO": 18,
+		"Size of IO": 34136974,
+		"Latency": 0.301556,
+		"Kernel Time": 0.27784,
+		"Driver Time": 0.101295,
+		"Device Time": 0.172477,
+		"max": 0.1111338,
+		"min": 0.119355,
+		"var": 0.000000,
+		"std": 0.000230
+	}
+, 	{
+		"Window Time": 60.0,
+		"Number of IO": 24,
+		"Size of IO": 36700160,
+		"Latency": 0.215484,
+		"Kernel Time": 0.48122,
+		"Driver Time": 0.37978,
+		"Device Time": 0.129383,
+		"max": 0.523083,
+		"min": 0.108318,
+		"var": 0.000000,
+		"std": 0.000112
+	}
+, 	{
+		"Window Time": 70.0,
+		"Number of IO": 2,
+		"Size of IO": 3145728,
+		"Latency": 0.163815,
+		"Kernel Time": 0.29428,
+		"Driver Time": 0.69179,
+		"Device Time": 0.65207,
+		"max": 0.182597,
+		"min": 0.145034,
+		"var": 0.000000,
+		"std": 0.000019
+	}
+]}

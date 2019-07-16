@@ -1,0 +1,37 @@
+{
+  "OverallType" : [
+    {
+      "type": "OVERALL",
+      "RunTime" : 54,
+      "Throughput" : 18518.51851851852
+    }],
+  "testFormat" : [
+    {
+      "type": "READ",
+      "Operations" : 491,
+      "AverageLatency" : 10.590631364562118,
+      "MinLatency" : 6,
+      "MaxLatency" : 302,
+      "latency95" : 20,
+      "latency99" : 26
+    },
+    {
+      "type": "CLEANUP",
+      "Operations" : 1,
+      "AverageLatency" : 1.0,
+      "MinLatency" : 1,
+      "MaxLatency" : 1,
+      "latency95" : 1,
+      "latency99" : 1
+    },
+    {
+      "type": "UPDATE",
+      "Operations" : 509,
+      "AverageLatency" : 22.49901768172888,
+      "MinLatency" : 12,
+      "MaxLatency" : 296,
+      "latency95" : 42,
+      "latency99" : 50
+    }
+  ]
+}

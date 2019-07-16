@@ -1,0 +1,46 @@
+{
+  "db_configs": [{
+      "id": 1,
+      "subtitle": "cassandra",
+      "config_name": " Config 1",
+      "type" : "db"
+
+    },
+    {
+      "id": 2,
+      "subtitle": "cassandra",
+      "config_name": " Config 2",
+      "type" : "db"
+    },
+    {
+      "id": 3,
+      "subtitle": "Rocksandra",
+      "config_name": " Config 1",
+      "type" : "db"
+    }
+
+  ],
+  "wl_configs": [{
+      "id": 1,
+      "config_name": " Workload 1",
+      "subtitle": "10/15/20/20/30",
+      "type" : "wl"
+    },
+    {
+      "id": 2,
+      "config_name": " Workload 2",
+      "subtitle": "10/15/30/10/30",
+      "type" : "wl"
+    },
+    {
+      "id": 3,
+      "config_name": " Workload 3",
+      "subtitle": "25/0/30/10/30",
+      "type" : "wl"
+    }
+  ],
+  "benchmarks": [
+
+  ]
+
+}

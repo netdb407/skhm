@@ -1,0 +1,1958 @@
+[ {
+  "metric" : "OVERALL",
+  "measurement" : "RunTime(ms)",
+  "value" : 1201495
+}, {
+  "metric" : "OVERALL",
+  "measurement" : "Throughput(ops/sec)",
+  "value" : 41.614821534837844
+}, {
+  "metric" : "TOTAL_GCS_PS_Scavenge",
+  "measurement" : "Count",
+  "value" : 5
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_Scavenge",
+  "measurement" : "Time(ms)",
+  "value" : 46
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_Scavenge",
+  "measurement" : "Time(%)",
+  "value" : 0.003828563581205082
+}, {
+  "metric" : "TOTAL_GCS_PS_MarkSweep",
+  "measurement" : "Count",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_MarkSweep",
+  "measurement" : "Time(ms)",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_MarkSweep",
+  "measurement" : "Time(%)",
+  "value" : 0.0
+}, {
+  "metric" : "TOTAL_GCs",
+  "measurement" : "Count",
+  "value" : 5
+}, {
+  "metric" : "TOTAL_GC_TIME",
+  "measurement" : "Time(ms)",
+  "value" : 46
+}, {
+  "metric" : "TOTAL_GC_TIME_%",
+  "measurement" : "Time(%)",
+  "value" : 0.003828563581205082
+}, {
+  "metric" : "READ",
+  "measurement" : "Operations",
+  "value" : 2418
+}, {
+  "metric" : "READ",
+  "measurement" : "AverageLatency(us)",
+  "value" : 477289.3895781638
+}, {
+  "metric" : "READ",
+  "measurement" : "MinLatency(us)",
+  "value" : 8517
+}, {
+  "metric" : "READ",
+  "measurement" : "MaxLatency(us)",
+  "value" : 3182164
+}, {
+  "metric" : "READ",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 1473535
+}, {
+  "metric" : "READ",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 2113535
+}, {
+  "metric" : "READ",
+  "measurement" : "Return=OK",
+  "value" : 2418
+}, {
+  "metric" : "READ",
+  "measurement" : "0",
+  "value" : 263691.48387096776,
+  "operation" : 31.0
+}, {
+  "metric" : "READ",
+  "measurement" : "10000",
+  "value" : 204351.54545454544,
+  "operation" : 44.0
+}, {
+  "metric" : "READ",
+  "measurement" : "20000",
+  "value" : 219890.59523809524,
+  "operation" : 42.0
+}, {
+  "metric" : "READ",
+  "measurement" : "30000",
+  "value" : 234125.12820512822,
+  "operation" : 39.0
+}, {
+  "metric" : "READ",
+  "measurement" : "40000",
+  "value" : 286230.9696969697,
+  "operation" : 33.0
+}, {
+  "metric" : "READ",
+  "measurement" : "50000",
+  "value" : 286185.70588235295,
+  "operation" : 34.0
+}, {
+  "metric" : "READ",
+  "measurement" : "60000",
+  "value" : 297673.03125,
+  "operation" : 32.0
+}, {
+  "metric" : "READ",
+  "measurement" : "70000",
+  "value" : 305865.23333333334,
+  "operation" : 30.0
+}, {
+  "metric" : "READ",
+  "measurement" : "80000",
+  "value" : 282408.9090909091,
+  "operation" : 33.0
+}, {
+  "metric" : "READ",
+  "measurement" : "90000",
+  "value" : 392280.6923076923,
+  "operation" : 26.0
+}, {
+  "metric" : "READ",
+  "measurement" : "100000",
+  "value" : 332967.28571428574,
+  "operation" : 28.0
+}, {
+  "metric" : "READ",
+  "measurement" : "110000",
+  "value" : 486392.9,
+  "operation" : 20.0
+}, {
+  "metric" : "READ",
+  "measurement" : "120000",
+  "value" : 328539.8888888889,
+  "operation" : 27.0
+}, {
+  "metric" : "READ",
+  "measurement" : "130000",
+  "value" : 545747.3684210526,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "140000",
+  "value" : 380249.04,
+  "operation" : 25.0
+}, {
+  "metric" : "READ",
+  "measurement" : "150000",
+  "value" : 438394.45454545453,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "160000",
+  "value" : 410109.0,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "170000",
+  "value" : 525875.1,
+  "operation" : 20.0
+}, {
+  "metric" : "READ",
+  "measurement" : "180000",
+  "value" : 432992.9090909091,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "190000",
+  "value" : 503243.8947368421,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "200000",
+  "value" : 440704.45454545453,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "210000",
+  "value" : 520827.5,
+  "operation" : 18.0
+}, {
+  "metric" : "READ",
+  "measurement" : "220000",
+  "value" : 428513.2173913043,
+  "operation" : 23.0
+}, {
+  "metric" : "READ",
+  "measurement" : "230000",
+  "value" : 402922.0,
+  "operation" : 25.0
+}, {
+  "metric" : "READ",
+  "measurement" : "240000",
+  "value" : 452025.0,
+  "operation" : 21.0
+}, {
+  "metric" : "READ",
+  "measurement" : "250000",
+  "value" : 543561.4375,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "260000",
+  "value" : 575550.052631579,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "270000",
+  "value" : 419544.13636363635,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "280000",
+  "value" : 472620.7894736842,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "290000",
+  "value" : 536965.15,
+  "operation" : 20.0
+}, {
+  "metric" : "READ",
+  "measurement" : "300000",
+  "value" : 520875.2631578947,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "310000",
+  "value" : 457947.2,
+  "operation" : 20.0
+}, {
+  "metric" : "READ",
+  "measurement" : "320000",
+  "value" : 633173.7333333333,
+  "operation" : 15.0
+}, {
+  "metric" : "READ",
+  "measurement" : "330000",
+  "value" : 616649.0,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "340000",
+  "value" : 573790.7058823529,
+  "operation" : 17.0
+}, {
+  "metric" : "READ",
+  "measurement" : "350000",
+  "value" : 605733.6875,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "360000",
+  "value" : 508848.4,
+  "operation" : 20.0
+}, {
+  "metric" : "READ",
+  "measurement" : "370000",
+  "value" : 433072.2727272727,
+  "operation" : 22.0
+}, {
+  "metric" : "READ",
+  "measurement" : "380000",
+  "value" : 779816.1666666666,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "390000",
+  "value" : 782098.6923076923,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "400000",
+  "value" : 754556.5384615385,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "410000",
+  "value" : 504664.8333333333,
+  "operation" : 18.0
+}, {
+  "metric" : "READ",
+  "measurement" : "420000",
+  "value" : 733832.5714285715,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "430000",
+  "value" : 520267.1052631579,
+  "operation" : 19.0
+}, {
+  "metric" : "READ",
+  "measurement" : "440000",
+  "value" : 539130.0555555555,
+  "operation" : 18.0
+}, {
+  "metric" : "READ",
+  "measurement" : "450000",
+  "value" : 764859.3333333334,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "460000",
+  "value" : 675229.1333333333,
+  "operation" : 15.0
+}, {
+  "metric" : "READ",
+  "measurement" : "470000",
+  "value" : 908109.4,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "480000",
+  "value" : 847520.7272727273,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "490000",
+  "value" : 1173561.2222222222,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "500000",
+  "value" : 640478.8,
+  "operation" : 15.0
+}, {
+  "metric" : "READ",
+  "measurement" : "510000",
+  "value" : 491940.5238095238,
+  "operation" : 21.0
+}, {
+  "metric" : "READ",
+  "measurement" : "520000",
+  "value" : 1035720.2222222222,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "530000",
+  "value" : 749898.3571428572,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "540000",
+  "value" : 525656.4117647059,
+  "operation" : 17.0
+}, {
+  "metric" : "READ",
+  "measurement" : "550000",
+  "value" : 911900.0909090909,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "560000",
+  "value" : 879228.4545454546,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "570000",
+  "value" : 509903.1111111111,
+  "operation" : 18.0
+}, {
+  "metric" : "READ",
+  "measurement" : "580000",
+  "value" : 609773.75,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "590000",
+  "value" : 964331.6363636364,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "600000",
+  "value" : 623073.8571428572,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "610000",
+  "value" : 796590.7142857143,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "620000",
+  "value" : 1091430.2222222222,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "630000",
+  "value" : 779926.75,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "640000",
+  "value" : 869867.25,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "650000",
+  "value" : 847245.4,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "660000",
+  "value" : 925279.1666666666,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "670000",
+  "value" : 653473.2,
+  "operation" : 15.0
+}, {
+  "metric" : "READ",
+  "measurement" : "680000",
+  "value" : 993867.5555555555,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "690000",
+  "value" : 1056013.4,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "700000",
+  "value" : 931230.3636363636,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "710000",
+  "value" : 850868.1111111111,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "720000",
+  "value" : 1254429.5555555555,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "730000",
+  "value" : 755798.8571428572,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "740000",
+  "value" : 809041.5454545454,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "750000",
+  "value" : 585597.8125,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "760000",
+  "value" : 897257.5,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "770000",
+  "value" : 763932.0,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "780000",
+  "value" : 741720.0,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "790000",
+  "value" : 850858.0909090909,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "800000",
+  "value" : 991934.9,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "810000",
+  "value" : 1005436.7272727273,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "820000",
+  "value" : 884541.9090909091,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "830000",
+  "value" : 590442.125,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "840000",
+  "value" : 733129.7692307692,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "850000",
+  "value" : 903585.4545454546,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "860000",
+  "value" : 1187754.875,
+  "operation" : 8.0
+}, {
+  "metric" : "READ",
+  "measurement" : "870000",
+  "value" : 1486326.7142857143,
+  "operation" : 7.0
+}, {
+  "metric" : "READ",
+  "measurement" : "880000",
+  "value" : 792070.1538461539,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "890000",
+  "value" : 741945.6666666666,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "900000",
+  "value" : 1023704.0,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "910000",
+  "value" : 689281.5384615385,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "920000",
+  "value" : 1203229.111111111,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "930000",
+  "value" : 956422.7,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "940000",
+  "value" : 815626.25,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "950000",
+  "value" : 1401567.0,
+  "operation" : 7.0
+}, {
+  "metric" : "READ",
+  "measurement" : "960000",
+  "value" : 1076256.0,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "970000",
+  "value" : 551833.25,
+  "operation" : 16.0
+}, {
+  "metric" : "READ",
+  "measurement" : "980000",
+  "value" : 856466.0,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "990000",
+  "value" : 708025.7142857143,
+  "operation" : 14.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1000000",
+  "value" : 1002939.6666666666,
+  "operation" : 9.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1010000",
+  "value" : 790696.8333333334,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1020000",
+  "value" : 932329.6,
+  "operation" : 10.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1030000",
+  "value" : 720918.1538461539,
+  "operation" : 13.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1040000",
+  "value" : 1001924.4166666666,
+  "operation" : 12.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1050000",
+  "value" : 837568.9090909091,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1060000",
+  "value" : 926452.0909090909,
+  "operation" : 11.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1070000",
+  "value" : 72215.70175438597,
+  "operation" : 114.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1080000",
+  "value" : 95300.93103448275,
+  "operation" : 87.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1090000",
+  "value" : 142909.55555555556,
+  "operation" : 63.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1100000",
+  "value" : 193711.97777777776,
+  "operation" : 45.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1110000",
+  "value" : 183555.02040816325,
+  "operation" : 49.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1120000",
+  "value" : 166360.07142857142,
+  "operation" : 56.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1130000",
+  "value" : 253342.94594594595,
+  "operation" : 37.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1140000",
+  "value" : 224163.90697674418,
+  "operation" : 43.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1150000",
+  "value" : 245818.86842105264,
+  "operation" : 38.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1160000",
+  "value" : 256005.32432432432,
+  "operation" : 37.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1170000",
+  "value" : 298761.03225806454,
+  "operation" : 31.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1180000",
+  "value" : 281226.09375,
+  "operation" : 32.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1190000",
+  "value" : 252631.60869565216,
+  "operation" : 23.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "Operations",
+  "value" : 1
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "AverageLatency(us)",
+  "value" : 2227497.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MinLatency(us)",
+  "value" : 2227497
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MaxLatency(us)",
+  "value" : 2227497
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 2228223
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 2228223
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "0",
+  "value" : 2227497.0,
+  "operation" : 1.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "Operations",
+  "value" : 22436
+}, {
+  "metric" : "INSERT",
+  "measurement" : "AverageLatency(us)",
+  "value" : 959.1941076840792
+}, {
+  "metric" : "INSERT",
+  "measurement" : "MinLatency(us)",
+  "value" : 254
+}, {
+  "metric" : "INSERT",
+  "measurement" : "MaxLatency(us)",
+  "value" : 392431
+}, {
+  "metric" : "INSERT",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 2089
+}, {
+  "metric" : "INSERT",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 7279
+}, {
+  "metric" : "INSERT",
+  "measurement" : "Return=OK",
+  "value" : 22436
+}, {
+  "metric" : "INSERT",
+  "measurement" : "0",
+  "value" : 2449.941489361702,
+  "operation" : 376.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "10000",
+  "value" : 993.6976744186046,
+  "operation" : 430.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "20000",
+  "value" : 765.8373101952278,
+  "operation" : 461.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "30000",
+  "value" : 824.1995012468828,
+  "operation" : 401.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "40000",
+  "value" : 854.2222222222222,
+  "operation" : 171.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "50000",
+  "value" : 721.7405063291139,
+  "operation" : 316.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "60000",
+  "value" : 870.9770773638968,
+  "operation" : 349.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "70000",
+  "value" : 746.0545454545454,
+  "operation" : 330.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "80000",
+  "value" : 787.7237762237762,
+  "operation" : 286.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "90000",
+  "value" : 921.3333333333334,
+  "operation" : 111.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "100000",
+  "value" : 775.4749262536873,
+  "operation" : 339.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "110000",
+  "value" : 929.4513274336283,
+  "operation" : 226.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "120000",
+  "value" : 871.7795275590552,
+  "operation" : 254.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "130000",
+  "value" : 1098.2109375,
+  "operation" : 128.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "140000",
+  "value" : 973.4583333333334,
+  "operation" : 216.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "150000",
+  "value" : 1243.0961538461538,
+  "operation" : 208.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "160000",
+  "value" : 956.7188940092166,
+  "operation" : 217.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "170000",
+  "value" : 849.6384615384616,
+  "operation" : 130.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "180000",
+  "value" : 1085.974358974359,
+  "operation" : 156.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "190000",
+  "value" : 998.569696969697,
+  "operation" : 165.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "200000",
+  "value" : 778.703125,
+  "operation" : 256.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "210000",
+  "value" : 854.1337209302326,
+  "operation" : 172.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "220000",
+  "value" : 922.3444444444444,
+  "operation" : 180.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "230000",
+  "value" : 1027.2364532019703,
+  "operation" : 203.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "240000",
+  "value" : 961.4025974025974,
+  "operation" : 154.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "250000",
+  "value" : 806.1354838709677,
+  "operation" : 155.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "260000",
+  "value" : 958.9020979020979,
+  "operation" : 143.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "270000",
+  "value" : 786.0388349514564,
+  "operation" : 206.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "280000",
+  "value" : 923.4444444444445,
+  "operation" : 198.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "290000",
+  "value" : 731.6006493506494,
+  "operation" : 308.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "300000",
+  "value" : 834.7342657342657,
+  "operation" : 143.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "310000",
+  "value" : 840.7748691099476,
+  "operation" : 191.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "320000",
+  "value" : 759.3009708737864,
+  "operation" : 206.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "330000",
+  "value" : 797.2436974789916,
+  "operation" : 119.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "340000",
+  "value" : 985.3489583333334,
+  "operation" : 192.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "350000",
+  "value" : 916.2908163265306,
+  "operation" : 196.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "360000",
+  "value" : 1427.088888888889,
+  "operation" : 135.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "370000",
+  "value" : 782.0515021459228,
+  "operation" : 233.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "380000",
+  "value" : 1040.7573964497042,
+  "operation" : 169.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "390000",
+  "value" : 974.7528089887641,
+  "operation" : 89.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "400000",
+  "value" : 920.324074074074,
+  "operation" : 108.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "410000",
+  "value" : 1274.4620253164558,
+  "operation" : 158.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "420000",
+  "value" : 1143.4573643410852,
+  "operation" : 129.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "430000",
+  "value" : 792.3962264150944,
+  "operation" : 159.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "440000",
+  "value" : 863.8465608465608,
+  "operation" : 189.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "450000",
+  "value" : 1217.5886524822695,
+  "operation" : 141.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "460000",
+  "value" : 985.679104477612,
+  "operation" : 134.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "470000",
+  "value" : 1127.5426356589148,
+  "operation" : 129.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "480000",
+  "value" : 916.8842105263158,
+  "operation" : 95.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "490000",
+  "value" : 906.2282608695652,
+  "operation" : 92.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "500000",
+  "value" : 894.3798882681564,
+  "operation" : 179.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "510000",
+  "value" : 875.1176470588235,
+  "operation" : 119.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "520000",
+  "value" : 941.4807692307693,
+  "operation" : 52.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "530000",
+  "value" : 732.0826446280992,
+  "operation" : 121.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "540000",
+  "value" : 1253.8296943231442,
+  "operation" : 229.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "550000",
+  "value" : 998.1680672268908,
+  "operation" : 119.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "560000",
+  "value" : 1035.8515625,
+  "operation" : 128.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "570000",
+  "value" : 733.0537634408602,
+  "operation" : 93.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "580000",
+  "value" : 768.8089887640449,
+  "operation" : 178.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "590000",
+  "value" : 639.4705882352941,
+  "operation" : 119.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "600000",
+  "value" : 834.4247787610619,
+  "operation" : 113.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "610000",
+  "value" : 801.1309523809524,
+  "operation" : 84.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "620000",
+  "value" : 869.265306122449,
+  "operation" : 49.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "630000",
+  "value" : 792.3247863247864,
+  "operation" : 117.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "640000",
+  "value" : 902.3376623376623,
+  "operation" : 77.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "650000",
+  "value" : 1205.8431372549019,
+  "operation" : 51.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "660000",
+  "value" : 1307.958904109589,
+  "operation" : 73.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "670000",
+  "value" : 775.2074074074075,
+  "operation" : 135.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "680000",
+  "value" : 776.8723404255319,
+  "operation" : 94.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "690000",
+  "value" : 1136.4107142857142,
+  "operation" : 56.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "700000",
+  "value" : 861.22,
+  "operation" : 50.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "710000",
+  "value" : 972.2222222222222,
+  "operation" : 99.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "720000",
+  "value" : 790.3225806451613,
+  "operation" : 93.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "730000",
+  "value" : 723.7818181818182,
+  "operation" : 165.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "740000",
+  "value" : 739.972602739726,
+  "operation" : 146.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "750000",
+  "value" : 870.3703703703703,
+  "operation" : 135.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "760000",
+  "value" : 851.025641025641,
+  "operation" : 117.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "770000",
+  "value" : 886.2061068702291,
+  "operation" : 131.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "780000",
+  "value" : 923.8510638297872,
+  "operation" : 94.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "790000",
+  "value" : 954.8849557522124,
+  "operation" : 113.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "800000",
+  "value" : 735.56,
+  "operation" : 100.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "810000",
+  "value" : 767.6805555555555,
+  "operation" : 72.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "820000",
+  "value" : 734.8840579710145,
+  "operation" : 276.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "830000",
+  "value" : 855.9096385542168,
+  "operation" : 166.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "840000",
+  "value" : 836.5073529411765,
+  "operation" : 136.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "850000",
+  "value" : 724.4938271604939,
+  "operation" : 81.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "860000",
+  "value" : 1052.2,
+  "operation" : 150.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "870000",
+  "value" : 1000.9113924050633,
+  "operation" : 79.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "880000",
+  "value" : 874.1758241758242,
+  "operation" : 91.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "890000",
+  "value" : 833.2119205298013,
+  "operation" : 151.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "900000",
+  "value" : 849.3870967741935,
+  "operation" : 93.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "910000",
+  "value" : 1696.5116279069769,
+  "operation" : 129.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "920000",
+  "value" : 1047.6818181818182,
+  "operation" : 66.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "930000",
+  "value" : 1441.436507936508,
+  "operation" : 126.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "940000",
+  "value" : 882.7797619047619,
+  "operation" : 168.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "950000",
+  "value" : 1006.9090909090909,
+  "operation" : 44.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "960000",
+  "value" : 701.8481012658228,
+  "operation" : 79.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "970000",
+  "value" : 1058.75,
+  "operation" : 72.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "980000",
+  "value" : 860.9642857142857,
+  "operation" : 84.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "990000",
+  "value" : 1038.5857142857142,
+  "operation" : 140.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1000000",
+  "value" : 1220.0786516853932,
+  "operation" : 89.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1010000",
+  "value" : 680.4,
+  "operation" : 100.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1020000",
+  "value" : 734.8659793814433,
+  "operation" : 97.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1030000",
+  "value" : 828.7551020408164,
+  "operation" : 98.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1040000",
+  "value" : 1199.342105263158,
+  "operation" : 38.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1050000",
+  "value" : 957.9197080291971,
+  "operation" : 137.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1060000",
+  "value" : 869.3629032258065,
+  "operation" : 124.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1070000",
+  "value" : 916.235541535226,
+  "operation" : 951.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1080000",
+  "value" : 1090.4224137931035,
+  "operation" : 812.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1090000",
+  "value" : 991.387323943662,
+  "operation" : 568.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1100000",
+  "value" : 2489.1555023923447,
+  "operation" : 418.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1110000",
+  "value" : 838.6766355140187,
+  "operation" : 535.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1120000",
+  "value" : 845.5344036697247,
+  "operation" : 436.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1130000",
+  "value" : 896.2210526315789,
+  "operation" : 380.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1140000",
+  "value" : 886.0355987055016,
+  "operation" : 309.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1150000",
+  "value" : 779.6459627329192,
+  "operation" : 322.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1160000",
+  "value" : 777.1625766871166,
+  "operation" : 326.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1170000",
+  "value" : 795.76,
+  "operation" : 325.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1180000",
+  "value" : 828.028125,
+  "operation" : 320.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "1190000",
+  "value" : 704.9101796407185,
+  "operation" : 167.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Operations",
+  "value" : 25146
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "AverageLatency(us)",
+  "value" : 778.2586097192396
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MinLatency(us)",
+  "value" : 200
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MaxLatency(us)",
+  "value" : 212794
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 1166
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 5259
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Return=OK",
+  "value" : 25146
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "0",
+  "value" : 2558.411378555799,
+  "operation" : 457.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "10000",
+  "value" : 878.1632653061224,
+  "operation" : 490.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "20000",
+  "value" : 755.6180422264875,
+  "operation" : 521.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "30000",
+  "value" : 1075.6090047393366,
+  "operation" : 422.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "40000",
+  "value" : 1913.4949494949494,
+  "operation" : 198.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "50000",
+  "value" : 664.3909090909091,
+  "operation" : 330.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "60000",
+  "value" : 634.8229426433916,
+  "operation" : 401.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "70000",
+  "value" : 679.1784776902887,
+  "operation" : 381.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "80000",
+  "value" : 565.8984615384616,
+  "operation" : 325.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "90000",
+  "value" : 842.8058823529411,
+  "operation" : 170.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "100000",
+  "value" : 1210.915254237288,
+  "operation" : 354.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "110000",
+  "value" : 641.321608040201,
+  "operation" : 199.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "120000",
+  "value" : 705.9399293286219,
+  "operation" : 283.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "130000",
+  "value" : 669.9910714285714,
+  "operation" : 112.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "140000",
+  "value" : 691.304721030043,
+  "operation" : 233.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "150000",
+  "value" : 743.1756756756756,
+  "operation" : 222.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "160000",
+  "value" : 684.5271317829457,
+  "operation" : 258.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "170000",
+  "value" : 680.4242424242424,
+  "operation" : 132.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "180000",
+  "value" : 798.7267759562842,
+  "operation" : 183.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "190000",
+  "value" : 730.2717391304348,
+  "operation" : 184.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "200000",
+  "value" : 635.4979591836735,
+  "operation" : 245.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "210000",
+  "value" : 659.3715846994536,
+  "operation" : 183.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "220000",
+  "value" : 815.8347826086956,
+  "operation" : 230.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "230000",
+  "value" : 699.066037735849,
+  "operation" : 212.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "240000",
+  "value" : 606.939024390244,
+  "operation" : 164.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "250000",
+  "value" : 523.1164021164021,
+  "operation" : 189.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "260000",
+  "value" : 643.3650793650794,
+  "operation" : 189.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "270000",
+  "value" : 672.4147465437788,
+  "operation" : 217.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "280000",
+  "value" : 595.7291666666666,
+  "operation" : 192.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "290000",
+  "value" : 609.0960264900663,
+  "operation" : 302.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "300000",
+  "value" : 725.5272727272727,
+  "operation" : 165.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "310000",
+  "value" : 731.3333333333334,
+  "operation" : 270.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "320000",
+  "value" : 636.223880597015,
+  "operation" : 201.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "330000",
+  "value" : 744.3050847457627,
+  "operation" : 118.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "340000",
+  "value" : 703.4946808510638,
+  "operation" : 188.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "350000",
+  "value" : 679.7095435684647,
+  "operation" : 241.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "360000",
+  "value" : 798.2,
+  "operation" : 140.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "370000",
+  "value" : 671.5223367697595,
+  "operation" : 291.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "380000",
+  "value" : 831.3577981651376,
+  "operation" : 218.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "390000",
+  "value" : 763.4634146341464,
+  "operation" : 82.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "400000",
+  "value" : 713.3676470588235,
+  "operation" : 136.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "410000",
+  "value" : 768.3131868131868,
+  "operation" : 182.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "420000",
+  "value" : 836.2108843537414,
+  "operation" : 147.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "430000",
+  "value" : 592.1581632653061,
+  "operation" : 196.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "440000",
+  "value" : 635.3911111111111,
+  "operation" : 225.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "450000",
+  "value" : 641.5333333333333,
+  "operation" : 165.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "460000",
+  "value" : 645.275641025641,
+  "operation" : 156.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "470000",
+  "value" : 648.9047619047619,
+  "operation" : 147.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "480000",
+  "value" : 614.4926470588235,
+  "operation" : 136.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "490000",
+  "value" : 803.5309734513274,
+  "operation" : 113.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "500000",
+  "value" : 720.6767676767677,
+  "operation" : 198.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "510000",
+  "value" : 672.5298013245033,
+  "operation" : 151.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "520000",
+  "value" : 759.4788732394367,
+  "operation" : 71.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "530000",
+  "value" : 729.9495798319327,
+  "operation" : 119.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "540000",
+  "value" : 703.6666666666666,
+  "operation" : 276.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "550000",
+  "value" : 686.9655172413793,
+  "operation" : 145.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "560000",
+  "value" : 768.1908396946565,
+  "operation" : 131.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "570000",
+  "value" : 683.6728971962617,
+  "operation" : 107.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "580000",
+  "value" : 620.8155339805825,
+  "operation" : 206.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "590000",
+  "value" : 589.0212765957447,
+  "operation" : 141.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "600000",
+  "value" : 657.2290076335878,
+  "operation" : 131.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "610000",
+  "value" : 654.9891304347826,
+  "operation" : 92.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "620000",
+  "value" : 633.5094339622641,
+  "operation" : 53.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "630000",
+  "value" : 731.1512605042017,
+  "operation" : 119.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "640000",
+  "value" : 938.1801801801802,
+  "operation" : 111.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "650000",
+  "value" : 639.123076923077,
+  "operation" : 65.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "660000",
+  "value" : 859.15625,
+  "operation" : 96.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "670000",
+  "value" : 687.4148148148148,
+  "operation" : 135.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "680000",
+  "value" : 654.42,
+  "operation" : 100.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "690000",
+  "value" : 640.1935483870968,
+  "operation" : 62.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "700000",
+  "value" : 792.6129032258065,
+  "operation" : 62.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "710000",
+  "value" : 911.8440366972477,
+  "operation" : 109.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "720000",
+  "value" : 584.856,
+  "operation" : 125.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "730000",
+  "value" : 786.5722891566265,
+  "operation" : 166.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "740000",
+  "value" : 566.580459770115,
+  "operation" : 174.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "750000",
+  "value" : 606.8082901554404,
+  "operation" : 193.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "760000",
+  "value" : 720.8396226415094,
+  "operation" : 106.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "770000",
+  "value" : 755.2222222222222,
+  "operation" : 135.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "780000",
+  "value" : 575.5298507462686,
+  "operation" : 134.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "790000",
+  "value" : 746.1964285714286,
+  "operation" : 112.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "800000",
+  "value" : 623.5274725274726,
+  "operation" : 91.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "810000",
+  "value" : 873.1375,
+  "operation" : 80.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "820000",
+  "value" : 541.2454873646209,
+  "operation" : 277.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "830000",
+  "value" : 672.3313953488372,
+  "operation" : 172.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "840000",
+  "value" : 545.4295302013422,
+  "operation" : 149.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "850000",
+  "value" : 649.5333333333333,
+  "operation" : 105.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "860000",
+  "value" : 758.8263888888889,
+  "operation" : 144.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "870000",
+  "value" : 622.122641509434,
+  "operation" : 106.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "880000",
+  "value" : 700.8969072164948,
+  "operation" : 97.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "890000",
+  "value" : 1993.0584415584415,
+  "operation" : 154.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "900000",
+  "value" : 703.6063829787234,
+  "operation" : 94.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "910000",
+  "value" : 650.5955056179776,
+  "operation" : 178.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "920000",
+  "value" : 634.3571428571429,
+  "operation" : 56.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "930000",
+  "value" : 635.260162601626,
+  "operation" : 123.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "940000",
+  "value" : 616.4644549763033,
+  "operation" : 211.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "950000",
+  "value" : 650.7272727272727,
+  "operation" : 66.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "960000",
+  "value" : 825.4225352112676,
+  "operation" : 71.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "970000",
+  "value" : 851.0816326530612,
+  "operation" : 98.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "980000",
+  "value" : 810.3095238095239,
+  "operation" : 84.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "990000",
+  "value" : 645.6216216216217,
+  "operation" : 148.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1000000",
+  "value" : 713.3586956521739,
+  "operation" : 92.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1010000",
+  "value" : 848.4746835443038,
+  "operation" : 158.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1020000",
+  "value" : 687.9387755102041,
+  "operation" : 98.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1030000",
+  "value" : 820.2869565217392,
+  "operation" : 115.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1040000",
+  "value" : 552.1940298507462,
+  "operation" : 67.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1050000",
+  "value" : 694.2328767123288,
+  "operation" : 146.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1060000",
+  "value" : 621.7207207207207,
+  "operation" : 111.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1070000",
+  "value" : 786.6874427131072,
+  "operation" : 1091.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1080000",
+  "value" : 936.5663265306123,
+  "operation" : 980.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1090000",
+  "value" : 683.2029850746269,
+  "operation" : 670.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1100000",
+  "value" : 661.1376146788991,
+  "operation" : 436.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1110000",
+  "value" : 614.2057823129252,
+  "operation" : 588.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1120000",
+  "value" : 854.9229122055674,
+  "operation" : 467.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1130000",
+  "value" : 630.5094850948509,
+  "operation" : 369.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1140000",
+  "value" : 643.1159420289855,
+  "operation" : 345.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1150000",
+  "value" : 664.1813186813187,
+  "operation" : 364.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1160000",
+  "value" : 653.1903485254692,
+  "operation" : 373.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1170000",
+  "value" : 760.1355932203389,
+  "operation" : 354.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1180000",
+  "value" : 1316.996951219512,
+  "operation" : 328.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1190000",
+  "value" : 628.5,
+  "operation" : 170.0
+} ]

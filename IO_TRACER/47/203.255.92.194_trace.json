@@ -1,0 +1,8088 @@
+{
+	"records": [	{
+		"Window Time": 0.0,
+		"Number of IO": 6,
+		"Size of IO": 8039082,
+		"Latency": 0.57807,
+		"Kernel Time": 0.8514,
+		"Driver Time": 0.12861,
+		"Device Time": 0.36432,
+		"max": 0.105220,
+		"min": 0.20528,
+		"var": 0.000000,
+		"std": 0.000029
+	}
+, 	{
+		"Window Time": 10.0,
+		"Number of IO": 19,
+		"Size of IO": 25496953,
+		"Latency": 0.96239,
+		"Kernel Time": 0.7359,
+		"Driver Time": 0.29304,
+		"Device Time": 0.59575,
+		"max": 0.210394,
+		"min": 0.27187,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 20.0,
+		"Number of IO": 22,
+		"Size of IO": 29836753,
+		"Latency": 0.103966,
+		"Kernel Time": 0.6679,
+		"Driver Time": 0.38534,
+		"Device Time": 0.58752,
+		"max": 0.219802,
+		"min": 0.27677,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 30.0,
+		"Number of IO": 19,
+		"Size of IO": 21192272,
+		"Latency": 0.99696,
+		"Kernel Time": 0.6471,
+		"Driver Time": 0.17045,
+		"Device Time": 0.76179,
+		"max": 0.192137,
+		"min": 0.18305,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 40.0,
+		"Number of IO": 16,
+		"Size of IO": 23068672,
+		"Latency": 0.86172,
+		"Kernel Time": 0.7727,
+		"Driver Time": 0.32424,
+		"Device Time": 0.46020,
+		"max": 0.191846,
+		"min": 0.26307,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 50.0,
+		"Number of IO": 15,
+		"Size of IO": 33554432,
+		"Latency": 0.94364,
+		"Kernel Time": 0.5857,
+		"Driver Time": 0.25409,
+		"Device Time": 0.63097,
+		"max": 0.161967,
+		"min": 0.18136,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 60.0,
+		"Number of IO": 18,
+		"Size of IO": 36583651,
+		"Latency": 0.105680,
+		"Kernel Time": 0.8161,
+		"Driver Time": 0.37771,
+		"Device Time": 0.59746,
+		"max": 0.232270,
+		"min": 0.27633,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 70.0,
+		"Number of IO": 19,
+		"Size of IO": 32892173,
+		"Latency": 0.108773,
+		"Kernel Time": 0.4502,
+		"Driver Time": 0.51695,
+		"Device Time": 0.52576,
+		"max": 0.497789,
+		"min": 0.18299,
+		"var": 0.000000,
+		"std": 0.000104
+	}
+, 	{
+		"Window Time": 80.0,
+		"Number of IO": 16,
+		"Size of IO": 29884416,
+		"Latency": 0.101171,
+		"Kernel Time": 0.6220,
+		"Driver Time": 0.40234,
+		"Device Time": 0.54716,
+		"max": 0.241750,
+		"min": 0.28435,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 90.0,
+		"Number of IO": 13,
+		"Size of IO": 23552630,
+		"Latency": 0.97900,
+		"Kernel Time": 0.5614,
+		"Driver Time": 0.45293,
+		"Device Time": 0.46992,
+		"max": 0.418314,
+		"min": 0.19035,
+		"var": 0.000000,
+		"std": 0.000099
+	}
+, 	{
+		"Window Time": 100.0,
+		"Number of IO": 14,
+		"Size of IO": 36550363,
+		"Latency": 0.116948,
+		"Kernel Time": 0.7377,
+		"Driver Time": 0.51799,
+		"Device Time": 0.57771,
+		"max": 0.242007,
+		"min": 0.19239,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 110.0,
+		"Number of IO": 16,
+		"Size of IO": 37879808,
+		"Latency": 0.119785,
+		"Kernel Time": 0.9649,
+		"Driver Time": 0.41115,
+		"Device Time": 0.69020,
+		"max": 0.184255,
+		"min": 0.27182,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 120.0,
+		"Number of IO": 13,
+		"Size of IO": 18229090,
+		"Latency": 0.75503,
+		"Kernel Time": 0.7769,
+		"Driver Time": 0.23661,
+		"Device Time": 0.44072,
+		"max": 0.145784,
+		"min": 0.17092,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 130.0,
+		"Number of IO": 15,
+		"Size of IO": 39566267,
+		"Latency": 0.110154,
+		"Kernel Time": 0.6917,
+		"Driver Time": 0.41973,
+		"Device Time": 0.61263,
+		"max": 0.185430,
+		"min": 0.26863,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 140.0,
+		"Number of IO": 15,
+		"Size of IO": 25585254,
+		"Latency": 0.101459,
+		"Kernel Time": 0.9310,
+		"Driver Time": 0.44403,
+		"Device Time": 0.47745,
+		"max": 0.297050,
+		"min": 0.25785,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 150.0,
+		"Number of IO": 11,
+		"Size of IO": 17921117,
+		"Latency": 0.70738,
+		"Kernel Time": 0.6409,
+		"Driver Time": 0.27528,
+		"Device Time": 0.36799,
+		"max": 0.169560,
+		"min": 0.18275,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 160.0,
+		"Number of IO": 14,
+		"Size of IO": 34453211,
+		"Latency": 0.100498,
+		"Kernel Time": 0.7105,
+		"Driver Time": 0.35386,
+		"Device Time": 0.58006,
+		"max": 0.170321,
+		"min": 0.26934,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 170.0,
+		"Number of IO": 16,
+		"Size of IO": 33554432,
+		"Latency": 0.127177,
+		"Kernel Time": 0.6275,
+		"Driver Time": 0.67233,
+		"Device Time": 0.53667,
+		"max": 0.525255,
+		"min": 0.26600,
+		"var": 0.000000,
+		"std": 0.000115
+	}
+, 	{
+		"Window Time": 180.0,
+		"Number of IO": 11,
+		"Size of IO": 15823965,
+		"Latency": 0.107494,
+		"Kernel Time": 0.8119,
+		"Driver Time": 0.57377,
+		"Device Time": 0.41997,
+		"max": 0.402976,
+		"min": 0.17187,
+		"var": 0.000000,
+		"std": 0.000103
+	}
+, 	{
+		"Window Time": 190.0,
+		"Number of IO": 14,
+		"Size of IO": 34003821,
+		"Latency": 0.129323,
+		"Kernel Time": 0.7746,
+		"Driver Time": 0.72615,
+		"Device Time": 0.48961,
+		"max": 0.271873,
+		"min": 0.20342,
+		"var": 0.000000,
+		"std": 0.000081
+	}
+, 	{
+		"Window Time": 200.0,
+		"Number of IO": 17,
+		"Size of IO": 40215973,
+		"Latency": 0.145032,
+		"Kernel Time": 0.9640,
+		"Driver Time": 0.67106,
+		"Device Time": 0.68285,
+		"max": 0.262217,
+		"min": 0.36848,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 210.0,
+		"Number of IO": 19,
+		"Size of IO": 27042223,
+		"Latency": 0.92657,
+		"Kernel Time": 0.5109,
+		"Driver Time": 0.35769,
+		"Device Time": 0.51779,
+		"max": 0.221132,
+		"min": 0.17473,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 220.0,
+		"Number of IO": 19,
+		"Size of IO": 26711093,
+		"Latency": 0.100060,
+		"Kernel Time": 0.6154,
+		"Driver Time": 0.33521,
+		"Device Time": 0.60384,
+		"max": 0.203541,
+		"min": 0.17325,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 230.0,
+		"Number of IO": 15,
+		"Size of IO": 30198988,
+		"Latency": 0.94117,
+		"Kernel Time": 0.5680,
+		"Driver Time": 0.36588,
+		"Device Time": 0.51848,
+		"max": 0.188852,
+		"min": 0.17462,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 240.0,
+		"Number of IO": 14,
+		"Size of IO": 25465417,
+		"Latency": 0.95012,
+		"Kernel Time": 0.8325,
+		"Driver Time": 0.37567,
+		"Device Time": 0.49118,
+		"max": 0.233681,
+		"min": 0.26032,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 250.0,
+		"Number of IO": 14,
+		"Size of IO": 32505856,
+		"Latency": 0.82189,
+		"Kernel Time": 0.5620,
+		"Driver Time": 0.27850,
+		"Device Time": 0.48718,
+		"max": 0.168218,
+		"min": 0.17365,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 260.0,
+		"Number of IO": 15,
+		"Size of IO": 26563925,
+		"Latency": 0.107643,
+		"Kernel Time": 0.7824,
+		"Driver Time": 0.47715,
+		"Device Time": 0.52104,
+		"max": 0.265165,
+		"min": 0.26492,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 270.0,
+		"Number of IO": 13,
+		"Size of IO": 26295059,
+		"Latency": 0.113396,
+		"Kernel Time": 0.9661,
+		"Driver Time": 0.50505,
+		"Device Time": 0.53229,
+		"max": 0.272459,
+		"min": 0.26798,
+		"var": 0.000000,
+		"std": 0.000075
+	}
+, 	{
+		"Window Time": 280.0,
+		"Number of IO": 23,
+		"Size of IO": 24436379,
+		"Latency": 0.90563,
+		"Kernel Time": 0.6417,
+		"Driver Time": 0.36922,
+		"Device Time": 0.47223,
+		"max": 0.261259,
+		"min": 0.17409,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 290.0,
+		"Number of IO": 18,
+		"Size of IO": 20855011,
+		"Latency": 0.88064,
+		"Kernel Time": 0.6087,
+		"Driver Time": 0.33912,
+		"Device Time": 0.48065,
+		"max": 0.186706,
+		"min": 0.28479,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 300.0,
+		"Number of IO": 15,
+		"Size of IO": 29639748,
+		"Latency": 0.101328,
+		"Kernel Time": 0.8459,
+		"Driver Time": 0.38088,
+		"Device Time": 0.54780,
+		"max": 0.162296,
+		"min": 0.26987,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 310.0,
+		"Number of IO": 12,
+		"Size of IO": 21845333,
+		"Latency": 0.97859,
+		"Kernel Time": 0.10366,
+		"Driver Time": 0.39255,
+		"Device Time": 0.48237,
+		"max": 0.222455,
+		"min": 0.17883,
+		"var": 0.000000,
+		"std": 0.000071
+	}
+, 	{
+		"Window Time": 320.0,
+		"Number of IO": 13,
+		"Size of IO": 28069572,
+		"Latency": 0.93755,
+		"Kernel Time": 0.7585,
+		"Driver Time": 0.33805,
+		"Device Time": 0.52364,
+		"max": 0.164143,
+		"min": 0.32328,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 330.0,
+		"Number of IO": 9,
+		"Size of IO": 24699790,
+		"Latency": 0.87982,
+		"Kernel Time": 0.10052,
+		"Driver Time": 0.32763,
+		"Device Time": 0.45165,
+		"max": 0.198357,
+		"min": 0.21873,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 340.0,
+		"Number of IO": 11,
+		"Size of IO": 30313378,
+		"Latency": 0.78969,
+		"Kernel Time": 0.6189,
+		"Driver Time": 0.18142,
+		"Device Time": 0.54637,
+		"max": 0.141762,
+		"min": 0.17383,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 350.0,
+		"Number of IO": 13,
+		"Size of IO": 22423394,
+		"Latency": 0.91464,
+		"Kernel Time": 0.8994,
+		"Driver Time": 0.38186,
+		"Device Time": 0.44284,
+		"max": 0.158606,
+		"min": 0.28762,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 360.0,
+		"Number of IO": 12,
+		"Size of IO": 32331093,
+		"Latency": 0.97327,
+		"Kernel Time": 0.7729,
+		"Driver Time": 0.43335,
+		"Device Time": 0.46262,
+		"max": 0.178046,
+		"min": 0.28118,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 370.0,
+		"Number of IO": 14,
+		"Size of IO": 39546294,
+		"Latency": 0.145023,
+		"Kernel Time": 0.8075,
+		"Driver Time": 0.78530,
+		"Device Time": 0.58417,
+		"max": 0.280901,
+		"min": 0.25928,
+		"var": 0.000000,
+		"std": 0.000091
+	}
+, 	{
+		"Window Time": 380.0,
+		"Number of IO": 16,
+		"Size of IO": 24772608,
+		"Latency": 0.105662,
+		"Kernel Time": 0.8902,
+		"Driver Time": 0.40906,
+		"Device Time": 0.55853,
+		"max": 0.210573,
+		"min": 0.19005,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 390.0,
+		"Number of IO": 14,
+		"Size of IO": 26813586,
+		"Latency": 0.124501,
+		"Kernel Time": 0.4647,
+		"Driver Time": 0.31619,
+		"Device Time": 0.88234,
+		"max": 0.250563,
+		"min": 0.17700,
+		"var": 0.000000,
+		"std": 0.000097
+	}
+, 	{
+		"Window Time": 400.0,
+		"Number of IO": 12,
+		"Size of IO": 29360128,
+		"Latency": 0.102963,
+		"Kernel Time": 0.7493,
+		"Driver Time": 0.43643,
+		"Device Time": 0.51826,
+		"max": 0.192300,
+		"min": 0.27213,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 410.0,
+		"Number of IO": 17,
+		"Size of IO": 24302290,
+		"Latency": 0.98594,
+		"Kernel Time": 0.6515,
+		"Driver Time": 0.38143,
+		"Device Time": 0.53935,
+		"max": 0.224257,
+		"min": 0.26914,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 420.0,
+		"Number of IO": 13,
+		"Size of IO": 36942139,
+		"Latency": 0.112673,
+		"Kernel Time": 0.12775,
+		"Driver Time": 0.42490,
+		"Device Time": 0.57407,
+		"max": 0.199160,
+		"min": 0.18552,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 430.0,
+		"Number of IO": 11,
+		"Size of IO": 32029230,
+		"Latency": 0.98426,
+		"Kernel Time": 0.10996,
+		"Driver Time": 0.40661,
+		"Device Time": 0.46768,
+		"max": 0.172921,
+		"min": 0.28756,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 440.0,
+		"Number of IO": 18,
+		"Size of IO": 28195043,
+		"Latency": 0.99276,
+		"Kernel Time": 0.6307,
+		"Driver Time": 0.41995,
+		"Device Time": 0.50973,
+		"max": 0.246175,
+		"min": 0.17046,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 450.0,
+		"Number of IO": 12,
+		"Size of IO": 33554432,
+		"Latency": 0.98882,
+		"Kernel Time": 0.6783,
+		"Driver Time": 0.41639,
+		"Device Time": 0.50459,
+		"max": 0.184596,
+		"min": 0.27284,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 460.0,
+		"Number of IO": 12,
+		"Size of IO": 30408704,
+		"Latency": 0.102271,
+		"Kernel Time": 0.7331,
+		"Driver Time": 0.19919,
+		"Device Time": 0.75021,
+		"max": 0.200756,
+		"min": 0.20650,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 470.0,
+		"Number of IO": 15,
+		"Size of IO": 29360128,
+		"Latency": 0.102773,
+		"Kernel Time": 0.6352,
+		"Driver Time": 0.32480,
+		"Device Time": 0.63939,
+		"max": 0.209348,
+		"min": 0.18520,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 480.0,
+		"Number of IO": 14,
+		"Size of IO": 28611145,
+		"Latency": 0.116063,
+		"Kernel Time": 0.9017,
+		"Driver Time": 0.51068,
+		"Device Time": 0.55977,
+		"max": 0.225480,
+		"min": 0.27055,
+		"var": 0.000000,
+		"std": 0.000080
+	}
+, 	{
+		"Window Time": 490.0,
+		"Number of IO": 11,
+		"Size of IO": 27262976,
+		"Latency": 0.74000,
+		"Kernel Time": 0.5816,
+		"Driver Time": 0.18997,
+		"Device Time": 0.49186,
+		"max": 0.123272,
+		"min": 0.17337,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 500.0,
+		"Number of IO": 14,
+		"Size of IO": 29060534,
+		"Latency": 0.93240,
+		"Kernel Time": 0.7660,
+		"Driver Time": 0.40062,
+		"Device Time": 0.45517,
+		"max": 0.208742,
+		"min": 0.25382,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 510.0,
+		"Number of IO": 12,
+		"Size of IO": 21321045,
+		"Latency": 0.99311,
+		"Kernel Time": 0.10146,
+		"Driver Time": 0.38035,
+		"Device Time": 0.51130,
+		"max": 0.207272,
+		"min": 0.26901,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 520.0,
+		"Number of IO": 11,
+		"Size of IO": 27644276,
+		"Latency": 0.101434,
+		"Kernel Time": 0.10152,
+		"Driver Time": 0.33198,
+		"Device Time": 0.58082,
+		"max": 0.211162,
+		"min": 0.26869,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 530.0,
+		"Number of IO": 15,
+		"Size of IO": 33554432,
+		"Latency": 0.104678,
+		"Kernel Time": 0.7644,
+		"Driver Time": 0.42102,
+		"Device Time": 0.54931,
+		"max": 0.194760,
+		"min": 0.27630,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 540.0,
+		"Number of IO": 10,
+		"Size of IO": 27682406,
+		"Latency": 0.91851,
+		"Kernel Time": 0.8505,
+		"Driver Time": 0.37707,
+		"Device Time": 0.45638,
+		"max": 0.181024,
+		"min": 0.28007,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 550.0,
+		"Number of IO": 14,
+		"Size of IO": 23667858,
+		"Latency": 0.109703,
+		"Kernel Time": 0.8580,
+		"Driver Time": 0.47346,
+		"Device Time": 0.53777,
+		"max": 0.267560,
+		"min": 0.27288,
+		"var": 0.000000,
+		"std": 0.000073
+	}
+, 	{
+		"Window Time": 560.0,
+		"Number of IO": 16,
+		"Size of IO": 28180480,
+		"Latency": 0.92003,
+		"Kernel Time": 0.8222,
+		"Driver Time": 0.36758,
+		"Device Time": 0.47022,
+		"max": 0.179182,
+		"min": 0.26916,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 570.0,
+		"Number of IO": 11,
+		"Size of IO": 28597527,
+		"Latency": 0.104810,
+		"Kernel Time": 0.12816,
+		"Driver Time": 0.37544,
+		"Device Time": 0.54449,
+		"max": 0.184117,
+		"min": 0.27053,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 580.0,
+		"Number of IO": 11,
+		"Size of IO": 19827618,
+		"Latency": 0.73392,
+		"Kernel Time": 0.7949,
+		"Driver Time": 0.23368,
+		"Device Time": 0.42074,
+		"max": 0.190633,
+		"min": 0.18166,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 590.0,
+		"Number of IO": 12,
+		"Size of IO": 32156330,
+		"Latency": 0.98986,
+		"Kernel Time": 0.9462,
+		"Driver Time": 0.34392,
+		"Device Time": 0.55130,
+		"max": 0.195104,
+		"min": 0.18509,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 600.0,
+		"Number of IO": 14,
+		"Size of IO": 29060534,
+		"Latency": 0.162313,
+		"Kernel Time": 0.5694,
+		"Driver Time": 0.32484,
+		"Device Time": 0.124134,
+		"max": 0.301532,
+		"min": 0.19005,
+		"var": 0.000000,
+		"std": 0.000117
+	}
+, 	{
+		"Window Time": 610.0,
+		"Number of IO": 12,
+		"Size of IO": 31632042,
+		"Latency": 0.90839,
+		"Kernel Time": 0.5345,
+		"Driver Time": 0.38904,
+		"Device Time": 0.46589,
+		"max": 0.172910,
+		"min": 0.17785,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 620.0,
+		"Number of IO": 14,
+		"Size of IO": 25615213,
+		"Latency": 0.84067,
+		"Kernel Time": 0.9664,
+		"Driver Time": 0.31554,
+		"Device Time": 0.42848,
+		"max": 0.176755,
+		"min": 0.28148,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 630.0,
+		"Number of IO": 14,
+		"Size of IO": 28461348,
+		"Latency": 0.97590,
+		"Kernel Time": 0.5417,
+		"Driver Time": 0.40490,
+		"Device Time": 0.51681,
+		"max": 0.207661,
+		"min": 0.17316,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 640.0,
+		"Number of IO": 12,
+		"Size of IO": 31806805,
+		"Latency": 0.98638,
+		"Kernel Time": 0.6608,
+		"Driver Time": 0.42521,
+		"Device Time": 0.49508,
+		"max": 0.176706,
+		"min": 0.17599,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 650.0,
+		"Number of IO": 14,
+		"Size of IO": 24117248,
+		"Latency": 0.86969,
+		"Kernel Time": 0.9803,
+		"Driver Time": 0.29780,
+		"Device Time": 0.47385,
+		"max": 0.184740,
+		"min": 0.18009,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 660.0,
+		"Number of IO": 12,
+		"Size of IO": 22369621,
+		"Latency": 0.109664,
+		"Kernel Time": 0.9271,
+		"Driver Time": 0.54653,
+		"Device Time": 0.45740,
+		"max": 0.331510,
+		"min": 0.26868,
+		"var": 0.000000,
+		"std": 0.000085
+	}
+, 	{
+		"Window Time": 670.0,
+		"Number of IO": 14,
+		"Size of IO": 37598939,
+		"Latency": 0.144166,
+		"Kernel Time": 0.9041,
+		"Driver Time": 0.87037,
+		"Device Time": 0.48087,
+		"max": 0.283436,
+		"min": 0.28438,
+		"var": 0.000000,
+		"std": 0.000091
+	}
+, 	{
+		"Window Time": 680.0,
+		"Number of IO": 12,
+		"Size of IO": 34253482,
+		"Latency": 0.108376,
+		"Kernel Time": 0.7933,
+		"Driver Time": 0.42804,
+		"Device Time": 0.57638,
+		"max": 0.202106,
+		"min": 0.19931,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 690.0,
+		"Number of IO": 15,
+		"Size of IO": 23907532,
+		"Latency": 0.100163,
+		"Kernel Time": 0.8646,
+		"Driver Time": 0.52003,
+		"Device Time": 0.39514,
+		"max": 0.307533,
+		"min": 0.28597,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 700.0,
+		"Number of IO": 11,
+		"Size of IO": 32410530,
+		"Latency": 0.106447,
+		"Kernel Time": 0.7494,
+		"Driver Time": 0.44727,
+		"Device Time": 0.54224,
+		"max": 0.206649,
+		"min": 0.18340,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 710.0,
+		"Number of IO": 15,
+		"Size of IO": 19014178,
+		"Latency": 0.74913,
+		"Kernel Time": 0.8001,
+		"Driver Time": 0.27499,
+		"Device Time": 0.39412,
+		"max": 0.169893,
+		"min": 0.28830,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 720.0,
+		"Number of IO": 21,
+		"Size of IO": 19972876,
+		"Latency": 0.83549,
+		"Kernel Time": 0.6913,
+		"Driver Time": 0.32994,
+		"Device Time": 0.43641,
+		"max": 0.167955,
+		"min": 0.30299,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 730.0,
+		"Number of IO": 12,
+		"Size of IO": 35476821,
+		"Latency": 0.113078,
+		"Kernel Time": 0.8848,
+		"Driver Time": 0.48308,
+		"Device Time": 0.55922,
+		"max": 0.207468,
+		"min": 0.35227,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 740.0,
+		"Number of IO": 12,
+		"Size of IO": 32855381,
+		"Latency": 0.108446,
+		"Kernel Time": 0.8097,
+		"Driver Time": 0.45993,
+		"Device Time": 0.54354,
+		"max": 0.190521,
+		"min": 0.26651,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 750.0,
+		"Number of IO": 15,
+		"Size of IO": 26843545,
+		"Latency": 0.80182,
+		"Kernel Time": 0.6482,
+		"Driver Time": 0.30131,
+		"Device Time": 0.43568,
+		"max": 0.154737,
+		"min": 0.20232,
+		"var": 0.000000,
+		"std": 0.000040
+	}
+, 	{
+		"Window Time": 760.0,
+		"Number of IO": 16,
+		"Size of IO": 23461888,
+		"Latency": 0.100750,
+		"Kernel Time": 0.10706,
+		"Driver Time": 0.47393,
+		"Device Time": 0.42650,
+		"max": 0.251524,
+		"min": 0.31534,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 770.0,
+		"Number of IO": 10,
+		"Size of IO": 28940697,
+		"Latency": 0.100264,
+		"Kernel Time": 0.10204,
+		"Driver Time": 0.36638,
+		"Device Time": 0.53420,
+		"max": 0.181942,
+		"min": 0.32243,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 780.0,
+		"Number of IO": 16,
+		"Size of IO": 25165824,
+		"Latency": 0.99082,
+		"Kernel Time": 0.8803,
+		"Driver Time": 0.45171,
+		"Device Time": 0.45107,
+		"max": 0.221725,
+		"min": 0.31897,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 790.0,
+		"Number of IO": 14,
+		"Size of IO": 24716434,
+		"Latency": 0.90920,
+		"Kernel Time": 0.9117,
+		"Driver Time": 0.30379,
+		"Device Time": 0.51423,
+		"max": 0.160989,
+		"min": 0.28161,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 800.0,
+		"Number of IO": 13,
+		"Size of IO": 35167625,
+		"Latency": 0.108547,
+		"Kernel Time": 0.6524,
+		"Driver Time": 0.51942,
+		"Device Time": 0.50080,
+		"max": 0.203226,
+		"min": 0.18037,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 810.0,
+		"Number of IO": 15,
+		"Size of IO": 31177659,
+		"Latency": 0.97795,
+		"Kernel Time": 0.5976,
+		"Driver Time": 0.33153,
+		"Device Time": 0.58665,
+		"max": 0.201108,
+		"min": 0.17605,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 820.0,
+		"Number of IO": 12,
+		"Size of IO": 30408704,
+		"Latency": 0.84749,
+		"Kernel Time": 0.6094,
+		"Driver Time": 0.40315,
+		"Device Time": 0.38340,
+		"max": 0.147412,
+		"min": 0.17764,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 830.0,
+		"Number of IO": 10,
+		"Size of IO": 28730982,
+		"Latency": 0.93040,
+		"Kernel Time": 0.9229,
+		"Driver Time": 0.24533,
+		"Device Time": 0.59278,
+		"max": 0.213059,
+		"min": 0.23842,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 840.0,
+		"Number of IO": 16,
+		"Size of IO": 23461888,
+		"Latency": 0.88639,
+		"Kernel Time": 0.9229,
+		"Driver Time": 0.30066,
+		"Device Time": 0.49344,
+		"max": 0.150401,
+		"min": 0.26148,
+		"var": 0.000000,
+		"std": 0.000038
+	}
+, 	{
+		"Window Time": 850.0,
+		"Number of IO": 12,
+		"Size of IO": 31632042,
+		"Latency": 0.101782,
+		"Kernel Time": 0.6657,
+		"Driver Time": 0.36829,
+		"Device Time": 0.58295,
+		"max": 0.173721,
+		"min": 0.18169,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 860.0,
+		"Number of IO": 9,
+		"Size of IO": 23068672,
+		"Latency": 0.74634,
+		"Kernel Time": 0.7359,
+		"Driver Time": 0.27747,
+		"Device Time": 0.39527,
+		"max": 0.172770,
+		"min": 0.24222,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 870.0,
+		"Number of IO": 12,
+		"Size of IO": 28311552,
+		"Latency": 0.101813,
+		"Kernel Time": 0.10051,
+		"Driver Time": 0.32235,
+		"Device Time": 0.59526,
+		"max": 0.185391,
+		"min": 0.18599,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 880.0,
+		"Number of IO": 13,
+		"Size of IO": 17745132,
+		"Latency": 0.94806,
+		"Kernel Time": 0.9184,
+		"Driver Time": 0.49618,
+		"Device Time": 0.36003,
+		"max": 0.312739,
+		"min": 0.26137,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 890.0,
+		"Number of IO": 13,
+		"Size of IO": 30489363,
+		"Latency": 0.153476,
+		"Kernel Time": 0.10292,
+		"Driver Time": 0.92570,
+		"Device Time": 0.50613,
+		"max": 0.351013,
+		"min": 0.27842,
+		"var": 0.000000,
+		"std": 0.000122
+	}
+, 	{
+		"Window Time": 900.0,
+		"Number of IO": 11,
+		"Size of IO": 29741428,
+		"Latency": 0.88397,
+		"Kernel Time": 0.7590,
+		"Driver Time": 0.29445,
+		"Device Time": 0.51361,
+		"max": 0.186833,
+		"min": 0.18519,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 910.0,
+		"Number of IO": 16,
+		"Size of IO": 19398656,
+		"Latency": 0.81527,
+		"Kernel Time": 0.5281,
+		"Driver Time": 0.35354,
+		"Device Time": 0.40891,
+		"max": 0.198840,
+		"min": 0.17402,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 920.0,
+		"Number of IO": 14,
+		"Size of IO": 31457280,
+		"Latency": 0.98231,
+		"Kernel Time": 0.6775,
+		"Driver Time": 0.41475,
+		"Device Time": 0.49980,
+		"max": 0.182372,
+		"min": 0.27260,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 930.0,
+		"Number of IO": 12,
+		"Size of IO": 30059178,
+		"Latency": 0.101619,
+		"Kernel Time": 0.5125,
+		"Driver Time": 0.37286,
+		"Device Time": 0.59207,
+		"max": 0.169053,
+		"min": 0.28185,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 940.0,
+		"Number of IO": 15,
+		"Size of IO": 26703735,
+		"Latency": 0.97045,
+		"Kernel Time": 0.6166,
+		"Driver Time": 0.38351,
+		"Device Time": 0.52528,
+		"max": 0.204613,
+		"min": 0.18780,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 950.0,
+		"Number of IO": 12,
+		"Size of IO": 24117248,
+		"Latency": 0.82877,
+		"Kernel Time": 0.8604,
+		"Driver Time": 0.33253,
+		"Device Time": 0.41019,
+		"max": 0.184565,
+		"min": 0.17716,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 960.0,
+		"Number of IO": 15,
+		"Size of IO": 27542596,
+		"Latency": 0.97504,
+		"Kernel Time": 0.6917,
+		"Driver Time": 0.37977,
+		"Device Time": 0.52609,
+		"max": 0.183230,
+		"min": 0.17124,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 970.0,
+		"Number of IO": 10,
+		"Size of IO": 27682406,
+		"Latency": 0.91410,
+		"Kernel Time": 0.9864,
+		"Driver Time": 0.34538,
+		"Device Time": 0.47007,
+		"max": 0.174575,
+		"min": 0.26446,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 980.0,
+		"Number of IO": 10,
+		"Size of IO": 27682406,
+		"Latency": 0.92576,
+		"Kernel Time": 0.6561,
+		"Driver Time": 0.35114,
+		"Device Time": 0.50899,
+		"max": 0.184790,
+		"min": 0.26782,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 990.0,
+		"Number of IO": 16,
+		"Size of IO": 23724032,
+		"Latency": 0.84950,
+		"Kernel Time": 0.7871,
+		"Driver Time": 0.29795,
+		"Device Time": 0.47284,
+		"max": 0.163894,
+		"min": 0.25985,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 1000.0,
+		"Number of IO": 16,
+		"Size of IO": 30539776,
+		"Latency": 0.97922,
+		"Kernel Time": 0.7480,
+		"Driver Time": 0.38123,
+		"Device Time": 0.52318,
+		"max": 0.172759,
+		"min": 0.26472,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1010.0,
+		"Number of IO": 12,
+		"Size of IO": 30932992,
+		"Latency": 0.93042,
+		"Kernel Time": 0.5172,
+		"Driver Time": 0.36470,
+		"Device Time": 0.51399,
+		"max": 0.178369,
+		"min": 0.17987,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1020.0,
+		"Number of IO": 14,
+		"Size of IO": 30258907,
+		"Latency": 0.103175,
+		"Kernel Time": 0.7117,
+		"Driver Time": 0.43817,
+		"Device Time": 0.52241,
+		"max": 0.208065,
+		"min": 0.26993,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 1030.0,
+		"Number of IO": 13,
+		"Size of IO": 31941238,
+		"Latency": 0.75593,
+		"Kernel Time": 0.5824,
+		"Driver Time": 0.22265,
+		"Device Time": 0.47503,
+		"max": 0.137055,
+		"min": 0.18038,
+		"var": 0.000000,
+		"std": 0.000042
+	}
+, 	{
+		"Window Time": 1040.0,
+		"Number of IO": 14,
+		"Size of IO": 27862162,
+		"Latency": 0.101065,
+		"Kernel Time": 0.7585,
+		"Driver Time": 0.41061,
+		"Device Time": 0.52418,
+		"max": 0.211586,
+		"min": 0.28105,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 1050.0,
+		"Number of IO": 12,
+		"Size of IO": 33379669,
+		"Latency": 0.103450,
+		"Kernel Time": 0.7567,
+		"Driver Time": 0.45437,
+		"Device Time": 0.50445,
+		"max": 0.185740,
+		"min": 0.17745,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 1060.0,
+		"Number of IO": 15,
+		"Size of IO": 27962026,
+		"Latency": 0.90936,
+		"Kernel Time": 0.5686,
+		"Driver Time": 0.33815,
+		"Device Time": 0.51435,
+		"max": 0.166440,
+		"min": 0.17507,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1070.0,
+		"Number of IO": 15,
+		"Size of IO": 27123165,
+		"Latency": 0.96642,
+		"Kernel Time": 0.7312,
+		"Driver Time": 0.35535,
+		"Device Time": 0.53793,
+		"max": 0.202254,
+		"min": 0.17129,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 1080.0,
+		"Number of IO": 14,
+		"Size of IO": 27113179,
+		"Latency": 0.89635,
+		"Kernel Time": 0.9232,
+		"Driver Time": 0.35065,
+		"Device Time": 0.45338,
+		"max": 0.174905,
+		"min": 0.18511,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1090.0,
+		"Number of IO": 12,
+		"Size of IO": 23418197,
+		"Latency": 0.91548,
+		"Kernel Time": 0.8081,
+		"Driver Time": 0.36828,
+		"Device Time": 0.46638,
+		"max": 0.163077,
+		"min": 0.24817,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1100.0,
+		"Number of IO": 13,
+		"Size of IO": 20810200,
+		"Latency": 0.80141,
+		"Kernel Time": 0.10662,
+		"Driver Time": 0.27892,
+		"Device Time": 0.41587,
+		"max": 0.164503,
+		"min": 0.27212,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 1110.0,
+		"Number of IO": 14,
+		"Size of IO": 31307483,
+		"Latency": 0.100046,
+		"Kernel Time": 0.7030,
+		"Driver Time": 0.39284,
+		"Device Time": 0.53731,
+		"max": 0.160498,
+		"min": 0.29345,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1120.0,
+		"Number of IO": 16,
+		"Size of IO": 23068672,
+		"Latency": 0.72583,
+		"Kernel Time": 0.5338,
+		"Driver Time": 0.27584,
+		"Device Time": 0.39660,
+		"max": 0.134066,
+		"min": 0.18299,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 1130.0,
+		"Number of IO": 12,
+		"Size of IO": 25864874,
+		"Latency": 0.80864,
+		"Kernel Time": 0.7569,
+		"Driver Time": 0.28333,
+		"Device Time": 0.44961,
+		"max": 0.140716,
+		"min": 0.18459,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 1140.0,
+		"Number of IO": 13,
+		"Size of IO": 20164923,
+		"Latency": 0.86036,
+		"Kernel Time": 0.9734,
+		"Driver Time": 0.33710,
+		"Device Time": 0.42591,
+		"max": 0.174304,
+		"min": 0.26788,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 1150.0,
+		"Number of IO": 12,
+		"Size of IO": 27262976,
+		"Latency": 0.86395,
+		"Kernel Time": 0.7923,
+		"Driver Time": 0.30368,
+		"Device Time": 0.48103,
+		"max": 0.173263,
+		"min": 0.25980,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 1160.0,
+		"Number of IO": 14,
+		"Size of IO": 27562569,
+		"Latency": 0.103527,
+		"Kernel Time": 0.8424,
+		"Driver Time": 0.35579,
+		"Device Time": 0.59523,
+		"max": 0.175718,
+		"min": 0.27368,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 1170.0,
+		"Number of IO": 18,
+		"Size of IO": 19340401,
+		"Latency": 0.74795,
+		"Kernel Time": 0.8032,
+		"Driver Time": 0.25132,
+		"Device Time": 0.41629,
+		"max": 0.145412,
+		"min": 0.19002,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 1180.0,
+		"Number of IO": 18,
+		"Size of IO": 21088028,
+		"Latency": 0.82083,
+		"Kernel Time": 0.7317,
+		"Driver Time": 0.31032,
+		"Device Time": 0.43734,
+		"max": 0.176087,
+		"min": 0.27398,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 1190.0,
+		"Number of IO": 10,
+		"Size of IO": 25585254,
+		"Latency": 0.83639,
+		"Kernel Time": 0.7308,
+		"Driver Time": 0.32043,
+		"Device Time": 0.44287,
+		"max": 0.173071,
+		"min": 0.28034,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1200.0,
+		"Number of IO": 13,
+		"Size of IO": 32263876,
+		"Latency": 0.96981,
+		"Kernel Time": 0.8174,
+		"Driver Time": 0.35913,
+		"Device Time": 0.52894,
+		"max": 0.167163,
+		"min": 0.28039,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 1210.0,
+		"Number of IO": 14,
+		"Size of IO": 23218468,
+		"Latency": 0.91497,
+		"Kernel Time": 0.10314,
+		"Driver Time": 0.28551,
+		"Device Time": 0.52632,
+		"max": 0.149295,
+		"min": 0.27747,
+		"var": 0.000000,
+		"std": 0.000038
+	}
+, 	{
+		"Window Time": 1220.0,
+		"Number of IO": 12,
+		"Size of IO": 31107754,
+		"Latency": 0.109667,
+		"Kernel Time": 0.7691,
+		"Driver Time": 0.44680,
+		"Device Time": 0.57295,
+		"max": 0.210810,
+		"min": 0.24451,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 1230.0,
+		"Number of IO": 13,
+		"Size of IO": 34844987,
+		"Latency": 0.106017,
+		"Kernel Time": 0.7553,
+		"Driver Time": 0.47259,
+		"Device Time": 0.51204,
+		"max": 0.184295,
+		"min": 0.26884,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1240.0,
+		"Number of IO": 11,
+		"Size of IO": 25928424,
+		"Latency": 0.85573,
+		"Kernel Time": 0.10109,
+		"Driver Time": 0.24636,
+		"Device Time": 0.50827,
+		"max": 0.190244,
+		"min": 0.26518,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1250.0,
+		"Number of IO": 12,
+		"Size of IO": 24292010,
+		"Latency": 0.95765,
+		"Kernel Time": 0.12340,
+		"Driver Time": 0.33549,
+		"Device Time": 0.49876,
+		"max": 0.176568,
+		"min": 0.26881,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1260.0,
+		"Number of IO": 11,
+		"Size of IO": 29169477,
+		"Latency": 0.96368,
+		"Kernel Time": 0.8757,
+		"Driver Time": 0.35027,
+		"Device Time": 0.52582,
+		"max": 0.185372,
+		"min": 0.26339,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 1270.0,
+		"Number of IO": 13,
+		"Size of IO": 33070473,
+		"Latency": 0.92042,
+		"Kernel Time": 0.7416,
+		"Driver Time": 0.31115,
+		"Device Time": 0.53510,
+		"max": 0.168829,
+		"min": 0.26211,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1280.0,
+		"Number of IO": 20,
+		"Size of IO": 20866662,
+		"Latency": 0.93752,
+		"Kernel Time": 0.7540,
+		"Driver Time": 0.40348,
+		"Device Time": 0.45863,
+		"max": 0.309611,
+		"min": 0.26074,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 1290.0,
+		"Number of IO": 12,
+		"Size of IO": 27612501,
+		"Latency": 0.89012,
+		"Kernel Time": 0.6616,
+		"Driver Time": 0.35912,
+		"Device Time": 0.46482,
+		"max": 0.176193,
+		"min": 0.17867,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1300.0,
+		"Number of IO": 16,
+		"Size of IO": 23724032,
+		"Latency": 0.92613,
+		"Kernel Time": 0.7614,
+		"Driver Time": 0.35519,
+		"Device Time": 0.49478,
+		"max": 0.147898,
+		"min": 0.26738,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 1310.0,
+		"Number of IO": 9,
+		"Size of IO": 24699790,
+		"Latency": 0.87247,
+		"Kernel Time": 0.7475,
+		"Driver Time": 0.32053,
+		"Device Time": 0.47717,
+		"max": 0.206915,
+		"min": 0.26471,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 1320.0,
+		"Number of IO": 14,
+		"Size of IO": 33704228,
+		"Latency": 0.108805,
+		"Kernel Time": 0.8807,
+		"Driver Time": 0.43832,
+		"Device Time": 0.56166,
+		"max": 0.195899,
+		"min": 0.18975,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 1330.0,
+		"Number of IO": 13,
+		"Size of IO": 25811101,
+		"Latency": 0.88850,
+		"Kernel Time": 0.8162,
+		"Driver Time": 0.34062,
+		"Device Time": 0.46625,
+		"max": 0.164863,
+		"min": 0.19914,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 1340.0,
+		"Number of IO": 14,
+		"Size of IO": 24866230,
+		"Latency": 0.101938,
+		"Kernel Time": 0.8321,
+		"Driver Time": 0.38934,
+		"Device Time": 0.54682,
+		"max": 0.201986,
+		"min": 0.27226,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 1350.0,
+		"Number of IO": 14,
+		"Size of IO": 31007890,
+		"Latency": 0.94427,
+		"Kernel Time": 0.7434,
+		"Driver Time": 0.40365,
+		"Device Time": 0.46627,
+		"max": 0.151014,
+		"min": 0.28879,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 1360.0,
+		"Number of IO": 14,
+		"Size of IO": 28611145,
+		"Latency": 0.106680,
+		"Kernel Time": 0.7512,
+		"Driver Time": 0.35448,
+		"Device Time": 0.63719,
+		"max": 0.249090,
+		"min": 0.17236,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 1370.0,
+		"Number of IO": 15,
+		"Size of IO": 27682406,
+		"Latency": 0.97692,
+		"Kernel Time": 0.7049,
+		"Driver Time": 0.38188,
+		"Device Time": 0.52455,
+		"max": 0.162121,
+		"min": 0.29991,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 1380.0,
+		"Number of IO": 9,
+		"Size of IO": 22602638,
+		"Latency": 0.83800,
+		"Kernel Time": 0.8343,
+		"Driver Time": 0.27568,
+		"Device Time": 0.47888,
+		"max": 0.173980,
+		"min": 0.20945,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 1390.0,
+		"Number of IO": 12,
+		"Size of IO": 33204906,
+		"Latency": 0.89361,
+		"Kernel Time": 0.8578,
+		"Driver Time": 0.28281,
+		"Device Time": 0.52502,
+		"max": 0.161226,
+		"min": 0.26582,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 1400.0,
+		"Number of IO": 12,
+		"Size of IO": 27787264,
+		"Latency": 0.101861,
+		"Kernel Time": 0.7984,
+		"Driver Time": 0.32640,
+		"Device Time": 0.61236,
+		"max": 0.209033,
+		"min": 0.27532,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 1410.0,
+		"Number of IO": 12,
+		"Size of IO": 29534890,
+		"Latency": 0.154884,
+		"Kernel Time": 0.12136,
+		"Driver Time": 0.95460,
+		"Device Time": 0.47288,
+		"max": 0.381008,
+		"min": 0.27830,
+		"var": 0.000000,
+		"std": 0.000139
+	}
+, 	{
+		"Window Time": 1420.0,
+		"Number of IO": 14,
+		"Size of IO": 24416841,
+		"Latency": 0.92189,
+		"Kernel Time": 0.7304,
+		"Driver Time": 0.27455,
+		"Device Time": 0.57430,
+		"max": 0.160019,
+		"min": 0.28080,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1430.0,
+		"Number of IO": 11,
+		"Size of IO": 27262976,
+		"Latency": 0.110536,
+		"Kernel Time": 0.8108,
+		"Driver Time": 0.29514,
+		"Device Time": 0.72913,
+		"max": 0.227157,
+		"min": 0.29217,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 1440.0,
+		"Number of IO": 13,
+		"Size of IO": 24359227,
+		"Latency": 0.96997,
+		"Kernel Time": 0.8436,
+		"Driver Time": 0.40606,
+		"Device Time": 0.47954,
+		"max": 0.198795,
+		"min": 0.27387,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1450.0,
+		"Number of IO": 9,
+		"Size of IO": 18874368,
+		"Latency": 0.90270,
+		"Kernel Time": 0.9038,
+		"Driver Time": 0.24625,
+		"Device Time": 0.56606,
+		"max": 0.188575,
+		"min": 0.29535,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1460.0,
+		"Number of IO": 9,
+		"Size of IO": 22136604,
+		"Latency": 0.78770,
+		"Kernel Time": 0.9895,
+		"Driver Time": 0.26786,
+		"Device Time": 0.42088,
+		"max": 0.175416,
+		"min": 0.28192,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1470.0,
+		"Number of IO": 15,
+		"Size of IO": 22369621,
+		"Latency": 0.96735,
+		"Kernel Time": 0.8112,
+		"Driver Time": 0.37502,
+		"Device Time": 0.51120,
+		"max": 0.211109,
+		"min": 0.29322,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 1480.0,
+		"Number of IO": 15,
+		"Size of IO": 23488102,
+		"Latency": 0.103634,
+		"Kernel Time": 0.7216,
+		"Driver Time": 0.34912,
+		"Device Time": 0.61505,
+		"max": 0.206900,
+		"min": 0.26353,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 1490.0,
+		"Number of IO": 14,
+		"Size of IO": 28011958,
+		"Latency": 0.100423,
+		"Kernel Time": 0.9747,
+		"Driver Time": 0.37298,
+		"Device Time": 0.53377,
+		"max": 0.209269,
+		"min": 0.27254,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 1500.0,
+		"Number of IO": 13,
+		"Size of IO": 27585614,
+		"Latency": 0.83708,
+		"Kernel Time": 0.7767,
+		"Driver Time": 0.26546,
+		"Device Time": 0.49394,
+		"max": 0.137120,
+		"min": 0.26088,
+		"var": 0.000000,
+		"std": 0.000039
+	}
+, 	{
+		"Window Time": 1510.0,
+		"Number of IO": 14,
+		"Size of IO": 30109110,
+		"Latency": 0.93358,
+		"Kernel Time": 0.7842,
+		"Driver Time": 0.36116,
+		"Device Time": 0.49399,
+		"max": 0.190669,
+		"min": 0.27537,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1520.0,
+		"Number of IO": 14,
+		"Size of IO": 29509924,
+		"Latency": 0.84086,
+		"Kernel Time": 0.7540,
+		"Driver Time": 0.31921,
+		"Device Time": 0.44625,
+		"max": 0.149945,
+		"min": 0.26797,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 1530.0,
+		"Number of IO": 13,
+		"Size of IO": 28553531,
+		"Latency": 0.132640,
+		"Kernel Time": 0.6047,
+		"Driver Time": 0.33296,
+		"Device Time": 0.93296,
+		"max": 0.346587,
+		"min": 0.27222,
+		"var": 0.000000,
+		"std": 0.000108
+	}
+, 	{
+		"Window Time": 1540.0,
+		"Number of IO": 14,
+		"Size of IO": 26663789,
+		"Latency": 0.98821,
+		"Kernel Time": 0.7741,
+		"Driver Time": 0.34553,
+		"Device Time": 0.56525,
+		"max": 0.184277,
+		"min": 0.26870,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1550.0,
+		"Number of IO": 14,
+		"Size of IO": 30109110,
+		"Latency": 0.83514,
+		"Kernel Time": 0.7082,
+		"Driver Time": 0.32948,
+		"Device Time": 0.43483,
+		"max": 0.166523,
+		"min": 0.26724,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 1560.0,
+		"Number of IO": 13,
+		"Size of IO": 25165824,
+		"Latency": 0.81795,
+		"Kernel Time": 0.6814,
+		"Driver Time": 0.27138,
+		"Device Time": 0.47842,
+		"max": 0.174435,
+		"min": 0.17124,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1570.0,
+		"Number of IO": 15,
+		"Size of IO": 31876710,
+		"Latency": 0.102536,
+		"Kernel Time": 0.8008,
+		"Driver Time": 0.41780,
+		"Device Time": 0.52747,
+		"max": 0.192104,
+		"min": 0.26518,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 1580.0,
+		"Number of IO": 13,
+		"Size of IO": 33393112,
+		"Latency": 0.95286,
+		"Kernel Time": 0.7729,
+		"Driver Time": 0.32446,
+		"Device Time": 0.55110,
+		"max": 0.176463,
+		"min": 0.27160,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 1590.0,
+		"Number of IO": 15,
+		"Size of IO": 27682406,
+		"Latency": 0.89608,
+		"Kernel Time": 0.5298,
+		"Driver Time": 0.35692,
+		"Device Time": 0.48617,
+		"max": 0.171357,
+		"min": 0.17436,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1600.0,
+		"Number of IO": 14,
+		"Size of IO": 25465417,
+		"Latency": 0.93972,
+		"Kernel Time": 0.7747,
+		"Driver Time": 0.34117,
+		"Device Time": 0.52107,
+		"max": 0.181401,
+		"min": 0.27904,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1610.0,
+		"Number of IO": 14,
+		"Size of IO": 26963382,
+		"Latency": 0.79499,
+		"Kernel Time": 0.6610,
+		"Driver Time": 0.29155,
+		"Device Time": 0.43733,
+		"max": 0.134205,
+		"min": 0.17417,
+		"var": 0.000000,
+		"std": 0.000040
+	}
+, 	{
+		"Window Time": 1620.0,
+		"Number of IO": 14,
+		"Size of IO": 26813586,
+		"Latency": 0.96292,
+		"Kernel Time": 0.5875,
+		"Driver Time": 0.38102,
+		"Device Time": 0.52314,
+		"max": 0.249382,
+		"min": 0.17616,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 1630.0,
+		"Number of IO": 13,
+		"Size of IO": 22100755,
+		"Latency": 0.87926,
+		"Kernel Time": 0.7974,
+		"Driver Time": 0.33116,
+		"Device Time": 0.46835,
+		"max": 0.221231,
+		"min": 0.26695,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 1640.0,
+		"Number of IO": 15,
+		"Size of IO": 30059178,
+		"Latency": 0.96197,
+		"Kernel Time": 0.8272,
+		"Driver Time": 0.33345,
+		"Device Time": 0.54579,
+		"max": 0.186004,
+		"min": 0.26208,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1650.0,
+		"Number of IO": 15,
+		"Size of IO": 23767722,
+		"Latency": 0.86411,
+		"Kernel Time": 0.7440,
+		"Driver Time": 0.35381,
+		"Device Time": 0.43589,
+		"max": 0.181746,
+		"min": 0.17482,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 1660.0,
+		"Number of IO": 18,
+		"Size of IO": 24699790,
+		"Latency": 0.89046,
+		"Kernel Time": 0.6533,
+		"Driver Time": 0.24895,
+		"Device Time": 0.57617,
+		"max": 0.196736,
+		"min": 0.26453,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 1670.0,
+		"Number of IO": 16,
+		"Size of IO": 28180480,
+		"Latency": 0.87130,
+		"Kernel Time": 0.7739,
+		"Driver Time": 0.27201,
+		"Device Time": 0.52188,
+		"max": 0.128603,
+		"min": 0.27159,
+		"var": 0.000000,
+		"std": 0.000035
+	}
+, 	{
+		"Window Time": 1680.0,
+		"Number of IO": 10,
+		"Size of IO": 26843545,
+		"Latency": 0.101304,
+		"Kernel Time": 0.8045,
+		"Driver Time": 0.40822,
+		"Device Time": 0.52436,
+		"max": 0.238061,
+		"min": 0.32466,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 1690.0,
+		"Number of IO": 10,
+		"Size of IO": 26633830,
+		"Latency": 0.95581,
+		"Kernel Time": 0.10232,
+		"Driver Time": 0.39780,
+		"Device Time": 0.45568,
+		"max": 0.181732,
+		"min": 0.26965,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1700.0,
+		"Number of IO": 14,
+		"Size of IO": 27712365,
+		"Latency": 0.90301,
+		"Kernel Time": 0.5966,
+		"Driver Time": 0.35202,
+		"Device Time": 0.49132,
+		"max": 0.175880,
+		"min": 0.18106,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 1710.0,
+		"Number of IO": 10,
+		"Size of IO": 25585254,
+		"Latency": 0.87345,
+		"Kernel Time": 0.8938,
+		"Driver Time": 0.36837,
+		"Device Time": 0.41570,
+		"max": 0.174292,
+		"min": 0.26334,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 1720.0,
+		"Number of IO": 11,
+		"Size of IO": 31075979,
+		"Latency": 0.109914,
+		"Kernel Time": 0.7712,
+		"Driver Time": 0.41828,
+		"Device Time": 0.60372,
+		"max": 0.200474,
+		"min": 0.28185,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 1730.0,
+		"Number of IO": 12,
+		"Size of IO": 29534890,
+		"Latency": 0.96041,
+		"Kernel Time": 0.6258,
+		"Driver Time": 0.42718,
+		"Device Time": 0.47064,
+		"max": 0.185665,
+		"min": 0.19171,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 1740.0,
+		"Number of IO": 14,
+		"Size of IO": 26813586,
+		"Latency": 0.89064,
+		"Kernel Time": 0.5130,
+		"Driver Time": 0.31588,
+		"Device Time": 0.52345,
+		"max": 0.181914,
+		"min": 0.17993,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 1750.0,
+		"Number of IO": 11,
+		"Size of IO": 28025576,
+		"Latency": 0.79179,
+		"Kernel Time": 0.5241,
+		"Driver Time": 0.27916,
+		"Device Time": 0.46021,
+		"max": 0.145029,
+		"min": 0.17478,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 1760.0,
+		"Number of IO": 9,
+		"Size of IO": 19107384,
+		"Latency": 0.78141,
+		"Kernel Time": 0.7881,
+		"Driver Time": 0.26793,
+		"Device Time": 0.43466,
+		"max": 0.172979,
+		"min": 0.27294,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 1770.0,
+		"Number of IO": 12,
+		"Size of IO": 27787264,
+		"Latency": 0.89593,
+		"Kernel Time": 0.7641,
+		"Driver Time": 0.29242,
+		"Device Time": 0.52710,
+		"max": 0.168941,
+		"min": 0.26688,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1780.0,
+		"Number of IO": 15,
+		"Size of IO": 22649241,
+		"Latency": 0.99862,
+		"Kernel Time": 0.6725,
+		"Driver Time": 0.55007,
+		"Device Time": 0.38129,
+		"max": 0.262927,
+		"min": 0.18342,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 1790.0,
+		"Number of IO": 16,
+		"Size of IO": 26214400,
+		"Latency": 0.102818,
+		"Kernel Time": 0.8202,
+		"Driver Time": 0.45244,
+		"Device Time": 0.49371,
+		"max": 0.264735,
+		"min": 0.17689,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 1800.0,
+		"Number of IO": 15,
+		"Size of IO": 25725064,
+		"Latency": 0.109144,
+		"Kernel Time": 0.8084,
+		"Driver Time": 0.52972,
+		"Device Time": 0.48086,
+		"max": 0.449718,
+		"min": 0.26934,
+		"var": 0.000000,
+		"std": 0.000098
+	}
+, 	{
+		"Window Time": 1810.0,
+		"Number of IO": 17,
+		"Size of IO": 23932205,
+		"Latency": 0.89675,
+		"Kernel Time": 0.7023,
+		"Driver Time": 0.31519,
+		"Device Time": 0.51132,
+		"max": 0.169627,
+		"min": 0.26595,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1820.0,
+		"Number of IO": 10,
+		"Size of IO": 23068672,
+		"Latency": 0.79922,
+		"Kernel Time": 0.7531,
+		"Driver Time": 0.29331,
+		"Device Time": 0.43060,
+		"max": 0.162300,
+		"min": 0.18553,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1830.0,
+		"Number of IO": 11,
+		"Size of IO": 28597527,
+		"Latency": 0.123505,
+		"Kernel Time": 0.11838,
+		"Driver Time": 0.53798,
+		"Device Time": 0.57868,
+		"max": 0.250384,
+		"min": 0.27212,
+		"var": 0.000000,
+		"std": 0.000080
+	}
+, 	{
+		"Window Time": 1840.0,
+		"Number of IO": 15,
+		"Size of IO": 22649241,
+		"Latency": 0.78032,
+		"Kernel Time": 0.6329,
+		"Driver Time": 0.28439,
+		"Device Time": 0.43264,
+		"max": 0.158668,
+		"min": 0.16904,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 1850.0,
+		"Number of IO": 10,
+		"Size of IO": 26424115,
+		"Latency": 0.85746,
+		"Kernel Time": 0.9296,
+		"Driver Time": 0.32525,
+		"Device Time": 0.43924,
+		"max": 0.175172,
+		"min": 0.19234,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 1860.0,
+		"Number of IO": 10,
+		"Size of IO": 26843545,
+		"Latency": 0.82839,
+		"Kernel Time": 0.10785,
+		"Driver Time": 0.29583,
+		"Device Time": 0.42470,
+		"max": 0.180259,
+		"min": 0.17624,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 1870.0,
+		"Number of IO": 15,
+		"Size of IO": 35371963,
+		"Latency": 0.91674,
+		"Kernel Time": 0.5300,
+		"Driver Time": 0.24020,
+		"Device Time": 0.62352,
+		"max": 0.173210,
+		"min": 0.19255,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1880.0,
+		"Number of IO": 14,
+		"Size of IO": 20821723,
+		"Latency": 0.69722,
+		"Kernel Time": 0.6306,
+		"Driver Time": 0.29844,
+		"Device Time": 0.33572,
+		"max": 0.162343,
+		"min": 0.16770,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 1890.0,
+		"Number of IO": 10,
+		"Size of IO": 26214400,
+		"Latency": 0.91932,
+		"Kernel Time": 0.7306,
+		"Driver Time": 0.31242,
+		"Device Time": 0.53383,
+		"max": 0.187914,
+		"min": 0.26337,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 1900.0,
+		"Number of IO": 13,
+		"Size of IO": 29682766,
+		"Latency": 0.112859,
+		"Kernel Time": 0.8128,
+		"Driver Time": 0.58969,
+		"Device Time": 0.45761,
+		"max": 0.249480,
+		"min": 0.18208,
+		"var": 0.000000,
+		"std": 0.000071
+	}
+, 	{
+		"Window Time": 1910.0,
+		"Number of IO": 16,
+		"Size of IO": 24117248,
+		"Latency": 0.99440,
+		"Kernel Time": 0.9315,
+		"Driver Time": 0.41346,
+		"Device Time": 0.48778,
+		"max": 0.205085,
+		"min": 0.26367,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 1920.0,
+		"Number of IO": 12,
+		"Size of IO": 30758229,
+		"Latency": 0.101127,
+		"Kernel Time": 0.6593,
+		"Driver Time": 0.41096,
+		"Device Time": 0.53437,
+		"max": 0.189424,
+		"min": 0.26350,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 1930.0,
+		"Number of IO": 13,
+		"Size of IO": 22746033,
+		"Latency": 0.93500,
+		"Kernel Time": 0.8419,
+		"Driver Time": 0.36783,
+		"Device Time": 0.48297,
+		"max": 0.187263,
+		"min": 0.25636,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 1940.0,
+		"Number of IO": 12,
+		"Size of IO": 28835840,
+		"Latency": 0.73841,
+		"Kernel Time": 0.4851,
+		"Driver Time": 0.19886,
+		"Device Time": 0.49102,
+		"max": 0.141243,
+		"min": 0.17246,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 1950.0,
+		"Number of IO": 12,
+		"Size of IO": 32680618,
+		"Latency": 0.104411,
+		"Kernel Time": 0.6039,
+		"Driver Time": 0.47250,
+		"Device Time": 0.51121,
+		"max": 0.208843,
+		"min": 0.17688,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 1960.0,
+		"Number of IO": 15,
+		"Size of IO": 19573418,
+		"Latency": 0.82342,
+		"Kernel Time": 0.6956,
+		"Driver Time": 0.33294,
+		"Device Time": 0.42091,
+		"max": 0.142005,
+		"min": 0.26443,
+		"var": 0.000000,
+		"std": 0.000040
+	}
+, 	{
+		"Window Time": 1970.0,
+		"Number of IO": 10,
+		"Size of IO": 26214400,
+		"Latency": 0.86507,
+		"Kernel Time": 0.7803,
+		"Driver Time": 0.36325,
+		"Device Time": 0.42379,
+		"max": 0.202897,
+		"min": 0.26345,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 1980.0,
+		"Number of IO": 9,
+		"Size of IO": 24932807,
+		"Latency": 0.88743,
+		"Kernel Time": 0.9044,
+		"Driver Time": 0.34580,
+		"Device Time": 0.45119,
+		"max": 0.186036,
+		"min": 0.27362,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 1990.0,
+		"Number of IO": 12,
+		"Size of IO": 27787264,
+		"Latency": 0.92017,
+		"Kernel Time": 0.8485,
+		"Driver Time": 0.36402,
+		"Device Time": 0.47130,
+		"max": 0.189733,
+		"min": 0.26242,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2000.0,
+		"Number of IO": 14,
+		"Size of IO": 19922944,
+		"Latency": 0.96779,
+		"Kernel Time": 0.7322,
+		"Driver Time": 0.51595,
+		"Device Time": 0.37861,
+		"max": 0.330466,
+		"min": 0.26351,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 2010.0,
+		"Number of IO": 9,
+		"Size of IO": 18874368,
+		"Latency": 0.87245,
+		"Kernel Time": 0.10424,
+		"Driver Time": 0.22810,
+		"Device Time": 0.54009,
+		"max": 0.193709,
+		"min": 0.26142,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 2020.0,
+		"Number of IO": 10,
+		"Size of IO": 23907532,
+		"Latency": 0.85618,
+		"Kernel Time": 0.12332,
+		"Driver Time": 0.27465,
+		"Device Time": 0.45819,
+		"max": 0.181557,
+		"min": 0.26800,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2030.0,
+		"Number of IO": 15,
+		"Size of IO": 20412279,
+		"Latency": 0.95235,
+		"Kernel Time": 0.7302,
+		"Driver Time": 0.45512,
+		"Device Time": 0.42419,
+		"max": 0.269852,
+		"min": 0.25905,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 2040.0,
+		"Number of IO": 10,
+		"Size of IO": 27262976,
+		"Latency": 0.82217,
+		"Kernel Time": 0.9998,
+		"Driver Time": 0.31367,
+		"Device Time": 0.40851,
+		"max": 0.153699,
+		"min": 0.26802,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 2050.0,
+		"Number of IO": 10,
+		"Size of IO": 23697817,
+		"Latency": 0.80060,
+		"Kernel Time": 0.8649,
+		"Driver Time": 0.24734,
+		"Device Time": 0.46676,
+		"max": 0.180440,
+		"min": 0.26559,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2060.0,
+		"Number of IO": 11,
+		"Size of IO": 20971520,
+		"Latency": 0.83917,
+		"Kernel Time": 0.5876,
+		"Driver Time": 0.41935,
+		"Device Time": 0.36105,
+		"max": 0.210962,
+		"min": 0.19875,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 2070.0,
+		"Number of IO": 12,
+		"Size of IO": 23592960,
+		"Latency": 0.88308,
+		"Kernel Time": 0.11711,
+		"Driver Time": 0.30830,
+		"Device Time": 0.45766,
+		"max": 0.184262,
+		"min": 0.20154,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 2080.0,
+		"Number of IO": 11,
+		"Size of IO": 27834926,
+		"Latency": 0.98648,
+		"Kernel Time": 0.8816,
+		"Driver Time": 0.37403,
+		"Device Time": 0.52429,
+		"max": 0.193346,
+		"min": 0.17998,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 2090.0,
+		"Number of IO": 13,
+		"Size of IO": 23391310,
+		"Latency": 0.86516,
+		"Kernel Time": 0.8125,
+		"Driver Time": 0.31379,
+		"Device Time": 0.47012,
+		"max": 0.149460,
+		"min": 0.25672,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 2100.0,
+		"Number of IO": 15,
+		"Size of IO": 27262976,
+		"Latency": 0.89835,
+		"Kernel Time": 0.8296,
+		"Driver Time": 0.33554,
+		"Device Time": 0.47984,
+		"max": 0.168670,
+		"min": 0.27065,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 2110.0,
+		"Number of IO": 13,
+		"Size of IO": 16293257,
+		"Latency": 0.76311,
+		"Kernel Time": 0.8553,
+		"Driver Time": 0.31171,
+		"Device Time": 0.36586,
+		"max": 0.135058,
+		"min": 0.26658,
+		"var": 0.000000,
+		"std": 0.000037
+	}
+, 	{
+		"Window Time": 2120.0,
+		"Number of IO": 14,
+		"Size of IO": 25615213,
+		"Latency": 0.86793,
+		"Kernel Time": 0.9393,
+		"Driver Time": 0.32673,
+		"Device Time": 0.44726,
+		"max": 0.137870,
+		"min": 0.26387,
+		"var": 0.000000,
+		"std": 0.000040
+	}
+, 	{
+		"Window Time": 2130.0,
+		"Number of IO": 11,
+		"Size of IO": 26881675,
+		"Latency": 0.93217,
+		"Kernel Time": 0.9839,
+		"Driver Time": 0.31975,
+		"Device Time": 0.51401,
+		"max": 0.181739,
+		"min": 0.26357,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 2140.0,
+		"Number of IO": 10,
+		"Size of IO": 26214400,
+		"Latency": 0.86590,
+		"Kernel Time": 0.9601,
+		"Driver Time": 0.33848,
+		"Device Time": 0.43141,
+		"max": 0.181096,
+		"min": 0.26500,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2150.0,
+		"Number of IO": 16,
+		"Size of IO": 23199744,
+		"Latency": 0.82726,
+		"Kernel Time": 0.7354,
+		"Driver Time": 0.30944,
+		"Device Time": 0.44428,
+		"max": 0.167757,
+		"min": 0.27392,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 2160.0,
+		"Number of IO": 17,
+		"Size of IO": 18627644,
+		"Latency": 0.62436,
+		"Kernel Time": 0.5942,
+		"Driver Time": 0.21416,
+		"Device Time": 0.35077,
+		"max": 0.177507,
+		"min": 0.16657,
+		"var": 0.000000,
+		"std": 0.000042
+	}
+, 	{
+		"Window Time": 2170.0,
+		"Number of IO": 20,
+		"Size of IO": 24641536,
+		"Latency": 0.86931,
+		"Kernel Time": 0.6809,
+		"Driver Time": 0.29898,
+		"Device Time": 0.50223,
+		"max": 0.189801,
+		"min": 0.27525,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 2180.0,
+		"Number of IO": 14,
+		"Size of IO": 29360128,
+		"Latency": 0.92290,
+		"Kernel Time": 0.7233,
+		"Driver Time": 0.34686,
+		"Device Time": 0.50371,
+		"max": 0.182963,
+		"min": 0.19490,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 2190.0,
+		"Number of IO": 13,
+		"Size of IO": 27585614,
+		"Latency": 0.102926,
+		"Kernel Time": 0.8683,
+		"Driver Time": 0.42614,
+		"Device Time": 0.51628,
+		"max": 0.192751,
+		"min": 0.26431,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 2200.0,
+		"Number of IO": 15,
+		"Size of IO": 25864874,
+		"Latency": 0.85934,
+		"Kernel Time": 0.6128,
+		"Driver Time": 0.30199,
+		"Device Time": 0.49606,
+		"max": 0.189896,
+		"min": 0.26229,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 2210.0,
+		"Number of IO": 13,
+		"Size of IO": 23552630,
+		"Latency": 0.91820,
+		"Kernel Time": 0.7235,
+		"Driver Time": 0.31855,
+		"Device Time": 0.52729,
+		"max": 0.180854,
+		"min": 0.18365,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 2220.0,
+		"Number of IO": 12,
+		"Size of IO": 25864874,
+		"Latency": 0.75623,
+		"Kernel Time": 0.8207,
+		"Driver Time": 0.17709,
+		"Device Time": 0.49705,
+		"max": 0.148327,
+		"min": 0.19807,
+		"var": 0.000000,
+		"std": 0.000038
+	}
+, 	{
+		"Window Time": 2230.0,
+		"Number of IO": 12,
+		"Size of IO": 24816298,
+		"Latency": 0.86143,
+		"Kernel Time": 0.5651,
+		"Driver Time": 0.14150,
+		"Device Time": 0.66341,
+		"max": 0.219519,
+		"min": 0.17758,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 2240.0,
+		"Number of IO": 14,
+		"Size of IO": 30258907,
+		"Latency": 0.101183,
+		"Kernel Time": 0.7634,
+		"Driver Time": 0.27008,
+		"Device Time": 0.66539,
+		"max": 0.177362,
+		"min": 0.27577,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 2250.0,
+		"Number of IO": 15,
+		"Size of IO": 25585254,
+		"Latency": 0.77468,
+		"Kernel Time": 0.7167,
+		"Driver Time": 0.21681,
+		"Device Time": 0.48619,
+		"max": 0.136744,
+		"min": 0.19055,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 2260.0,
+		"Number of IO": 16,
+		"Size of IO": 20840448,
+		"Latency": 0.87640,
+		"Kernel Time": 0.6713,
+		"Driver Time": 0.23373,
+		"Device Time": 0.57553,
+		"max": 0.216933,
+		"min": 0.25997,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 2270.0,
+		"Number of IO": 9,
+		"Size of IO": 21437553,
+		"Latency": 0.78412,
+		"Kernel Time": 0.8443,
+		"Driver Time": 0.31797,
+		"Device Time": 0.38171,
+		"max": 0.170290,
+		"min": 0.27263,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 2280.0,
+		"Number of IO": 13,
+		"Size of IO": 25972420,
+		"Latency": 0.97987,
+		"Kernel Time": 0.9959,
+		"Driver Time": 0.40197,
+		"Device Time": 0.47830,
+		"max": 0.205938,
+		"min": 0.26985,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 2290.0,
+		"Number of IO": 11,
+		"Size of IO": 27644276,
+		"Latency": 0.84929,
+		"Kernel Time": 0.7516,
+		"Driver Time": 0.35785,
+		"Device Time": 0.41627,
+		"max": 0.155707,
+		"min": 0.26830,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 2300.0,
+		"Number of IO": 11,
+		"Size of IO": 32410530,
+		"Latency": 0.100584,
+		"Kernel Time": 0.7955,
+		"Driver Time": 0.36756,
+		"Device Time": 0.55872,
+		"max": 0.177812,
+		"min": 0.26069,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 2310.0,
+		"Number of IO": 13,
+		"Size of IO": 27262976,
+		"Latency": 0.90733,
+		"Kernel Time": 0.8163,
+		"Driver Time": 0.33467,
+		"Device Time": 0.49101,
+		"max": 0.164611,
+		"min": 0.27229,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 2320.0,
+		"Number of IO": 11,
+		"Size of IO": 28025576,
+		"Latency": 0.87570,
+		"Kernel Time": 0.5693,
+		"Driver Time": 0.33293,
+		"Device Time": 0.48583,
+		"max": 0.170955,
+		"min": 0.17952,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2330.0,
+		"Number of IO": 10,
+		"Size of IO": 26424115,
+		"Latency": 0.89372,
+		"Kernel Time": 0.8414,
+		"Driver Time": 0.32261,
+		"Device Time": 0.48696,
+		"max": 0.169661,
+		"min": 0.27221,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2340.0,
+		"Number of IO": 12,
+		"Size of IO": 14854826,
+		"Latency": 0.65318,
+		"Kernel Time": 0.7185,
+		"Driver Time": 0.21040,
+		"Device Time": 0.37092,
+		"max": 0.171661,
+		"min": 0.19071,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 2350.0,
+		"Number of IO": 12,
+		"Size of IO": 22893909,
+		"Latency": 0.105867,
+		"Kernel Time": 0.7645,
+		"Driver Time": 0.48967,
+		"Device Time": 0.49255,
+		"max": 0.290837,
+		"min": 0.26591,
+		"var": 0.000000,
+		"std": 0.000076
+	}
+, 	{
+		"Window Time": 2360.0,
+		"Number of IO": 9,
+		"Size of IO": 24000739,
+		"Latency": 0.84735,
+		"Kernel Time": 0.10021,
+		"Driver Time": 0.28214,
+		"Device Time": 0.46500,
+		"max": 0.158508,
+		"min": 0.27423,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 2370.0,
+		"Number of IO": 14,
+		"Size of IO": 22469485,
+		"Latency": 0.91271,
+		"Kernel Time": 0.8734,
+		"Driver Time": 0.35501,
+		"Device Time": 0.47035,
+		"max": 0.201284,
+		"min": 0.26895,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 2380.0,
+		"Number of IO": 15,
+		"Size of IO": 30338798,
+		"Latency": 0.116158,
+		"Kernel Time": 0.8824,
+		"Driver Time": 0.56335,
+		"Device Time": 0.50998,
+		"max": 0.361812,
+		"min": 0.27011,
+		"var": 0.000000,
+		"std": 0.000082
+	}
+, 	{
+		"Window Time": 2390.0,
+		"Number of IO": 10,
+		"Size of IO": 27053260,
+		"Latency": 0.89731,
+		"Kernel Time": 0.6466,
+		"Driver Time": 0.31432,
+		"Device Time": 0.51832,
+		"max": 0.180372,
+		"min": 0.18246,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 2400.0,
+		"Number of IO": 11,
+		"Size of IO": 23831272,
+		"Latency": 0.100768,
+		"Kernel Time": 0.10837,
+		"Driver Time": 0.49506,
+		"Device Time": 0.40425,
+		"max": 0.279093,
+		"min": 0.17735,
+		"var": 0.000000,
+		"std": 0.000087
+	}
+, 	{
+		"Window Time": 2410.0,
+		"Number of IO": 15,
+		"Size of IO": 24326963,
+		"Latency": 0.99136,
+		"Kernel Time": 0.7312,
+		"Driver Time": 0.49728,
+		"Device Time": 0.42095,
+		"max": 0.304115,
+		"min": 0.26953,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 2420.0,
+		"Number of IO": 9,
+		"Size of IO": 21903587,
+		"Latency": 0.81150,
+		"Kernel Time": 0.10247,
+		"Driver Time": 0.25709,
+		"Device Time": 0.45194,
+		"max": 0.188233,
+		"min": 0.28247,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 2430.0,
+		"Number of IO": 11,
+		"Size of IO": 17730466,
+		"Latency": 0.83674,
+		"Kernel Time": 0.10000,
+		"Driver Time": 0.31035,
+		"Device Time": 0.42638,
+		"max": 0.166781,
+		"min": 0.25998,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 2440.0,
+		"Number of IO": 15,
+		"Size of IO": 23348292,
+		"Latency": 0.111656,
+		"Kernel Time": 0.7316,
+		"Driver Time": 0.57793,
+		"Device Time": 0.46547,
+		"max": 0.477572,
+		"min": 0.26435,
+		"var": 0.000000,
+		"std": 0.000108
+	}
+, 	{
+		"Window Time": 2450.0,
+		"Number of IO": 9,
+		"Size of IO": 20039452,
+		"Latency": 0.76640,
+		"Kernel Time": 0.7501,
+		"Driver Time": 0.27429,
+		"Device Time": 0.41709,
+		"max": 0.171698,
+		"min": 0.26567,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 2460.0,
+		"Number of IO": 9,
+		"Size of IO": 19806435,
+		"Latency": 0.77079,
+		"Kernel Time": 0.10314,
+		"Driver Time": 0.23792,
+		"Device Time": 0.42972,
+		"max": 0.173562,
+		"min": 0.27557,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 2470.0,
+		"Number of IO": 15,
+		"Size of IO": 27123165,
+		"Latency": 0.80806,
+		"Kernel Time": 0.5241,
+		"Driver Time": 0.24760,
+		"Device Time": 0.50805,
+		"max": 0.159789,
+		"min": 0.18659,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 2480.0,
+		"Number of IO": 11,
+		"Size of IO": 17349166,
+		"Latency": 0.71900,
+		"Kernel Time": 0.9680,
+		"Driver Time": 0.23615,
+		"Device Time": 0.38604,
+		"max": 0.174328,
+		"min": 0.28178,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 2490.0,
+		"Number of IO": 12,
+		"Size of IO": 32855381,
+		"Latency": 0.112433,
+		"Kernel Time": 0.10163,
+		"Driver Time": 0.47031,
+		"Device Time": 0.55239,
+		"max": 0.196853,
+		"min": 0.26941,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 2500.0,
+		"Number of IO": 11,
+		"Size of IO": 23068672,
+		"Latency": 0.88897,
+		"Kernel Time": 0.11090,
+		"Driver Time": 0.29773,
+		"Device Time": 0.48033,
+		"max": 0.206933,
+		"min": 0.26803,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 2510.0,
+		"Number of IO": 15,
+		"Size of IO": 16777216,
+		"Latency": 0.87442,
+		"Kernel Time": 0.9911,
+		"Driver Time": 0.32374,
+		"Device Time": 0.45156,
+		"max": 0.211576,
+		"min": 0.24434,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 2520.0,
+		"Number of IO": 11,
+		"Size of IO": 23831272,
+		"Latency": 0.81403,
+		"Kernel Time": 0.10885,
+		"Driver Time": 0.28656,
+		"Device Time": 0.41861,
+		"max": 0.168262,
+		"min": 0.27007,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 2530.0,
+		"Number of IO": 10,
+		"Size of IO": 18454937,
+		"Latency": 0.83109,
+		"Kernel Time": 0.10169,
+		"Driver Time": 0.23118,
+		"Device Time": 0.49821,
+		"max": 0.181381,
+		"min": 0.26871,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 2540.0,
+		"Number of IO": 12,
+		"Size of IO": 29884416,
+		"Latency": 0.99277,
+		"Kernel Time": 0.7387,
+		"Driver Time": 0.46442,
+		"Device Time": 0.45447,
+		"max": 0.198849,
+		"min": 0.17418,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 2550.0,
+		"Number of IO": 15,
+		"Size of IO": 21950190,
+		"Latency": 0.86334,
+		"Kernel Time": 0.6481,
+		"Driver Time": 0.33111,
+		"Device Time": 0.46741,
+		"max": 0.199652,
+		"min": 0.19157,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 2560.0,
+		"Number of IO": 10,
+		"Size of IO": 26633830,
+		"Latency": 0.82261,
+		"Kernel Time": 0.6064,
+		"Driver Time": 0.34919,
+		"Device Time": 0.41277,
+		"max": 0.180719,
+		"min": 0.17494,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 2570.0,
+		"Number of IO": 16,
+		"Size of IO": 21889024,
+		"Latency": 0.81429,
+		"Kernel Time": 0.7468,
+		"Driver Time": 0.34039,
+		"Device Time": 0.39920,
+		"max": 0.222309,
+		"min": 0.26642,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 2580.0,
+		"Number of IO": 35,
+		"Size of IO": 45657994,
+		"Latency": 0.162883,
+		"Kernel Time": 0.6330,
+		"Driver Time": 0.95500,
+		"Device Time": 0.61053,
+		"max": 0.341215,
+		"min": 0.25903,
+		"var": 0.000000,
+		"std": 0.000081
+	}
+, 	{
+		"Window Time": 2590.0,
+		"Number of IO": 48,
+		"Size of IO": 51249152,
+		"Latency": 0.478506,
+		"Kernel Time": 0.5999,
+		"Driver Time": 0.111981,
+		"Device Time": 0.360524,
+		"max": 0.2302532,
+		"min": 0.18174,
+		"var": 0.000000,
+		"std": 0.000520
+	}
+, 	{
+		"Window Time": 2600.0,
+		"Number of IO": 46,
+		"Size of IO": 56212791,
+		"Latency": 0.212963,
+		"Kernel Time": 0.6724,
+		"Driver Time": 0.96899,
+		"Device Time": 0.109339,
+		"max": 0.370064,
+		"min": 0.26806,
+		"var": 0.000000,
+		"std": 0.000088
+	}
+, 	{
+		"Window Time": 2610.0,
+		"Number of IO": 46,
+		"Size of IO": 52565570,
+		"Latency": 0.186402,
+		"Kernel Time": 0.7126,
+		"Driver Time": 0.117446,
+		"Device Time": 0.61828,
+		"max": 0.474019,
+		"min": 0.26800,
+		"var": 0.000000,
+		"std": 0.000087
+	}
+, 	{
+		"Window Time": 2620.0,
+		"Number of IO": 59,
+		"Size of IO": 56800828,
+		"Latency": 0.202361,
+		"Kernel Time": 0.5407,
+		"Driver Time": 0.116058,
+		"Device Time": 0.80895,
+		"max": 0.1535533,
+		"min": 0.25177,
+		"var": 0.000000,
+		"std": 0.000186
+	}
+, 	{
+		"Window Time": 2630.0,
+		"Number of IO": 28,
+		"Size of IO": 42242633,
+		"Latency": 0.181407,
+		"Kernel Time": 0.9059,
+		"Driver Time": 0.86928,
+		"Device Time": 0.85418,
+		"max": 0.491878,
+		"min": 0.25998,
+		"var": 0.000000,
+		"std": 0.000117
+	}
+, 	{
+		"Window Time": 2640.0,
+		"Number of IO": 42,
+		"Size of IO": 54875477,
+		"Latency": 0.212214,
+		"Kernel Time": 0.7381,
+		"Driver Time": 0.136520,
+		"Device Time": 0.68311,
+		"max": 0.1702229,
+		"min": 0.25516,
+		"var": 0.000000,
+		"std": 0.000245
+	}
+, 	{
+		"Window Time": 2650.0,
+		"Number of IO": 58,
+		"Size of IO": 55393739,
+		"Latency": 0.206364,
+		"Kernel Time": 0.8402,
+		"Driver Time": 0.129899,
+		"Device Time": 0.68062,
+		"max": 0.678306,
+		"min": 0.29413,
+		"var": 0.000000,
+		"std": 0.000099
+	}
+, 	{
+		"Window Time": 2660.0,
+		"Number of IO": 41,
+		"Size of IO": 41943040,
+		"Latency": 0.123644,
+		"Kernel Time": 0.5878,
+		"Driver Time": 0.59892,
+		"Device Time": 0.57872,
+		"max": 0.354619,
+		"min": 0.21811,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 2670.0,
+		"Number of IO": 28,
+		"Size of IO": 52428800,
+		"Latency": 0.205496,
+		"Kernel Time": 0.7832,
+		"Driver Time": 0.75903,
+		"Device Time": 0.121761,
+		"max": 0.371377,
+		"min": 0.27926,
+		"var": 0.000000,
+		"std": 0.000111
+	}
+, 	{
+		"Window Time": 2680.0,
+		"Number of IO": 41,
+		"Size of IO": 47978745,
+		"Latency": 0.265508,
+		"Kernel Time": 0.5184,
+		"Driver Time": 0.49524,
+		"Device Time": 0.210799,
+		"max": 0.1178366,
+		"min": 0.24813,
+		"var": 0.000000,
+		"std": 0.000315
+	}
+, 	{
+		"Window Time": 2690.0,
+		"Number of IO": 35,
+		"Size of IO": 54106521,
+		"Latency": 0.256675,
+		"Kernel Time": 0.6350,
+		"Driver Time": 0.41942,
+		"Device Time": 0.208382,
+		"max": 0.644998,
+		"min": 0.19337,
+		"var": 0.000000,
+		"std": 0.000188
+	}
+, 	{
+		"Window Time": 2700.0,
+		"Number of IO": 32,
+		"Size of IO": 48103424,
+		"Latency": 0.191423,
+		"Kernel Time": 0.7480,
+		"Driver Time": 0.121870,
+		"Device Time": 0.62073,
+		"max": 0.578073,
+		"min": 0.21360,
+		"var": 0.000000,
+		"std": 0.000112
+	}
+, 	{
+		"Window Time": 2710.0,
+		"Number of IO": 38,
+		"Size of IO": 48951942,
+		"Latency": 0.366200,
+		"Kernel Time": 0.4259,
+		"Driver Time": 0.55179,
+		"Device Time": 0.306761,
+		"max": 0.1456201,
+		"min": 0.18440,
+		"var": 0.000000,
+		"std": 0.000373
+	}
+, 	{
+		"Window Time": 2720.0,
+		"Number of IO": 35,
+		"Size of IO": 43860436,
+		"Latency": 0.173493,
+		"Kernel Time": 0.7375,
+		"Driver Time": 0.100074,
+		"Device Time": 0.66043,
+		"max": 0.1750738,
+		"min": 0.19691,
+		"var": 0.000000,
+		"std": 0.000276
+	}
+, 	{
+		"Window Time": 2730.0,
+		"Number of IO": 27,
+		"Size of IO": 46603377,
+		"Latency": 0.179591,
+		"Kernel Time": 0.7650,
+		"Driver Time": 0.100662,
+		"Device Time": 0.71278,
+		"max": 0.719885,
+		"min": 0.27561,
+		"var": 0.000000,
+		"std": 0.000126
+	}
+, 	{
+		"Window Time": 2740.0,
+		"Number of IO": 31,
+		"Size of IO": 52022899,
+		"Latency": 0.206146,
+		"Kernel Time": 0.6848,
+		"Driver Time": 0.137716,
+		"Device Time": 0.61581,
+		"max": 0.446835,
+		"min": 0.27273,
+		"var": 0.000000,
+		"std": 0.000095
+	}
+, 	{
+		"Window Time": 2750.0,
+		"Number of IO": 34,
+		"Size of IO": 49283072,
+		"Latency": 0.171060,
+		"Kernel Time": 0.8186,
+		"Driver Time": 0.101108,
+		"Device Time": 0.61765,
+		"max": 0.298397,
+		"min": 0.28094,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 2760.0,
+		"Number of IO": 27,
+		"Size of IO": 38836148,
+		"Latency": 0.178218,
+		"Kernel Time": 0.9325,
+		"Driver Time": 0.113453,
+		"Device Time": 0.55439,
+		"max": 0.885156,
+		"min": 0.27925,
+		"var": 0.000000,
+		"std": 0.000167
+	}
+, 	{
+		"Window Time": 2770.0,
+		"Number of IO": 29,
+		"Size of IO": 51777959,
+		"Latency": 0.177205,
+		"Kernel Time": 0.7605,
+		"Driver Time": 0.77373,
+		"Device Time": 0.92225,
+		"max": 0.337469,
+		"min": 0.18671,
+		"var": 0.000000,
+		"std": 0.000085
+	}
+, 	{
+		"Window Time": 2780.0,
+		"Number of IO": 27,
+		"Size of IO": 51108370,
+		"Latency": 0.148163,
+		"Kernel Time": 0.4552,
+		"Driver Time": 0.82337,
+		"Device Time": 0.61274,
+		"max": 0.194711,
+		"min": 0.22882,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 2790.0,
+		"Number of IO": 35,
+		"Size of IO": 45298483,
+		"Latency": 0.129294,
+		"Kernel Time": 0.6706,
+		"Driver Time": 0.59012,
+		"Device Time": 0.63575,
+		"max": 0.242833,
+		"min": 0.28365,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 2800.0,
+		"Number of IO": 22,
+		"Size of IO": 44135517,
+		"Latency": 0.213108,
+		"Kernel Time": 0.6945,
+		"Driver Time": 0.64541,
+		"Device Time": 0.141621,
+		"max": 0.762694,
+		"min": 0.19699,
+		"var": 0.000000,
+		"std": 0.000164
+	}
+, 	{
+		"Window Time": 2810.0,
+		"Number of IO": 25,
+		"Size of IO": 51170508,
+		"Latency": 0.262481,
+		"Kernel Time": 0.4461,
+		"Driver Time": 0.27206,
+		"Device Time": 0.230812,
+		"max": 0.579529,
+		"min": 0.18825,
+		"var": 0.000000,
+		"std": 0.000184
+	}
+, 	{
+		"Window Time": 2820.0,
+		"Number of IO": 29,
+		"Size of IO": 46715868,
+		"Latency": 0.150011,
+		"Kernel Time": 0.7964,
+		"Driver Time": 0.64528,
+		"Device Time": 0.77518,
+		"max": 0.298319,
+		"min": 0.27481,
+		"var": 0.000000,
+		"std": 0.000073
+	}
+, 	{
+		"Window Time": 2830.0,
+		"Number of IO": 16,
+		"Size of IO": 32112640,
+		"Latency": 0.128120,
+		"Kernel Time": 0.8188,
+		"Driver Time": 0.66437,
+		"Device Time": 0.53495,
+		"max": 0.388354,
+		"min": 0.28865,
+		"var": 0.000000,
+		"std": 0.000090
+	}
+, 	{
+		"Window Time": 2840.0,
+		"Number of IO": 24,
+		"Size of IO": 48846165,
+		"Latency": 0.167439,
+		"Kernel Time": 0.9651,
+		"Driver Time": 0.83516,
+		"Device Time": 0.74271,
+		"max": 0.243174,
+		"min": 0.26860,
+		"var": 0.000000,
+		"std": 0.000072
+	}
+, 	{
+		"Window Time": 2850.0,
+		"Number of IO": 33,
+		"Size of IO": 50331648,
+		"Latency": 0.192201,
+		"Kernel Time": 0.5025,
+		"Driver Time": 0.39989,
+		"Device Time": 0.147186,
+		"max": 0.428123,
+		"min": 0.19765,
+		"var": 0.000000,
+		"std": 0.000119
+	}
+, 	{
+		"Window Time": 2860.0,
+		"Number of IO": 23,
+		"Size of IO": 39481165,
+		"Latency": 0.160479,
+		"Kernel Time": 0.7493,
+		"Driver Time": 0.101454,
+		"Device Time": 0.51531,
+		"max": 0.280714,
+		"min": 0.31113,
+		"var": 0.000000,
+		"std": 0.000098
+	}
+, 	{
+		"Window Time": 2870.0,
+		"Number of IO": 25,
+		"Size of IO": 48905584,
+		"Latency": 0.182024,
+		"Kernel Time": 0.7132,
+		"Driver Time": 0.114820,
+		"Device Time": 0.60072,
+		"max": 0.308135,
+		"min": 0.17555,
+		"var": 0.000000,
+		"std": 0.000096
+	}
+, 	{
+		"Window Time": 2880.0,
+		"Number of IO": 32,
+		"Size of IO": 50987008,
+		"Latency": 0.172839,
+		"Kernel Time": 0.7080,
+		"Driver Time": 0.103959,
+		"Device Time": 0.61800,
+		"max": 0.1071447,
+		"min": 0.25721,
+		"var": 0.000000,
+		"std": 0.000174
+	}
+, 	{
+		"Window Time": 2890.0,
+		"Number of IO": 24,
+		"Size of IO": 24991061,
+		"Latency": 0.93339,
+		"Kernel Time": 0.4840,
+		"Driver Time": 0.38643,
+		"Device Time": 0.49855,
+		"max": 0.494180,
+		"min": 0.18539,
+		"var": 0.000000,
+		"std": 0.000095
+	}
+, 	{
+		"Window Time": 2900.0,
+		"Number of IO": 21,
+		"Size of IO": 44239920,
+		"Latency": 0.149216,
+		"Kernel Time": 0.9270,
+		"Driver Time": 0.79373,
+		"Device Time": 0.60572,
+		"max": 0.261456,
+		"min": 0.27645,
+		"var": 0.000000,
+		"std": 0.000077
+	}
+, 	{
+		"Window Time": 2910.0,
+		"Number of IO": 22,
+		"Size of IO": 48901771,
+		"Latency": 0.171804,
+		"Kernel Time": 0.4101,
+		"Driver Time": 0.28335,
+		"Device Time": 0.139366,
+		"max": 0.386445,
+		"min": 0.18440,
+		"var": 0.000000,
+		"std": 0.000115
+	}
+, 	{
+		"Window Time": 2920.0,
+		"Number of IO": 23,
+		"Size of IO": 47140329,
+		"Latency": 0.128619,
+		"Kernel Time": 0.4680,
+		"Driver Time": 0.54467,
+		"Device Time": 0.69471,
+		"max": 0.190128,
+		"min": 0.28706,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 2930.0,
+		"Number of IO": 22,
+		"Size of IO": 37462760,
+		"Latency": 0.121404,
+		"Kernel Time": 0.7491,
+		"Driver Time": 0.59543,
+		"Device Time": 0.54369,
+		"max": 0.201452,
+		"min": 0.18194,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 2940.0,
+		"Number of IO": 23,
+		"Size of IO": 46228524,
+		"Latency": 0.148792,
+		"Kernel Time": 0.7172,
+		"Driver Time": 0.81158,
+		"Device Time": 0.60461,
+		"max": 0.287187,
+		"min": 0.18039,
+		"var": 0.000000,
+		"std": 0.000083
+	}
+, 	{
+		"Window Time": 2950.0,
+		"Number of IO": 25,
+		"Size of IO": 44124078,
+		"Latency": 0.131984,
+		"Kernel Time": 0.6097,
+		"Driver Time": 0.68826,
+		"Device Time": 0.57060,
+		"max": 0.244210,
+		"min": 0.25815,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 2960.0,
+		"Number of IO": 19,
+		"Size of IO": 36865724,
+		"Latency": 0.116158,
+		"Kernel Time": 0.7412,
+		"Driver Time": 0.52089,
+		"Device Time": 0.56656,
+		"max": 0.190451,
+		"min": 0.26722,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 2970.0,
+		"Number of IO": 19,
+		"Size of IO": 43709062,
+		"Latency": 0.129528,
+		"Kernel Time": 0.8219,
+		"Driver Time": 0.60517,
+		"Device Time": 0.60792,
+		"max": 0.206647,
+		"min": 0.26170,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 2980.0,
+		"Number of IO": 24,
+		"Size of IO": 41331370,
+		"Latency": 0.124133,
+		"Kernel Time": 0.8463,
+		"Driver Time": 0.56816,
+		"Device Time": 0.58853,
+		"max": 0.199775,
+		"min": 0.29523,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 2990.0,
+		"Number of IO": 20,
+		"Size of IO": 43201331,
+		"Latency": 0.114012,
+		"Kernel Time": 0.5018,
+		"Driver Time": 0.52380,
+		"Device Time": 0.56613,
+		"max": 0.165567,
+		"min": 0.18275,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 3000.0,
+		"Number of IO": 23,
+		"Size of IO": 37019291,
+		"Latency": 0.103387,
+		"Kernel Time": 0.6241,
+		"Driver Time": 0.43160,
+		"Device Time": 0.53985,
+		"max": 0.195347,
+		"min": 0.17864,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 3010.0,
+		"Number of IO": 25,
+		"Size of IO": 46137344,
+		"Latency": 0.113723,
+		"Kernel Time": 0.4352,
+		"Driver Time": 0.42395,
+		"Device Time": 0.66976,
+		"max": 0.229179,
+		"min": 0.20862,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3020.0,
+		"Number of IO": 20,
+		"Size of IO": 42467328,
+		"Latency": 0.111666,
+		"Kernel Time": 0.3956,
+		"Driver Time": 0.50710,
+		"Device Time": 0.56999,
+		"max": 0.162254,
+		"min": 0.18059,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 3030.0,
+		"Number of IO": 116,
+		"Size of IO": 13414541,
+		"Latency": 0.66987,
+		"Kernel Time": 0.3640,
+		"Driver Time": 0.13158,
+		"Device Time": 0.50188,
+		"max": 0.667718,
+		"min": 0.16593,
+		"var": 0.000000,
+		"std": 0.000105
+	}
+, 	{
+		"Window Time": 3040.0,
+		"Number of IO": 30,
+		"Size of IO": 33973862,
+		"Latency": 0.94916,
+		"Kernel Time": 0.3651,
+		"Driver Time": 0.41286,
+		"Device Time": 0.49978,
+		"max": 0.174577,
+		"min": 0.18133,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 3050.0,
+		"Number of IO": 30,
+		"Size of IO": 38447786,
+		"Latency": 0.113428,
+		"Kernel Time": 0.4811,
+		"Driver Time": 0.48042,
+		"Device Time": 0.60574,
+		"max": 0.211556,
+		"min": 0.17634,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 3060.0,
+		"Number of IO": 32,
+		"Size of IO": 30539776,
+		"Latency": 0.108028,
+		"Kernel Time": 0.3986,
+		"Driver Time": 0.26757,
+		"Device Time": 0.77284,
+		"max": 0.313797,
+		"min": 0.17490,
+		"var": 0.000000,
+		"std": 0.000095
+	}
+, 	{
+		"Window Time": 3070.0,
+		"Number of IO": 22,
+		"Size of IO": 48806446,
+		"Latency": 0.145323,
+		"Kernel Time": 0.4255,
+		"Driver Time": 0.73322,
+		"Device Time": 0.67745,
+		"max": 0.242434,
+		"min": 0.17954,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 3080.0,
+		"Number of IO": 28,
+		"Size of IO": 31607076,
+		"Latency": 0.102337,
+		"Kernel Time": 0.3570,
+		"Driver Time": 0.37660,
+		"Device Time": 0.61106,
+		"max": 0.173143,
+		"min": 0.16967,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 3090.0,
+		"Number of IO": 23,
+		"Size of IO": 43037206,
+		"Latency": 0.118465,
+		"Kernel Time": 0.3971,
+		"Driver Time": 0.54030,
+		"Device Time": 0.60463,
+		"max": 0.201875,
+		"min": 0.16684,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 3100.0,
+		"Number of IO": 25,
+		"Size of IO": 41859153,
+		"Latency": 0.150365,
+		"Kernel Time": 0.4963,
+		"Driver Time": 0.30988,
+		"Device Time": 0.114413,
+		"max": 0.341970,
+		"min": 0.19016,
+		"var": 0.000000,
+		"std": 0.000101
+	}
+, 	{
+		"Window Time": 3110.0,
+		"Number of IO": 22,
+		"Size of IO": 38225361,
+		"Latency": 0.108835,
+		"Kernel Time": 0.5464,
+		"Driver Time": 0.43598,
+		"Device Time": 0.59772,
+		"max": 0.170446,
+		"min": 0.17094,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 3120.0,
+		"Number of IO": 20,
+		"Size of IO": 39845888,
+		"Latency": 0.140737,
+		"Kernel Time": 0.4362,
+		"Driver Time": 0.43536,
+		"Device Time": 0.92837,
+		"max": 0.258081,
+		"min": 0.18121,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 3130.0,
+		"Number of IO": 23,
+		"Size of IO": 39207624,
+		"Latency": 0.107461,
+		"Kernel Time": 0.4169,
+		"Driver Time": 0.43303,
+		"Device Time": 0.59988,
+		"max": 0.174237,
+		"min": 0.18380,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 3140.0,
+		"Number of IO": 19,
+		"Size of IO": 40508146,
+		"Latency": 0.141223,
+		"Kernel Time": 0.6268,
+		"Driver Time": 0.30923,
+		"Device Time": 0.104031,
+		"max": 0.287048,
+		"min": 0.17789,
+		"var": 0.000000,
+		"std": 0.000086
+	}
+, 	{
+		"Window Time": 3150.0,
+		"Number of IO": 21,
+		"Size of IO": 43241276,
+		"Latency": 0.132447,
+		"Kernel Time": 0.4966,
+		"Driver Time": 0.62887,
+		"Device Time": 0.64593,
+		"max": 0.192104,
+		"min": 0.17468,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3160.0,
+		"Number of IO": 19,
+		"Size of IO": 44702450,
+		"Latency": 0.111385,
+		"Kernel Time": 0.4016,
+		"Driver Time": 0.51396,
+		"Device Time": 0.55972,
+		"max": 0.186826,
+		"min": 0.18295,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 3170.0,
+		"Number of IO": 19,
+		"Size of IO": 41501534,
+		"Latency": 0.123199,
+		"Kernel Time": 0.7546,
+		"Driver Time": 0.61409,
+		"Device Time": 0.54243,
+		"max": 0.198258,
+		"min": 0.18091,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 3180.0,
+		"Number of IO": 23,
+		"Size of IO": 43128386,
+		"Latency": 0.120891,
+		"Kernel Time": 0.4706,
+		"Driver Time": 0.33946,
+		"Device Time": 0.82238,
+		"max": 0.212628,
+		"min": 0.17343,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 3190.0,
+		"Number of IO": 20,
+		"Size of IO": 43935334,
+		"Latency": 0.137994,
+		"Kernel Time": 0.3553,
+		"Driver Time": 0.44072,
+		"Device Time": 0.90368,
+		"max": 0.241130,
+		"min": 0.17716,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 3200.0,
+		"Number of IO": 17,
+		"Size of IO": 38242183,
+		"Latency": 0.119759,
+		"Kernel Time": 0.5606,
+		"Driver Time": 0.53713,
+		"Device Time": 0.60440,
+		"max": 0.192018,
+		"min": 0.17912,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 3210.0,
+		"Number of IO": 19,
+		"Size of IO": 44260944,
+		"Latency": 0.116132,
+		"Kernel Time": 0.4730,
+		"Driver Time": 0.53046,
+		"Device Time": 0.58355,
+		"max": 0.198338,
+		"min": 0.17506,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 3220.0,
+		"Number of IO": 18,
+		"Size of IO": 39146837,
+		"Latency": 0.112125,
+		"Kernel Time": 0.5927,
+		"Driver Time": 0.48454,
+		"Device Time": 0.57743,
+		"max": 0.220737,
+		"min": 0.19078,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 3230.0,
+		"Number of IO": 20,
+		"Size of IO": 39111884,
+		"Latency": 0.122014,
+		"Kernel Time": 0.4418,
+		"Driver Time": 0.49014,
+		"Device Time": 0.68581,
+		"max": 0.224604,
+		"min": 0.18893,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 3240.0,
+		"Number of IO": 18,
+		"Size of IO": 37865244,
+		"Latency": 0.112875,
+		"Kernel Time": 0.4596,
+		"Driver Time": 0.45165,
+		"Device Time": 0.63114,
+		"max": 0.203029,
+		"min": 0.17039,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3250.0,
+		"Number of IO": 21,
+		"Size of IO": 34553075,
+		"Latency": 0.87565,
+		"Kernel Time": 0.4673,
+		"Driver Time": 0.32342,
+		"Device Time": 0.50550,
+		"max": 0.168488,
+		"min": 0.17998,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 3260.0,
+		"Number of IO": 14,
+		"Size of IO": 28760941,
+		"Latency": 0.100304,
+		"Kernel Time": 0.5108,
+		"Driver Time": 0.40397,
+		"Device Time": 0.54798,
+		"max": 0.320337,
+		"min": 0.17725,
+		"var": 0.000000,
+		"std": 0.000080
+	}
+, 	{
+		"Window Time": 3270.0,
+		"Number of IO": 19,
+		"Size of IO": 43709062,
+		"Latency": 0.135300,
+		"Kernel Time": 0.4332,
+		"Driver Time": 0.67108,
+		"Device Time": 0.63858,
+		"max": 0.252910,
+		"min": 0.18445,
+		"var": 0.000000,
+		"std": 0.000073
+	}
+, 	{
+		"Window Time": 3280.0,
+		"Number of IO": 24,
+		"Size of IO": 48234496,
+		"Latency": 0.124865,
+		"Kernel Time": 0.4282,
+		"Driver Time": 0.53837,
+		"Device Time": 0.66745,
+		"max": 0.197773,
+		"min": 0.17464,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 3290.0,
+		"Number of IO": 15,
+		"Size of IO": 23488102,
+		"Latency": 0.110202,
+		"Kernel Time": 0.7150,
+		"Driver Time": 0.38516,
+		"Device Time": 0.64535,
+		"max": 0.305901,
+		"min": 0.17469,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 3300.0,
+		"Number of IO": 18,
+		"Size of IO": 44389717,
+		"Latency": 0.127195,
+		"Kernel Time": 0.4409,
+		"Driver Time": 0.62483,
+		"Device Time": 0.60302,
+		"max": 0.251456,
+		"min": 0.17691,
+		"var": 0.000000,
+		"std": 0.000071
+	}
+, 	{
+		"Window Time": 3310.0,
+		"Number of IO": 18,
+		"Size of IO": 42525582,
+		"Latency": 0.123211,
+		"Kernel Time": 0.4741,
+		"Driver Time": 0.62056,
+		"Device Time": 0.56413,
+		"max": 0.253074,
+		"min": 0.17944,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 3320.0,
+		"Number of IO": 20,
+		"Size of IO": 33764147,
+		"Latency": 0.125943,
+		"Kernel Time": 0.5799,
+		"Driver Time": 0.66694,
+		"Device Time": 0.53449,
+		"max": 0.384071,
+		"min": 0.17398,
+		"var": 0.000000,
+		"std": 0.000092
+	}
+, 	{
+		"Window Time": 3330.0,
+		"Number of IO": 17,
+		"Size of IO": 38612269,
+		"Latency": 0.108780,
+		"Kernel Time": 0.6927,
+		"Driver Time": 0.41717,
+		"Device Time": 0.60135,
+		"max": 0.184771,
+		"min": 0.18258,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 3340.0,
+		"Number of IO": 16,
+		"Size of IO": 41025536,
+		"Latency": 0.125469,
+		"Kernel Time": 0.6833,
+		"Driver Time": 0.52795,
+		"Device Time": 0.65841,
+		"max": 0.198458,
+		"min": 0.18466,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 3350.0,
+		"Number of IO": 17,
+		"Size of IO": 37625374,
+		"Latency": 0.133592,
+		"Kernel Time": 0.9337,
+		"Driver Time": 0.60669,
+		"Device Time": 0.63585,
+		"max": 0.315162,
+		"min": 0.26480,
+		"var": 0.000000,
+		"std": 0.000077
+	}
+, 	{
+		"Window Time": 3360.0,
+		"Number of IO": 21,
+		"Size of IO": 32056466,
+		"Latency": 0.102566,
+		"Kernel Time": 0.4702,
+		"Driver Time": 0.34486,
+		"Device Time": 0.63376,
+		"max": 0.297767,
+		"min": 0.17624,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 3370.0,
+		"Number of IO": 16,
+		"Size of IO": 39845888,
+		"Latency": 0.111057,
+		"Kernel Time": 0.4688,
+		"Driver Time": 0.48699,
+		"Device Time": 0.57669,
+		"max": 0.191791,
+		"min": 0.18612,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 3380.0,
+		"Number of IO": 18,
+		"Size of IO": 37981752,
+		"Latency": 0.129623,
+		"Kernel Time": 0.7362,
+		"Driver Time": 0.64341,
+		"Device Time": 0.57919,
+		"max": 0.357568,
+		"min": 0.19267,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 3390.0,
+		"Number of IO": 20,
+		"Size of IO": 37434163,
+		"Latency": 0.149571,
+		"Kernel Time": 0.5213,
+		"Driver Time": 0.28538,
+		"Device Time": 0.115819,
+		"max": 0.320605,
+		"min": 0.18474,
+		"var": 0.000000,
+		"std": 0.000114
+	}
+, 	{
+		"Window Time": 3400.0,
+		"Number of IO": 17,
+		"Size of IO": 41819678,
+		"Latency": 0.108463,
+		"Kernel Time": 0.4584,
+		"Driver Time": 0.53486,
+		"Device Time": 0.50391,
+		"max": 0.203762,
+		"min": 0.19569,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3410.0,
+		"Number of IO": 16,
+		"Size of IO": 36175872,
+		"Latency": 0.122200,
+		"Kernel Time": 0.6554,
+		"Driver Time": 0.61794,
+		"Device Time": 0.53852,
+		"max": 0.383023,
+		"min": 0.17489,
+		"var": 0.000000,
+		"std": 0.000091
+	}
+, 	{
+		"Window Time": 3420.0,
+		"Number of IO": 18,
+		"Size of IO": 36933176,
+		"Latency": 0.122569,
+		"Kernel Time": 0.5913,
+		"Driver Time": 0.50916,
+		"Device Time": 0.65739,
+		"max": 0.208923,
+		"min": 0.16752,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 3430.0,
+		"Number of IO": 18,
+		"Size of IO": 37166193,
+		"Latency": 0.107913,
+		"Kernel Time": 0.5579,
+		"Driver Time": 0.38112,
+		"Device Time": 0.64221,
+		"max": 0.233100,
+		"min": 0.17689,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 3440.0,
+		"Number of IO": 20,
+		"Size of IO": 44879052,
+		"Latency": 0.127216,
+		"Kernel Time": 0.6821,
+		"Driver Time": 0.50212,
+		"Device Time": 0.70181,
+		"max": 0.204611,
+		"min": 0.18350,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 3450.0,
+		"Number of IO": 14,
+		"Size of IO": 28311552,
+		"Latency": 0.114158,
+		"Kernel Time": 0.5165,
+		"Driver Time": 0.38597,
+		"Device Time": 0.70395,
+		"max": 0.244114,
+		"min": 0.17126,
+		"var": 0.000000,
+		"std": 0.000084
+	}
+, 	{
+		"Window Time": 3460.0,
+		"Number of IO": 22,
+		"Size of IO": 39655237,
+		"Latency": 0.107979,
+		"Kernel Time": 0.5719,
+		"Driver Time": 0.45178,
+		"Device Time": 0.57081,
+		"max": 0.183067,
+		"min": 0.18317,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 3470.0,
+		"Number of IO": 13,
+		"Size of IO": 29844086,
+		"Latency": 0.88452,
+		"Kernel Time": 0.5326,
+		"Driver Time": 0.18855,
+		"Device Time": 0.64270,
+		"max": 0.192998,
+		"min": 0.17174,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 3480.0,
+		"Number of IO": 18,
+		"Size of IO": 36001109,
+		"Latency": 0.90626,
+		"Kernel Time": 0.4483,
+		"Driver Time": 0.45109,
+		"Device Time": 0.41034,
+		"max": 0.181226,
+		"min": 0.17912,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 3490.0,
+		"Number of IO": 10,
+		"Size of IO": 37329305,
+		"Latency": 0.120385,
+		"Kernel Time": 0.9595,
+		"Driver Time": 0.49264,
+		"Device Time": 0.61525,
+		"max": 0.207785,
+		"min": 0.17689,
+		"var": 0.000000,
+		"std": 0.000072
+	}
+, 	{
+		"Window Time": 3500.0,
+		"Number of IO": 20,
+		"Size of IO": 39007027,
+		"Latency": 0.159017,
+		"Kernel Time": 0.5143,
+		"Driver Time": 0.32574,
+		"Device Time": 0.121299,
+		"max": 0.365455,
+		"min": 0.19135,
+		"var": 0.000000,
+		"std": 0.000119
+	}
+, 	{
+		"Window Time": 3510.0,
+		"Number of IO": 21,
+		"Size of IO": 38547651,
+		"Latency": 0.127608,
+		"Kernel Time": 0.5154,
+		"Driver Time": 0.33344,
+		"Device Time": 0.89109,
+		"max": 0.285030,
+		"min": 0.19088,
+		"var": 0.000000,
+		"std": 0.000083
+	}
+, 	{
+		"Window Time": 3520.0,
+		"Number of IO": 24,
+		"Size of IO": 39059456,
+		"Latency": 0.107682,
+		"Kernel Time": 0.6072,
+		"Driver Time": 0.41891,
+		"Device Time": 0.59718,
+		"max": 0.225518,
+		"min": 0.17099,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 3530.0,
+		"Number of IO": 15,
+		"Size of IO": 39146837,
+		"Latency": 0.115336,
+		"Kernel Time": 0.4819,
+		"Driver Time": 0.48201,
+		"Device Time": 0.62315,
+		"max": 0.210165,
+		"min": 0.17575,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3540.0,
+		"Number of IO": 11,
+		"Size of IO": 22687371,
+		"Latency": 0.79533,
+		"Kernel Time": 0.6881,
+		"Driver Time": 0.21432,
+		"Device Time": 0.51220,
+		"max": 0.177059,
+		"min": 0.18457,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3550.0,
+		"Number of IO": 15,
+		"Size of IO": 42362470,
+		"Latency": 0.113017,
+		"Kernel Time": 0.3850,
+		"Driver Time": 0.26334,
+		"Device Time": 0.82832,
+		"max": 0.214857,
+		"min": 0.18100,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 3560.0,
+		"Number of IO": 26,
+		"Size of IO": 44685469,
+		"Latency": 0.117783,
+		"Kernel Time": 0.3598,
+		"Driver Time": 0.49675,
+		"Device Time": 0.64508,
+		"max": 0.457728,
+		"min": 0.18019,
+		"var": 0.000000,
+		"std": 0.000086
+	}
+, 	{
+		"Window Time": 3570.0,
+		"Number of IO": 12,
+		"Size of IO": 26563925,
+		"Latency": 0.161120,
+		"Kernel Time": 0.9886,
+		"Driver Time": 0.102019,
+		"Device Time": 0.49215,
+		"max": 0.335690,
+		"min": 0.16963,
+		"var": 0.000000,
+		"std": 0.000129
+	}
+, 	{
+		"Window Time": 3580.0,
+		"Number of IO": 15,
+		"Size of IO": 48094685,
+		"Latency": 0.138860,
+		"Kernel Time": 0.6044,
+		"Driver Time": 0.63941,
+		"Device Time": 0.68875,
+		"max": 0.208515,
+		"min": 0.18083,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3590.0,
+		"Number of IO": 20,
+		"Size of IO": 51065651,
+		"Latency": 0.125441,
+		"Kernel Time": 0.4125,
+		"Driver Time": 0.45097,
+		"Device Time": 0.76218,
+		"max": 0.239867,
+		"min": 0.17918,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 3600.0,
+		"Number of IO": 18,
+		"Size of IO": 38331278,
+		"Latency": 0.117910,
+		"Kernel Time": 0.5820,
+		"Driver Time": 0.49084,
+		"Device Time": 0.63004,
+		"max": 0.196358,
+		"min": 0.17360,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3610.0,
+		"Number of IO": 16,
+		"Size of IO": 34340864,
+		"Latency": 0.92927,
+		"Kernel Time": 0.4376,
+		"Driver Time": 0.32314,
+		"Device Time": 0.56236,
+		"max": 0.163089,
+		"min": 0.16817,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 3620.0,
+		"Number of IO": 14,
+		"Size of IO": 38347922,
+		"Latency": 0.132731,
+		"Kernel Time": 0.9853,
+		"Driver Time": 0.56710,
+		"Device Time": 0.66168,
+		"max": 0.203992,
+		"min": 0.18899,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 3630.0,
+		"Number of IO": 18,
+		"Size of IO": 41710023,
+		"Latency": 0.118039,
+		"Kernel Time": 0.5504,
+		"Driver Time": 0.50316,
+		"Device Time": 0.62218,
+		"max": 0.213222,
+		"min": 0.19654,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 3640.0,
+		"Number of IO": 13,
+		"Size of IO": 38071374,
+		"Latency": 0.113756,
+		"Kernel Time": 0.6935,
+		"Driver Time": 0.45793,
+		"Device Time": 0.61027,
+		"max": 0.166141,
+		"min": 0.26266,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 3650.0,
+		"Number of IO": 9,
+		"Size of IO": 27495992,
+		"Latency": 0.95364,
+		"Kernel Time": 0.9029,
+		"Driver Time": 0.42330,
+		"Device Time": 0.44004,
+		"max": 0.156068,
+		"min": 0.21265,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 3660.0,
+		"Number of IO": 18,
+		"Size of IO": 48584021,
+		"Latency": 0.151951,
+		"Kernel Time": 0.9028,
+		"Driver Time": 0.65741,
+		"Device Time": 0.77181,
+		"max": 0.250207,
+		"min": 0.30454,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 3670.0,
+		"Number of IO": 12,
+		"Size of IO": 23243434,
+		"Latency": 0.84768,
+		"Kernel Time": 0.6683,
+		"Driver Time": 0.42882,
+		"Device Time": 0.35202,
+		"max": 0.236252,
+		"min": 0.17046,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 3680.0,
+		"Number of IO": 12,
+		"Size of IO": 41243989,
+		"Latency": 0.136860,
+		"Kernel Time": 0.9950,
+		"Driver Time": 0.62280,
+		"Device Time": 0.64629,
+		"max": 0.234578,
+		"min": 0.28414,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 3690.0,
+		"Number of IO": 20,
+		"Size of IO": 50226790,
+		"Latency": 0.123733,
+		"Kernel Time": 0.5324,
+		"Driver Time": 0.52457,
+		"Device Time": 0.65951,
+		"max": 0.186919,
+		"min": 0.17154,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 3700.0,
+		"Number of IO": 20,
+		"Size of IO": 34078720,
+		"Latency": 0.117170,
+		"Kernel Time": 0.8791,
+		"Driver Time": 0.61404,
+		"Device Time": 0.46975,
+		"max": 0.350315,
+		"min": 0.18296,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 3710.0,
+		"Number of IO": 14,
+		"Size of IO": 40145481,
+		"Latency": 0.110205,
+		"Kernel Time": 0.4341,
+		"Driver Time": 0.32446,
+		"Device Time": 0.73417,
+		"max": 0.184563,
+		"min": 0.18000,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 3720.0,
+		"Number of IO": 17,
+		"Size of IO": 32814260,
+		"Latency": 0.111154,
+		"Kernel Time": 0.8815,
+		"Driver Time": 0.42012,
+		"Device Time": 0.60326,
+		"max": 0.230618,
+		"min": 0.17968,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3730.0,
+		"Number of IO": 20,
+		"Size of IO": 34917580,
+		"Latency": 0.106588,
+		"Kernel Time": 0.7050,
+		"Driver Time": 0.48342,
+		"Device Time": 0.51194,
+		"max": 0.198629,
+		"min": 0.25574,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 3740.0,
+		"Number of IO": 21,
+		"Size of IO": 28061891,
+		"Latency": 0.142821,
+		"Kernel Time": 0.5783,
+		"Driver Time": 0.38432,
+		"Device Time": 0.98605,
+		"max": 0.273098,
+		"min": 0.26577,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 3750.0,
+		"Number of IO": 15,
+		"Size of IO": 42921710,
+		"Latency": 0.119600,
+		"Kernel Time": 0.5040,
+		"Driver Time": 0.51072,
+		"Device Time": 0.63488,
+		"max": 0.181338,
+		"min": 0.18476,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 3760.0,
+		"Number of IO": 13,
+		"Size of IO": 38716652,
+		"Latency": 0.115420,
+		"Kernel Time": 0.7250,
+		"Driver Time": 0.47351,
+		"Device Time": 0.60818,
+		"max": 0.194516,
+		"min": 0.19772,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3770.0,
+		"Number of IO": 15,
+		"Size of IO": 41523609,
+		"Latency": 0.160623,
+		"Kernel Time": 0.7848,
+		"Driver Time": 0.94158,
+		"Device Time": 0.58616,
+		"max": 0.305899,
+		"min": 0.17196,
+		"var": 0.000000,
+		"std": 0.000100
+	}
+, 	{
+		"Window Time": 3780.0,
+		"Number of IO": 16,
+		"Size of IO": 39190528,
+		"Latency": 0.137421,
+		"Kernel Time": 0.9623,
+		"Driver Time": 0.65183,
+		"Device Time": 0.62615,
+		"max": 0.299594,
+		"min": 0.26352,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 3790.0,
+		"Number of IO": 15,
+		"Size of IO": 40684748,
+		"Latency": 0.125020,
+		"Kernel Time": 0.5676,
+		"Driver Time": 0.29928,
+		"Device Time": 0.89415,
+		"max": 0.227898,
+		"min": 0.27309,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 3800.0,
+		"Number of IO": 15,
+		"Size of IO": 42642090,
+		"Latency": 0.119671,
+		"Kernel Time": 0.8322,
+		"Driver Time": 0.45627,
+		"Device Time": 0.65721,
+		"max": 0.171998,
+		"min": 0.28062,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 3810.0,
+		"Number of IO": 15,
+		"Size of IO": 43480951,
+		"Latency": 0.120048,
+		"Kernel Time": 0.8559,
+		"Driver Time": 0.48096,
+		"Device Time": 0.63392,
+		"max": 0.190786,
+		"min": 0.18465,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 3820.0,
+		"Number of IO": 16,
+		"Size of IO": 40894464,
+		"Latency": 0.137864,
+		"Kernel Time": 0.8253,
+		"Driver Time": 0.65222,
+		"Device Time": 0.64388,
+		"max": 0.292119,
+		"min": 0.28051,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 3830.0,
+		"Number of IO": 14,
+		"Size of IO": 41343853,
+		"Latency": 0.112676,
+		"Kernel Time": 0.6692,
+		"Driver Time": 0.47541,
+		"Device Time": 0.58442,
+		"max": 0.169888,
+		"min": 0.31303,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 3840.0,
+		"Number of IO": 15,
+		"Size of IO": 40684748,
+		"Latency": 0.138490,
+		"Kernel Time": 0.7565,
+		"Driver Time": 0.74935,
+		"Device Time": 0.55988,
+		"max": 0.268867,
+		"min": 0.27665,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 3850.0,
+		"Number of IO": 13,
+		"Size of IO": 41620401,
+		"Latency": 0.115281,
+		"Kernel Time": 0.8352,
+		"Driver Time": 0.43357,
+		"Device Time": 0.63572,
+		"max": 0.176918,
+		"min": 0.26955,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 3860.0,
+		"Number of IO": 13,
+		"Size of IO": 37103458,
+		"Latency": 0.125277,
+		"Kernel Time": 0.8754,
+		"Driver Time": 0.50923,
+		"Device Time": 0.65599,
+		"max": 0.208904,
+		"min": 0.29969,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 3870.0,
+		"Number of IO": 14,
+		"Size of IO": 38647515,
+		"Latency": 0.105968,
+		"Kernel Time": 0.5441,
+		"Driver Time": 0.43609,
+		"Device Time": 0.56917,
+		"max": 0.151652,
+		"min": 0.28346,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 3880.0,
+		"Number of IO": 13,
+		"Size of IO": 41620401,
+		"Latency": 0.110355,
+		"Kernel Time": 0.5397,
+		"Driver Time": 0.45781,
+		"Device Time": 0.59176,
+		"max": 0.186619,
+		"min": 0.19589,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 3890.0,
+		"Number of IO": 14,
+		"Size of IO": 36550363,
+		"Latency": 0.147304,
+		"Kernel Time": 0.9362,
+		"Driver Time": 0.47901,
+		"Device Time": 0.90040,
+		"max": 0.279279,
+		"min": 0.19838,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 3900.0,
+		"Number of IO": 17,
+		"Size of IO": 35651584,
+		"Latency": 0.102218,
+		"Kernel Time": 0.5385,
+		"Driver Time": 0.39647,
+		"Device Time": 0.57185,
+		"max": 0.151907,
+		"min": 0.20430,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 3910.0,
+		"Number of IO": 14,
+		"Size of IO": 39845888,
+		"Latency": 0.102356,
+		"Kernel Time": 0.4795,
+		"Driver Time": 0.47977,
+		"Device Time": 0.49582,
+		"max": 0.167946,
+		"min": 0.27909,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 3920.0,
+		"Number of IO": 15,
+		"Size of IO": 39286647,
+		"Latency": 0.180853,
+		"Kernel Time": 0.9875,
+		"Driver Time": 0.110398,
+		"Device Time": 0.60579,
+		"max": 0.354833,
+		"min": 0.28582,
+		"var": 0.000000,
+		"std": 0.000115
+	}
+, 	{
+		"Window Time": 3930.0,
+		"Number of IO": 15,
+		"Size of IO": 34533102,
+		"Latency": 0.108573,
+		"Kernel Time": 0.7746,
+		"Driver Time": 0.37111,
+		"Device Time": 0.63714,
+		"max": 0.189058,
+		"min": 0.27467,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 3940.0,
+		"Number of IO": 14,
+		"Size of IO": 38198125,
+		"Latency": 0.126402,
+		"Kernel Time": 0.7562,
+		"Driver Time": 0.54170,
+		"Device Time": 0.64670,
+		"max": 0.198345,
+		"min": 0.28805,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 3950.0,
+		"Number of IO": 15,
+		"Size of IO": 42362470,
+		"Latency": 0.114835,
+		"Kernel Time": 0.8140,
+		"Driver Time": 0.41764,
+		"Device Time": 0.64931,
+		"max": 0.164524,
+		"min": 0.28824,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 3960.0,
+		"Number of IO": 14,
+		"Size of IO": 39396498,
+		"Latency": 0.117851,
+		"Kernel Time": 0.6609,
+		"Driver Time": 0.56257,
+		"Device Time": 0.54985,
+		"max": 0.197091,
+		"min": 0.17712,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 3970.0,
+		"Number of IO": 20,
+		"Size of IO": 41418752,
+		"Latency": 0.107174,
+		"Kernel Time": 0.4697,
+		"Driver Time": 0.43245,
+		"Device Time": 0.59232,
+		"max": 0.166927,
+		"min": 0.17575,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 3980.0,
+		"Number of IO": 12,
+		"Size of IO": 36175872,
+		"Latency": 0.112425,
+		"Kernel Time": 0.6426,
+		"Driver Time": 0.45476,
+		"Device Time": 0.60523,
+		"max": 0.181776,
+		"min": 0.17840,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 3990.0,
+		"Number of IO": 14,
+		"Size of IO": 38347922,
+		"Latency": 0.128733,
+		"Kernel Time": 0.5106,
+		"Driver Time": 0.49916,
+		"Device Time": 0.73711,
+		"max": 0.208067,
+		"min": 0.27080,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 4000.0,
+		"Number of IO": 15,
+		"Size of IO": 42082850,
+		"Latency": 0.109780,
+		"Kernel Time": 0.4934,
+		"Driver Time": 0.33159,
+		"Device Time": 0.71686,
+		"max": 0.164896,
+		"min": 0.27084,
+		"var": 0.000000,
+		"std": 0.000042
+	}
+, 	{
+		"Window Time": 4010.0,
+		"Number of IO": 13,
+		"Size of IO": 35167625,
+		"Latency": 0.101889,
+		"Kernel Time": 0.5690,
+		"Driver Time": 0.29161,
+		"Device Time": 0.67036,
+		"max": 0.213794,
+		"min": 0.30080,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 4020.0,
+		"Number of IO": 25,
+		"Size of IO": 19881000,
+		"Latency": 0.72013,
+		"Kernel Time": 0.6533,
+		"Driver Time": 0.25219,
+		"Device Time": 0.40260,
+		"max": 0.197455,
+		"min": 0.19548,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 4030.0,
+		"Number of IO": 18,
+		"Size of IO": 37399210,
+		"Latency": 0.112917,
+		"Kernel Time": 0.5122,
+		"Driver Time": 0.51895,
+		"Device Time": 0.55899,
+		"max": 0.210422,
+		"min": 0.17862,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 4040.0,
+		"Number of IO": 14,
+		"Size of IO": 31756873,
+		"Latency": 0.102961,
+		"Kernel Time": 0.8038,
+		"Driver Time": 0.39519,
+		"Device Time": 0.55402,
+		"max": 0.231171,
+		"min": 0.17760,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 4050.0,
+		"Number of IO": 13,
+		"Size of IO": 23552630,
+		"Latency": 0.98956,
+		"Kernel Time": 0.3874,
+		"Driver Time": 0.44052,
+		"Device Time": 0.51028,
+		"max": 0.222880,
+		"min": 0.17627,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 4060.0,
+		"Number of IO": 17,
+		"Size of IO": 43053296,
+		"Latency": 0.106465,
+		"Kernel Time": 0.5158,
+		"Driver Time": 0.33977,
+		"Device Time": 0.67328,
+		"max": 0.226590,
+		"min": 0.17712,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4070.0,
+		"Number of IO": 17,
+		"Size of IO": 35774945,
+		"Latency": 0.111662,
+		"Kernel Time": 0.4233,
+		"Driver Time": 0.47792,
+		"Device Time": 0.59637,
+		"max": 0.207619,
+		"min": 0.18011,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 4080.0,
+		"Number of IO": 12,
+		"Size of IO": 24466773,
+		"Latency": 0.90683,
+		"Kernel Time": 0.6609,
+		"Driver Time": 0.41719,
+		"Device Time": 0.42354,
+		"max": 0.167654,
+		"min": 0.20904,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 4090.0,
+		"Number of IO": 15,
+		"Size of IO": 37888546,
+		"Latency": 0.92413,
+		"Kernel Time": 0.4761,
+		"Driver Time": 0.25937,
+		"Device Time": 0.61715,
+		"max": 0.139739,
+		"min": 0.18972,
+		"var": 0.000000,
+		"std": 0.000038
+	}
+, 	{
+		"Window Time": 4100.0,
+		"Number of IO": 19,
+		"Size of IO": 43267557,
+		"Latency": 0.136415,
+		"Kernel Time": 0.4896,
+		"Driver Time": 0.61834,
+		"Device Time": 0.69684,
+		"max": 0.215769,
+		"min": 0.17533,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 4110.0,
+		"Number of IO": 14,
+		"Size of IO": 18724571,
+		"Latency": 0.66925,
+		"Kernel Time": 0.5592,
+		"Driver Time": 0.26479,
+		"Device Time": 0.34853,
+		"max": 0.154045,
+		"min": 0.17133,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+, 	{
+		"Window Time": 4120.0,
+		"Number of IO": 19,
+		"Size of IO": 44592074,
+		"Latency": 0.110573,
+		"Kernel Time": 0.4597,
+		"Driver Time": 0.44805,
+		"Device Time": 0.61171,
+		"max": 0.170175,
+		"min": 0.17900,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 4130.0,
+		"Number of IO": 15,
+		"Size of IO": 28381457,
+		"Latency": 0.102626,
+		"Kernel Time": 0.8378,
+		"Driver Time": 0.41910,
+		"Device Time": 0.52337,
+		"max": 0.209950,
+		"min": 0.26582,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4140.0,
+		"Number of IO": 15,
+		"Size of IO": 33274811,
+		"Latency": 0.96230,
+		"Kernel Time": 0.5187,
+		"Driver Time": 0.35903,
+		"Device Time": 0.55139,
+		"max": 0.189574,
+		"min": 0.18715,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4150.0,
+		"Number of IO": 15,
+		"Size of IO": 34952533,
+		"Latency": 0.98961,
+		"Kernel Time": 0.5537,
+		"Driver Time": 0.39766,
+		"Device Time": 0.53657,
+		"max": 0.194088,
+		"min": 0.18107,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 4160.0,
+		"Number of IO": 18,
+		"Size of IO": 35069041,
+		"Latency": 0.106186,
+		"Kernel Time": 0.4594,
+		"Driver Time": 0.40829,
+		"Device Time": 0.60762,
+		"max": 0.188459,
+		"min": 0.19388,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 4170.0,
+		"Number of IO": 11,
+		"Size of IO": 18302417,
+		"Latency": 0.96091,
+		"Kernel Time": 0.7938,
+		"Driver Time": 0.41494,
+		"Device Time": 0.46658,
+		"max": 0.241615,
+		"min": 0.20385,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 4180.0,
+		"Number of IO": 13,
+		"Size of IO": 35328945,
+		"Latency": 0.98247,
+		"Kernel Time": 0.6584,
+		"Driver Time": 0.35797,
+		"Device Time": 0.55865,
+		"max": 0.163786,
+		"min": 0.25307,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 4190.0,
+		"Number of IO": 15,
+		"Size of IO": 29360128,
+		"Latency": 0.96021,
+		"Kernel Time": 0.8369,
+		"Driver Time": 0.41339,
+		"Device Time": 0.46312,
+		"max": 0.219661,
+		"min": 0.25780,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 4200.0,
+		"Number of IO": 18,
+		"Size of IO": 32156330,
+		"Latency": 0.118766,
+		"Kernel Time": 0.7751,
+		"Driver Time": 0.49785,
+		"Device Time": 0.61230,
+		"max": 0.241064,
+		"min": 0.27099,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 4210.0,
+		"Number of IO": 17,
+		"Size of IO": 34294603,
+		"Latency": 0.97056,
+		"Kernel Time": 0.5155,
+		"Driver Time": 0.38724,
+		"Device Time": 0.53177,
+		"max": 0.180704,
+		"min": 0.18907,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4220.0,
+		"Number of IO": 15,
+		"Size of IO": 37748736,
+		"Latency": 0.106637,
+		"Kernel Time": 0.4774,
+		"Driver Time": 0.47830,
+		"Device Time": 0.54033,
+		"max": 0.180073,
+		"min": 0.18684,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 4230.0,
+		"Number of IO": 13,
+		"Size of IO": 34522348,
+		"Latency": 0.96573,
+		"Kernel Time": 0.5741,
+		"Driver Time": 0.42657,
+		"Device Time": 0.48174,
+		"max": 0.232312,
+		"min": 0.17791,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 4240.0,
+		"Number of IO": 19,
+		"Size of IO": 26931846,
+		"Latency": 0.101436,
+		"Kernel Time": 0.6695,
+		"Driver Time": 0.41754,
+		"Device Time": 0.52986,
+		"max": 0.245060,
+		"min": 0.17386,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 4250.0,
+		"Number of IO": 15,
+		"Size of IO": 31317469,
+		"Latency": 0.103942,
+		"Kernel Time": 0.8235,
+		"Driver Time": 0.38421,
+		"Device Time": 0.57285,
+		"max": 0.169281,
+		"min": 0.26782,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 4260.0,
+		"Number of IO": 18,
+		"Size of IO": 25515349,
+		"Latency": 0.87480,
+		"Kernel Time": 0.7076,
+		"Driver Time": 0.33078,
+		"Device Time": 0.47325,
+		"max": 0.194311,
+		"min": 0.17608,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4270.0,
+		"Number of IO": 15,
+		"Size of IO": 31177659,
+		"Latency": 0.116702,
+		"Kernel Time": 0.8478,
+		"Driver Time": 0.47499,
+		"Device Time": 0.60723,
+		"max": 0.276915,
+		"min": 0.19197,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 4280.0,
+		"Number of IO": 19,
+		"Size of IO": 29691257,
+		"Latency": 0.112738,
+		"Kernel Time": 0.6046,
+		"Driver Time": 0.27470,
+		"Device Time": 0.79221,
+		"max": 0.251061,
+		"min": 0.17634,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 4290.0,
+		"Number of IO": 15,
+		"Size of IO": 31037849,
+		"Latency": 0.107903,
+		"Kernel Time": 0.6799,
+		"Driver Time": 0.46057,
+		"Device Time": 0.55046,
+		"max": 0.222841,
+		"min": 0.17652,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 4300.0,
+		"Number of IO": 15,
+		"Size of IO": 36210824,
+		"Latency": 0.118686,
+		"Kernel Time": 0.7056,
+		"Driver Time": 0.41100,
+		"Device Time": 0.70529,
+		"max": 0.254664,
+		"min": 0.27072,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 4310.0,
+		"Number of IO": 16,
+		"Size of IO": 38928384,
+		"Latency": 0.120535,
+		"Kernel Time": 0.6984,
+		"Driver Time": 0.62572,
+		"Device Time": 0.50979,
+		"max": 0.241816,
+		"min": 0.30856,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 4320.0,
+		"Number of IO": 15,
+		"Size of IO": 32435950,
+		"Latency": 0.108328,
+		"Kernel Time": 0.6370,
+		"Driver Time": 0.48984,
+		"Device Time": 0.52973,
+		"max": 0.217888,
+		"min": 0.18234,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 4330.0,
+		"Number of IO": 17,
+		"Size of IO": 33307708,
+		"Latency": 0.103568,
+		"Kernel Time": 0.6205,
+		"Driver Time": 0.32384,
+		"Device Time": 0.64978,
+		"max": 0.195685,
+		"min": 0.17856,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 4340.0,
+		"Number of IO": 26,
+		"Size of IO": 31699259,
+		"Latency": 0.110389,
+		"Kernel Time": 0.8465,
+		"Driver Time": 0.51648,
+		"Device Time": 0.50276,
+		"max": 0.288740,
+		"min": 0.17554,
+		"var": 0.000000,
+		"std": 0.000072
+	}
+, 	{
+		"Window Time": 4350.0,
+		"Number of IO": 16,
+		"Size of IO": 22020096,
+		"Latency": 0.96866,
+		"Kernel Time": 0.9288,
+		"Driver Time": 0.31560,
+		"Device Time": 0.56018,
+		"max": 0.172074,
+		"min": 0.26328,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 4360.0,
+		"Number of IO": 16,
+		"Size of IO": 36438016,
+		"Latency": 0.108380,
+		"Kernel Time": 0.4901,
+		"Driver Time": 0.47159,
+		"Device Time": 0.56319,
+		"max": 0.190897,
+		"min": 0.18048,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 4370.0,
+		"Number of IO": 15,
+		"Size of IO": 33414621,
+		"Latency": 0.99686,
+		"Kernel Time": 0.6345,
+		"Driver Time": 0.41804,
+		"Device Time": 0.51536,
+		"max": 0.171358,
+		"min": 0.20329,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 4380.0,
+		"Number of IO": 15,
+		"Size of IO": 32995191,
+		"Latency": 0.106568,
+		"Kernel Time": 0.6480,
+		"Driver Time": 0.43460,
+		"Device Time": 0.56627,
+		"max": 0.216822,
+		"min": 0.17561,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 4390.0,
+		"Number of IO": 15,
+		"Size of IO": 34253482,
+		"Latency": 0.97328,
+		"Kernel Time": 0.8128,
+		"Driver Time": 0.37929,
+		"Device Time": 0.51270,
+		"max": 0.162107,
+		"min": 0.27529,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 4400.0,
+		"Number of IO": 14,
+		"Size of IO": 31007890,
+		"Latency": 0.117264,
+		"Kernel Time": 0.9823,
+		"Driver Time": 0.31739,
+		"Device Time": 0.75701,
+		"max": 0.229887,
+		"min": 0.19840,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 4410.0,
+		"Number of IO": 16,
+		"Size of IO": 31588352,
+		"Latency": 0.101933,
+		"Kernel Time": 0.7711,
+		"Driver Time": 0.38419,
+		"Device Time": 0.55802,
+		"max": 0.168066,
+		"min": 0.30902,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 4420.0,
+		"Number of IO": 16,
+		"Size of IO": 34340864,
+		"Latency": 0.124755,
+		"Kernel Time": 0.8389,
+		"Driver Time": 0.54660,
+		"Device Time": 0.61705,
+		"max": 0.207509,
+		"min": 0.34839,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 4430.0,
+		"Number of IO": 15,
+		"Size of IO": 28521267,
+		"Latency": 0.95350,
+		"Kernel Time": 0.7978,
+		"Driver Time": 0.36993,
+		"Device Time": 0.50378,
+		"max": 0.233089,
+		"min": 0.18579,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 4440.0,
+		"Number of IO": 14,
+		"Size of IO": 31756873,
+		"Latency": 0.105757,
+		"Kernel Time": 0.5361,
+		"Driver Time": 0.37864,
+		"Device Time": 0.62531,
+		"max": 0.189982,
+		"min": 0.19036,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 4450.0,
+		"Number of IO": 12,
+		"Size of IO": 24292010,
+		"Latency": 0.84684,
+		"Kernel Time": 0.9456,
+		"Driver Time": 0.28610,
+		"Device Time": 0.46617,
+		"max": 0.177878,
+		"min": 0.19121,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 4460.0,
+		"Number of IO": 16,
+		"Size of IO": 32505856,
+		"Latency": 0.107016,
+		"Kernel Time": 0.7027,
+		"Driver Time": 0.36191,
+		"Device Time": 0.63796,
+		"max": 0.168407,
+		"min": 0.26329,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 4470.0,
+		"Number of IO": 15,
+		"Size of IO": 34393292,
+		"Latency": 0.92985,
+		"Kernel Time": 0.6856,
+		"Driver Time": 0.39541,
+		"Device Time": 0.46588,
+		"max": 0.162789,
+		"min": 0.18500,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 4480.0,
+		"Number of IO": 15,
+		"Size of IO": 34393292,
+		"Latency": 0.88621,
+		"Kernel Time": 0.5162,
+		"Driver Time": 0.35526,
+		"Device Time": 0.47933,
+		"max": 0.172315,
+		"min": 0.18319,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 4490.0,
+		"Number of IO": 15,
+		"Size of IO": 32296140,
+		"Latency": 0.106501,
+		"Kernel Time": 0.6905,
+		"Driver Time": 0.38129,
+		"Device Time": 0.61466,
+		"max": 0.190895,
+		"min": 0.18082,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 4500.0,
+		"Number of IO": 15,
+		"Size of IO": 26983355,
+		"Latency": 0.105556,
+		"Kernel Time": 0.8649,
+		"Driver Time": 0.45007,
+		"Device Time": 0.51899,
+		"max": 0.209355,
+		"min": 0.17316,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 4510.0,
+		"Number of IO": 16,
+		"Size of IO": 33030144,
+		"Latency": 0.97417,
+		"Kernel Time": 0.6584,
+		"Driver Time": 0.41618,
+		"Device Time": 0.49214,
+		"max": 0.173225,
+		"min": 0.17516,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 4520.0,
+		"Number of IO": 15,
+		"Size of IO": 29360128,
+		"Latency": 0.105455,
+		"Kernel Time": 0.4280,
+		"Driver Time": 0.45876,
+		"Device Time": 0.55298,
+		"max": 0.241285,
+		"min": 0.17595,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 4530.0,
+		"Number of IO": 18,
+		"Size of IO": 31340771,
+		"Latency": 0.85830,
+		"Kernel Time": 0.4610,
+		"Driver Time": 0.25466,
+		"Device Time": 0.55753,
+		"max": 0.148658,
+		"min": 0.17625,
+		"var": 0.000000,
+		"std": 0.000042
+	}
+, 	{
+		"Window Time": 4540.0,
+		"Number of IO": 15,
+		"Size of IO": 35371963,
+		"Latency": 0.96377,
+		"Kernel Time": 0.4767,
+		"Driver Time": 0.42361,
+		"Device Time": 0.49248,
+		"max": 0.179306,
+		"min": 0.18743,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4550.0,
+		"Number of IO": 16,
+		"Size of IO": 36306944,
+		"Latency": 0.99348,
+		"Kernel Time": 0.6921,
+		"Driver Time": 0.37233,
+		"Device Time": 0.55193,
+		"max": 0.203536,
+		"min": 0.18485,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 4560.0,
+		"Number of IO": 14,
+		"Size of IO": 31457280,
+		"Latency": 0.93171,
+		"Kernel Time": 0.6900,
+		"Driver Time": 0.34215,
+		"Device Time": 0.52054,
+		"max": 0.163451,
+		"min": 0.26565,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4570.0,
+		"Number of IO": 14,
+		"Size of IO": 35351990,
+		"Latency": 0.96436,
+		"Kernel Time": 0.8207,
+		"Driver Time": 0.34891,
+		"Device Time": 0.53337,
+		"max": 0.168272,
+		"min": 0.18194,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4580.0,
+		"Number of IO": 15,
+		"Size of IO": 33414621,
+		"Latency": 0.97551,
+		"Kernel Time": 0.7309,
+		"Driver Time": 0.40226,
+		"Device Time": 0.50016,
+		"max": 0.188270,
+		"min": 0.19013,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 4590.0,
+		"Number of IO": 16,
+		"Size of IO": 29229056,
+		"Latency": 0.99575,
+		"Kernel Time": 0.5226,
+		"Driver Time": 0.33830,
+		"Device Time": 0.60518,
+		"max": 0.206402,
+		"min": 0.18091,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 4600.0,
+		"Number of IO": 17,
+		"Size of IO": 29730213,
+		"Latency": 0.89587,
+		"Kernel Time": 0.5439,
+		"Driver Time": 0.36473,
+		"Device Time": 0.47675,
+		"max": 0.194622,
+		"min": 0.18434,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4610.0,
+		"Number of IO": 17,
+		"Size of IO": 27262976,
+		"Latency": 0.96420,
+		"Kernel Time": 0.5582,
+		"Driver Time": 0.37045,
+		"Device Time": 0.53792,
+		"max": 0.228297,
+		"min": 0.18736,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 4620.0,
+		"Number of IO": 15,
+		"Size of IO": 28241646,
+		"Latency": 0.110886,
+		"Kernel Time": 0.11190,
+		"Driver Time": 0.49299,
+		"Device Time": 0.50396,
+		"max": 0.226415,
+		"min": 0.26481,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 4630.0,
+		"Number of IO": 12,
+		"Size of IO": 34428245,
+		"Latency": 0.102479,
+		"Kernel Time": 0.9179,
+		"Driver Time": 0.46225,
+		"Device Time": 0.47074,
+		"max": 0.202331,
+		"min": 0.27009,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 4640.0,
+		"Number of IO": 13,
+		"Size of IO": 37587416,
+		"Latency": 0.94559,
+		"Kernel Time": 0.6335,
+		"Driver Time": 0.25501,
+		"Device Time": 0.62722,
+		"max": 0.184877,
+		"min": 0.19766,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 4650.0,
+		"Number of IO": 14,
+		"Size of IO": 29659721,
+		"Latency": 0.85173,
+		"Kernel Time": 0.6738,
+		"Driver Time": 0.29587,
+		"Device Time": 0.48846,
+		"max": 0.134972,
+		"min": 0.17440,
+		"var": 0.000000,
+		"std": 0.000037
+	}
+, 	{
+		"Window Time": 4660.0,
+		"Number of IO": 13,
+		"Size of IO": 37426097,
+		"Latency": 0.113471,
+		"Kernel Time": 0.5463,
+		"Driver Time": 0.22797,
+		"Device Time": 0.85210,
+		"max": 0.277986,
+		"min": 0.18699,
+		"var": 0.000000,
+		"std": 0.000082
+	}
+, 	{
+		"Window Time": 4670.0,
+		"Number of IO": 18,
+		"Size of IO": 29243619,
+		"Latency": 0.84432,
+		"Kernel Time": 0.5137,
+		"Driver Time": 0.34448,
+		"Device Time": 0.44846,
+		"max": 0.151681,
+		"min": 0.18204,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 4680.0,
+		"Number of IO": 16,
+		"Size of IO": 30146560,
+		"Latency": 0.115835,
+		"Kernel Time": 0.7527,
+		"Driver Time": 0.55000,
+		"Device Time": 0.53308,
+		"max": 0.287400,
+		"min": 0.26337,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 4690.0,
+		"Number of IO": 15,
+		"Size of IO": 21530760,
+		"Latency": 0.68985,
+		"Kernel Time": 0.6661,
+		"Driver Time": 0.20053,
+		"Device Time": 0.42270,
+		"max": 0.172048,
+		"min": 0.18354,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4700.0,
+		"Number of IO": 19,
+		"Size of IO": 22296037,
+		"Latency": 0.78532,
+		"Kernel Time": 0.7066,
+		"Driver Time": 0.31391,
+		"Device Time": 0.40073,
+		"max": 0.151791,
+		"min": 0.31428,
+		"var": 0.000000,
+		"std": 0.000037
+	}
+, 	{
+		"Window Time": 4710.0,
+		"Number of IO": 14,
+		"Size of IO": 28461348,
+		"Latency": 0.93738,
+		"Kernel Time": 0.7702,
+		"Driver Time": 0.29464,
+		"Device Time": 0.56570,
+		"max": 0.170582,
+		"min": 0.18172,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4720.0,
+		"Number of IO": 12,
+		"Size of IO": 33554432,
+		"Latency": 0.113517,
+		"Kernel Time": 0.6277,
+		"Driver Time": 0.47541,
+		"Device Time": 0.59698,
+		"max": 0.213765,
+		"min": 0.17141,
+		"var": 0.000000,
+		"std": 0.000076
+	}
+, 	{
+		"Window Time": 4730.0,
+		"Number of IO": 15,
+		"Size of IO": 29080507,
+		"Latency": 0.83673,
+		"Kernel Time": 0.5746,
+		"Driver Time": 0.29237,
+		"Device Time": 0.48689,
+		"max": 0.151466,
+		"min": 0.17413,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 4740.0,
+		"Number of IO": 13,
+		"Size of IO": 30973321,
+		"Latency": 0.82126,
+		"Kernel Time": 0.5394,
+		"Driver Time": 0.31355,
+		"Device Time": 0.45376,
+		"max": 0.195752,
+		"min": 0.18016,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4750.0,
+		"Number of IO": 17,
+		"Size of IO": 33184346,
+		"Latency": 0.91764,
+		"Kernel Time": 0.7822,
+		"Driver Time": 0.37202,
+		"Device Time": 0.46739,
+		"max": 0.222656,
+		"min": 0.16916,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4760.0,
+		"Number of IO": 15,
+		"Size of IO": 28521267,
+		"Latency": 0.93111,
+		"Kernel Time": 0.4466,
+		"Driver Time": 0.29532,
+		"Device Time": 0.59111,
+		"max": 0.197647,
+		"min": 0.18411,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 4770.0,
+		"Number of IO": 16,
+		"Size of IO": 31326208,
+		"Latency": 0.84792,
+		"Kernel Time": 0.4928,
+		"Driver Time": 0.32155,
+		"Device Time": 0.47708,
+		"max": 0.175342,
+		"min": 0.17546,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4780.0,
+		"Number of IO": 16,
+		"Size of IO": 32112640,
+		"Latency": 0.79201,
+		"Kernel Time": 0.4598,
+		"Driver Time": 0.22371,
+		"Device Time": 0.52232,
+		"max": 0.147567,
+		"min": 0.17761,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 4790.0,
+		"Number of IO": 13,
+		"Size of IO": 30328044,
+		"Latency": 0.106825,
+		"Kernel Time": 0.6380,
+		"Driver Time": 0.47214,
+		"Device Time": 0.53230,
+		"max": 0.240692,
+		"min": 0.17860,
+		"var": 0.000000,
+		"std": 0.000078
+	}
+, 	{
+		"Window Time": 4800.0,
+		"Number of IO": 15,
+		"Size of IO": 34952533,
+		"Latency": 0.97782,
+		"Kernel Time": 0.7316,
+		"Driver Time": 0.40902,
+		"Device Time": 0.49564,
+		"max": 0.181784,
+		"min": 0.19172,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 4810.0,
+		"Number of IO": 13,
+		"Size of IO": 26940337,
+		"Latency": 0.87319,
+		"Kernel Time": 0.5891,
+		"Driver Time": 0.29935,
+		"Device Time": 0.51492,
+		"max": 0.154366,
+		"min": 0.20674,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 4820.0,
+		"Number of IO": 16,
+		"Size of IO": 24510464,
+		"Latency": 0.88127,
+		"Kernel Time": 0.8901,
+		"Driver Time": 0.34909,
+		"Device Time": 0.44316,
+		"max": 0.154742,
+		"min": 0.19364,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 4830.0,
+		"Number of IO": 23,
+		"Size of IO": 23524574,
+		"Latency": 0.98227,
+		"Kernel Time": 0.8796,
+		"Driver Time": 0.44945,
+		"Device Time": 0.44484,
+		"max": 0.289952,
+		"min": 0.17790,
+		"var": 0.000000,
+		"std": 0.000074
+	}
+, 	{
+		"Window Time": 4840.0,
+		"Number of IO": 16,
+		"Size of IO": 30277632,
+		"Latency": 0.105301,
+		"Kernel Time": 0.10756,
+		"Driver Time": 0.38156,
+		"Device Time": 0.56389,
+		"max": 0.235637,
+		"min": 0.26055,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 4850.0,
+		"Number of IO": 15,
+		"Size of IO": 29639748,
+		"Latency": 0.94796,
+		"Kernel Time": 0.7607,
+		"Driver Time": 0.41304,
+		"Device Time": 0.45885,
+		"max": 0.203226,
+		"min": 0.17839,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 4860.0,
+		"Number of IO": 16,
+		"Size of IO": 35127296,
+		"Latency": 0.103186,
+		"Kernel Time": 0.3950,
+		"Driver Time": 0.41897,
+		"Device Time": 0.57339,
+		"max": 0.189010,
+		"min": 0.17790,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 4870.0,
+		"Number of IO": 11,
+		"Size of IO": 28978827,
+		"Latency": 0.100837,
+		"Kernel Time": 0.8844,
+		"Driver Time": 0.35531,
+		"Device Time": 0.56461,
+		"max": 0.183006,
+		"min": 0.20207,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 4880.0,
+		"Number of IO": 13,
+		"Size of IO": 33393112,
+		"Latency": 0.103989,
+		"Kernel Time": 0.8321,
+		"Driver Time": 0.48136,
+		"Device Time": 0.47531,
+		"max": 0.224836,
+		"min": 0.17203,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 4890.0,
+		"Number of IO": 15,
+		"Size of IO": 32715571,
+		"Latency": 0.100499,
+		"Kernel Time": 0.8084,
+		"Driver Time": 0.39627,
+		"Device Time": 0.52787,
+		"max": 0.199008,
+		"min": 0.19041,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 4900.0,
+		"Number of IO": 14,
+		"Size of IO": 26064603,
+		"Latency": 0.105026,
+		"Kernel Time": 0.10908,
+		"Driver Time": 0.34153,
+		"Device Time": 0.59965,
+		"max": 0.164472,
+		"min": 0.26570,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 4910.0,
+		"Number of IO": 10,
+		"Size of IO": 23278387,
+		"Latency": 0.85121,
+		"Kernel Time": 0.11224,
+		"Driver Time": 0.29489,
+		"Device Time": 0.44406,
+		"max": 0.168153,
+		"min": 0.26779,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 4920.0,
+		"Number of IO": 17,
+		"Size of IO": 27139614,
+		"Latency": 0.88165,
+		"Kernel Time": 0.7231,
+		"Driver Time": 0.34943,
+		"Device Time": 0.45990,
+		"max": 0.191122,
+		"min": 0.26397,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 4930.0,
+		"Number of IO": 14,
+		"Size of IO": 25765010,
+		"Latency": 0.89988,
+		"Kernel Time": 0.6549,
+		"Driver Time": 0.32551,
+		"Device Time": 0.50888,
+		"max": 0.226400,
+		"min": 0.17524,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 4940.0,
+		"Number of IO": 13,
+		"Size of IO": 36458180,
+		"Latency": 0.97709,
+		"Kernel Time": 0.4993,
+		"Driver Time": 0.39764,
+		"Device Time": 0.52951,
+		"max": 0.189758,
+		"min": 0.17156,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 4950.0,
+		"Number of IO": 16,
+		"Size of IO": 33554432,
+		"Latency": 0.96299,
+		"Kernel Time": 0.6687,
+		"Driver Time": 0.39708,
+		"Device Time": 0.49902,
+		"max": 0.194700,
+		"min": 0.26064,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 4960.0,
+		"Number of IO": 16,
+		"Size of IO": 29753344,
+		"Latency": 0.109653,
+		"Kernel Time": 0.7668,
+		"Driver Time": 0.42152,
+		"Device Time": 0.59832,
+		"max": 0.189879,
+		"min": 0.26277,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4970.0,
+		"Number of IO": 15,
+		"Size of IO": 28381457,
+		"Latency": 0.89644,
+		"Kernel Time": 0.7151,
+		"Driver Time": 0.33616,
+		"Device Time": 0.48876,
+		"max": 0.193665,
+		"min": 0.17239,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 4980.0,
+		"Number of IO": 10,
+		"Size of IO": 28311552,
+		"Latency": 0.89258,
+		"Kernel Time": 0.9359,
+		"Driver Time": 0.34046,
+		"Device Time": 0.45851,
+		"max": 0.166942,
+		"min": 0.25869,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 4990.0,
+		"Number of IO": 13,
+		"Size of IO": 37587416,
+		"Latency": 0.106580,
+		"Kernel Time": 0.5067,
+		"Driver Time": 0.44132,
+		"Device Time": 0.57380,
+		"max": 0.204216,
+		"min": 0.17834,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 5000.0,
+		"Number of IO": 14,
+		"Size of IO": 19623350,
+		"Latency": 0.96127,
+		"Kernel Time": 0.8204,
+		"Driver Time": 0.42846,
+		"Device Time": 0.45075,
+		"max": 0.306941,
+		"min": 0.26086,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 5010.0,
+		"Number of IO": 13,
+		"Size of IO": 29682766,
+		"Latency": 0.81860,
+		"Kernel Time": 0.5383,
+		"Driver Time": 0.20236,
+		"Device Time": 0.56240,
+		"max": 0.147771,
+		"min": 0.18956,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 5020.0,
+		"Number of IO": 15,
+		"Size of IO": 27822216,
+		"Latency": 0.96029,
+		"Kernel Time": 0.9168,
+		"Driver Time": 0.39850,
+		"Device Time": 0.47011,
+		"max": 0.207632,
+		"min": 0.26100,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 5030.0,
+		"Number of IO": 16,
+		"Size of IO": 31719424,
+		"Latency": 0.111915,
+		"Kernel Time": 0.8837,
+		"Driver Time": 0.44655,
+		"Device Time": 0.58422,
+		"max": 0.212986,
+		"min": 0.27128,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 5040.0,
+		"Number of IO": 14,
+		"Size of IO": 23218468,
+		"Latency": 0.83842,
+		"Kernel Time": 0.7189,
+		"Driver Time": 0.32800,
+		"Device Time": 0.43852,
+		"max": 0.165494,
+		"min": 0.21348,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 5050.0,
+		"Number of IO": 15,
+		"Size of IO": 29779558,
+		"Latency": 0.116465,
+		"Kernel Time": 0.5985,
+		"Driver Time": 0.53646,
+		"Device Time": 0.56834,
+		"max": 0.244970,
+		"min": 0.17329,
+		"var": 0.000000,
+		"std": 0.000079
+	}
+, 	{
+		"Window Time": 5060.0,
+		"Number of IO": 14,
+		"Size of IO": 27562569,
+		"Latency": 0.94417,
+		"Kernel Time": 0.7405,
+		"Driver Time": 0.39350,
+		"Device Time": 0.47661,
+		"max": 0.212536,
+		"min": 0.17007,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 5070.0,
+		"Number of IO": 21,
+		"Size of IO": 25165824,
+		"Latency": 0.92705,
+		"Kernel Time": 0.8515,
+		"Driver Time": 0.37296,
+		"Device Time": 0.46893,
+		"max": 0.238630,
+		"min": 0.26882,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 5080.0,
+		"Number of IO": 20,
+		"Size of IO": 22858956,
+		"Latency": 0.80633,
+		"Kernel Time": 0.6288,
+		"Driver Time": 0.30792,
+		"Device Time": 0.43552,
+		"max": 0.186057,
+		"min": 0.17709,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 5090.0,
+		"Number of IO": 12,
+		"Size of IO": 32156330,
+		"Latency": 0.124205,
+		"Kernel Time": 0.8702,
+		"Driver Time": 0.67013,
+		"Device Time": 0.48489,
+		"max": 0.268896,
+		"min": 0.26750,
+		"var": 0.000000,
+		"std": 0.000095
+	}
+, 	{
+		"Window Time": 5100.0,
+		"Number of IO": 13,
+		"Size of IO": 27262976,
+		"Latency": 0.102700,
+		"Kernel Time": 0.8345,
+		"Driver Time": 0.33285,
+		"Device Time": 0.61069,
+		"max": 0.178334,
+		"min": 0.27817,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 5110.0,
+		"Number of IO": 13,
+		"Size of IO": 28069572,
+		"Latency": 0.87789,
+		"Kernel Time": 0.6723,
+		"Driver Time": 0.32002,
+		"Device Time": 0.49064,
+		"max": 0.182745,
+		"min": 0.17668,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 5120.0,
+		"Number of IO": 15,
+		"Size of IO": 31037849,
+		"Latency": 0.102100,
+		"Kernel Time": 0.8131,
+		"Driver Time": 0.26288,
+		"Device Time": 0.67680,
+		"max": 0.204633,
+		"min": 0.26903,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 5130.0,
+		"Number of IO": 13,
+		"Size of IO": 27908253,
+		"Latency": 0.107779,
+		"Kernel Time": 0.5774,
+		"Driver Time": 0.38162,
+		"Device Time": 0.63842,
+		"max": 0.228962,
+		"min": 0.17768,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 5140.0,
+		"Number of IO": 16,
+		"Size of IO": 30539776,
+		"Latency": 0.98455,
+		"Kernel Time": 0.5787,
+		"Driver Time": 0.34906,
+		"Device Time": 0.57761,
+		"max": 0.206362,
+		"min": 0.27902,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5150.0,
+		"Number of IO": 13,
+		"Size of IO": 26779017,
+		"Latency": 0.129952,
+		"Kernel Time": 0.8943,
+		"Driver Time": 0.69416,
+		"Device Time": 0.51593,
+		"max": 0.296936,
+		"min": 0.27238,
+		"var": 0.000000,
+		"std": 0.000106
+	}
+, 	{
+		"Window Time": 5160.0,
+		"Number of IO": 16,
+		"Size of IO": 23592960,
+		"Latency": 0.97551,
+		"Kernel Time": 0.6084,
+		"Driver Time": 0.32432,
+		"Device Time": 0.59034,
+		"max": 0.171079,
+		"min": 0.26825,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 5170.0,
+		"Number of IO": 18,
+		"Size of IO": 29942670,
+		"Latency": 0.106156,
+		"Kernel Time": 0.4457,
+		"Driver Time": 0.32965,
+		"Device Time": 0.68733,
+		"max": 0.184438,
+		"min": 0.18046,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 5180.0,
+		"Number of IO": 15,
+		"Size of IO": 28241646,
+		"Latency": 0.84914,
+		"Kernel Time": 0.7333,
+		"Driver Time": 0.32029,
+		"Device Time": 0.45551,
+		"max": 0.170643,
+		"min": 0.17790,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5190.0,
+		"Number of IO": 12,
+		"Size of IO": 32680618,
+		"Latency": 0.106145,
+		"Kernel Time": 0.5551,
+		"Driver Time": 0.41737,
+		"Device Time": 0.58856,
+		"max": 0.209092,
+		"min": 0.17667,
+		"var": 0.000000,
+		"std": 0.000069
+	}
+, 	{
+		"Window Time": 5200.0,
+		"Number of IO": 12,
+		"Size of IO": 35127296,
+		"Latency": 0.99943,
+		"Kernel Time": 0.6476,
+		"Driver Time": 0.47183,
+		"Device Time": 0.46283,
+		"max": 0.181466,
+		"min": 0.17995,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 5210.0,
+		"Number of IO": 14,
+		"Size of IO": 26663789,
+		"Latency": 0.100265,
+		"Kernel Time": 0.6792,
+		"Driver Time": 0.36832,
+		"Device Time": 0.56641,
+		"max": 0.192631,
+		"min": 0.19210,
+		"var": 0.000000,
+		"std": 0.000065
+	}
+, 	{
+		"Window Time": 5220.0,
+		"Number of IO": 14,
+		"Size of IO": 35351990,
+		"Latency": 0.106169,
+		"Kernel Time": 0.4914,
+		"Driver Time": 0.45962,
+		"Device Time": 0.55292,
+		"max": 0.180365,
+		"min": 0.17509,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 5230.0,
+		"Number of IO": 11,
+		"Size of IO": 32601181,
+		"Latency": 0.98838,
+		"Kernel Time": 0.9991,
+		"Driver Time": 0.43147,
+		"Device Time": 0.45699,
+		"max": 0.187482,
+		"min": 0.17871,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 5240.0,
+		"Number of IO": 11,
+		"Size of IO": 26691025,
+		"Latency": 0.92324,
+		"Kernel Time": 0.9523,
+		"Driver Time": 0.35798,
+		"Device Time": 0.47002,
+		"max": 0.193885,
+		"min": 0.26890,
+		"var": 0.000000,
+		"std": 0.000067
+	}
+, 	{
+		"Window Time": 5250.0,
+		"Number of IO": 18,
+		"Size of IO": 23418197,
+		"Latency": 0.82534,
+		"Kernel Time": 0.7232,
+		"Driver Time": 0.29563,
+		"Device Time": 0.45738,
+		"max": 0.181198,
+		"min": 0.18177,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 5260.0,
+		"Number of IO": 10,
+		"Size of IO": 23278387,
+		"Latency": 0.87987,
+		"Kernel Time": 0.6621,
+		"Driver Time": 0.29585,
+		"Device Time": 0.51780,
+		"max": 0.180864,
+		"min": 0.19386,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 5270.0,
+		"Number of IO": 15,
+		"Size of IO": 24047342,
+		"Latency": 0.88943,
+		"Kernel Time": 0.9386,
+		"Driver Time": 0.37550,
+		"Device Time": 0.42005,
+		"max": 0.185397,
+		"min": 0.16753,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 5280.0,
+		"Number of IO": 15,
+		"Size of IO": 28381457,
+		"Latency": 0.86009,
+		"Kernel Time": 0.7533,
+		"Driver Time": 0.33569,
+		"Device Time": 0.44906,
+		"max": 0.155068,
+		"min": 0.26653,
+		"var": 0.000000,
+		"std": 0.000038
+	}
+, 	{
+		"Window Time": 5290.0,
+		"Number of IO": 12,
+		"Size of IO": 27088213,
+		"Latency": 0.94009,
+		"Kernel Time": 0.8662,
+		"Driver Time": 0.37765,
+		"Device Time": 0.47581,
+		"max": 0.183280,
+		"min": 0.27008,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 5300.0,
+		"Number of IO": 14,
+		"Size of IO": 26513993,
+		"Latency": 0.91901,
+		"Kernel Time": 0.7059,
+		"Driver Time": 0.33599,
+		"Device Time": 0.51242,
+		"max": 0.161200,
+		"min": 0.17552,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 5310.0,
+		"Number of IO": 14,
+		"Size of IO": 24117248,
+		"Latency": 0.90042,
+		"Kernel Time": 0.8381,
+		"Driver Time": 0.32466,
+		"Device Time": 0.49194,
+		"max": 0.154573,
+		"min": 0.27950,
+		"var": 0.000000,
+		"std": 0.000042
+	}
+, 	{
+		"Window Time": 5320.0,
+		"Number of IO": 9,
+		"Size of IO": 23301688,
+		"Latency": 0.83981,
+		"Kernel Time": 0.8809,
+		"Driver Time": 0.32082,
+		"Device Time": 0.43089,
+		"max": 0.173262,
+		"min": 0.19169,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 5330.0,
+		"Number of IO": 16,
+		"Size of IO": 26738688,
+		"Latency": 0.94617,
+		"Kernel Time": 0.6479,
+		"Driver Time": 0.36549,
+		"Device Time": 0.51588,
+		"max": 0.199862,
+		"min": 0.19139,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5340.0,
+		"Number of IO": 9,
+		"Size of IO": 21437553,
+		"Latency": 0.81687,
+		"Kernel Time": 0.8395,
+		"Driver Time": 0.31016,
+		"Device Time": 0.42275,
+		"max": 0.177444,
+		"min": 0.31452,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 5350.0,
+		"Number of IO": 10,
+		"Size of IO": 28940697,
+		"Latency": 0.99446,
+		"Kernel Time": 0.11849,
+		"Driver Time": 0.38769,
+		"Device Time": 0.48827,
+		"max": 0.204183,
+		"min": 0.26664,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 5360.0,
+		"Number of IO": 16,
+		"Size of IO": 25821184,
+		"Latency": 0.93126,
+		"Kernel Time": 0.9150,
+		"Driver Time": 0.39214,
+		"Device Time": 0.44761,
+		"max": 0.213746,
+		"min": 0.26872,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 5370.0,
+		"Number of IO": 15,
+		"Size of IO": 26004684,
+		"Latency": 0.114642,
+		"Kernel Time": 0.9856,
+		"Driver Time": 0.50602,
+		"Device Time": 0.54183,
+		"max": 0.304928,
+		"min": 0.26796,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 5380.0,
+		"Number of IO": 13,
+		"Size of IO": 22584713,
+		"Latency": 0.85991,
+		"Kernel Time": 0.8835,
+		"Driver Time": 0.29049,
+		"Device Time": 0.48105,
+		"max": 0.155219,
+		"min": 0.29569,
+		"var": 0.000000,
+		"std": 0.000039
+	}
+, 	{
+		"Window Time": 5390.0,
+		"Number of IO": 14,
+		"Size of IO": 28611145,
+		"Latency": 0.88747,
+		"Kernel Time": 0.7383,
+		"Driver Time": 0.32599,
+		"Device Time": 0.48764,
+		"max": 0.165862,
+		"min": 0.26158,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5400.0,
+		"Number of IO": 15,
+		"Size of IO": 27262976,
+		"Latency": 0.94960,
+		"Kernel Time": 0.6586,
+		"Driver Time": 0.37208,
+		"Device Time": 0.51164,
+		"max": 0.171403,
+		"min": 0.26917,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 5410.0,
+		"Number of IO": 13,
+		"Size of IO": 27262976,
+		"Latency": 0.116366,
+		"Kernel Time": 0.9569,
+		"Driver Time": 0.63815,
+		"Device Time": 0.42981,
+		"max": 0.307918,
+		"min": 0.18169,
+		"var": 0.000000,
+		"std": 0.000089
+	}
+, 	{
+		"Window Time": 5420.0,
+		"Number of IO": 13,
+		"Size of IO": 25165824,
+		"Latency": 0.118351,
+		"Kernel Time": 0.9337,
+		"Driver Time": 0.66751,
+		"Device Time": 0.42263,
+		"max": 0.458766,
+		"min": 0.28042,
+		"var": 0.000000,
+		"std": 0.000109
+	}
+, 	{
+		"Window Time": 5430.0,
+		"Number of IO": 15,
+		"Size of IO": 32016520,
+		"Latency": 0.112475,
+		"Kernel Time": 0.7197,
+		"Driver Time": 0.46723,
+		"Device Time": 0.58554,
+		"max": 0.237133,
+		"min": 0.18359,
+		"var": 0.000000,
+		"std": 0.000072
+	}
+, 	{
+		"Window Time": 5440.0,
+		"Number of IO": 15,
+		"Size of IO": 19992849,
+		"Latency": 0.82791,
+		"Kernel Time": 0.7344,
+		"Driver Time": 0.30067,
+		"Device Time": 0.45379,
+		"max": 0.175241,
+		"min": 0.26641,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5450.0,
+		"Number of IO": 13,
+		"Size of IO": 33877070,
+		"Latency": 0.114563,
+		"Kernel Time": 0.7330,
+		"Driver Time": 0.53675,
+		"Device Time": 0.53557,
+		"max": 0.200696,
+		"min": 0.26097,
+		"var": 0.000000,
+		"std": 0.000071
+	}
+, 	{
+		"Window Time": 5460.0,
+		"Number of IO": 9,
+		"Size of IO": 24000739,
+		"Latency": 0.85918,
+		"Kernel Time": 0.12138,
+		"Driver Time": 0.28956,
+		"Device Time": 0.44823,
+		"max": 0.174391,
+		"min": 0.27017,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 5470.0,
+		"Number of IO": 14,
+		"Size of IO": 34303414,
+		"Latency": 0.104143,
+		"Kernel Time": 0.7815,
+		"Driver Time": 0.39873,
+		"Device Time": 0.56455,
+		"max": 0.179541,
+		"min": 0.27883,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 5480.0,
+		"Number of IO": 15,
+		"Size of IO": 24466773,
+		"Latency": 0.89820,
+		"Kernel Time": 0.9598,
+		"Driver Time": 0.32657,
+		"Device Time": 0.47564,
+		"max": 0.165100,
+		"min": 0.27097,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 5490.0,
+		"Number of IO": 15,
+		"Size of IO": 24466773,
+		"Latency": 0.82305,
+		"Kernel Time": 0.7165,
+		"Driver Time": 0.28565,
+		"Device Time": 0.46575,
+		"max": 0.160072,
+		"min": 0.27400,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 5500.0,
+		"Number of IO": 10,
+		"Size of IO": 24117248,
+		"Latency": 0.86597,
+		"Kernel Time": 0.8828,
+		"Driver Time": 0.29946,
+		"Device Time": 0.47822,
+		"max": 0.174970,
+		"min": 0.26882,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 5510.0,
+		"Number of IO": 11,
+		"Size of IO": 30122728,
+		"Latency": 0.80678,
+		"Kernel Time": 0.5732,
+		"Driver Time": 0.32130,
+		"Device Time": 0.42815,
+		"max": 0.151381,
+		"min": 0.17942,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 5520.0,
+		"Number of IO": 14,
+		"Size of IO": 18874368,
+		"Latency": 0.78977,
+		"Kernel Time": 0.8092,
+		"Driver Time": 0.32546,
+		"Device Time": 0.38338,
+		"max": 0.225530,
+		"min": 0.24704,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5530.0,
+		"Number of IO": 18,
+		"Size of IO": 22136604,
+		"Latency": 0.88872,
+		"Kernel Time": 0.5200,
+		"Driver Time": 0.20286,
+		"Device Time": 0.63384,
+		"max": 0.215131,
+		"min": 0.18143,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 5540.0,
+		"Number of IO": 16,
+		"Size of IO": 23199744,
+		"Latency": 0.104313,
+		"Kernel Time": 0.9141,
+		"Driver Time": 0.49092,
+		"Device Time": 0.46079,
+		"max": 0.288301,
+		"min": 0.27529,
+		"var": 0.000000,
+		"std": 0.000073
+	}
+, 	{
+		"Window Time": 5550.0,
+		"Number of IO": 10,
+		"Size of IO": 23278387,
+		"Latency": 0.85721,
+		"Kernel Time": 0.8336,
+		"Driver Time": 0.23997,
+		"Device Time": 0.53386,
+		"max": 0.212455,
+		"min": 0.26194,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5560.0,
+		"Number of IO": 12,
+		"Size of IO": 29010602,
+		"Latency": 0.97172,
+		"Kernel Time": 0.10639,
+		"Driver Time": 0.30702,
+		"Device Time": 0.55831,
+		"max": 0.194182,
+		"min": 0.26180,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 5570.0,
+		"Number of IO": 11,
+		"Size of IO": 28406877,
+		"Latency": 0.104177,
+		"Kernel Time": 0.10733,
+		"Driver Time": 0.40417,
+		"Device Time": 0.53027,
+		"max": 0.216768,
+		"min": 0.17510,
+		"var": 0.000000,
+		"std": 0.000073
+	}
+, 	{
+		"Window Time": 5580.0,
+		"Number of IO": 9,
+		"Size of IO": 23068672,
+		"Latency": 0.88020,
+		"Kernel Time": 0.12738,
+		"Driver Time": 0.31249,
+		"Device Time": 0.44032,
+		"max": 0.183344,
+		"min": 0.26993,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5590.0,
+		"Number of IO": 16,
+		"Size of IO": 27000832,
+		"Latency": 0.83448,
+		"Kernel Time": 0.7756,
+		"Driver Time": 0.25275,
+		"Device Time": 0.50416,
+		"max": 0.167751,
+		"min": 0.23292,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 5600.0,
+		"Number of IO": 17,
+		"Size of IO": 30223661,
+		"Latency": 0.98991,
+		"Kernel Time": 0.7512,
+		"Driver Time": 0.28616,
+		"Device Time": 0.62863,
+		"max": 0.163254,
+		"min": 0.19563,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 5610.0,
+		"Number of IO": 13,
+		"Size of IO": 21939436,
+		"Latency": 0.115909,
+		"Kernel Time": 0.9227,
+		"Driver Time": 0.61087,
+		"Device Time": 0.45594,
+		"max": 0.408372,
+		"min": 0.26775,
+		"var": 0.000000,
+		"std": 0.000094
+	}
+, 	{
+		"Window Time": 5620.0,
+		"Number of IO": 12,
+		"Size of IO": 25864874,
+		"Latency": 0.82690,
+		"Kernel Time": 0.8014,
+		"Driver Time": 0.29209,
+		"Device Time": 0.45466,
+		"max": 0.165179,
+		"min": 0.18381,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 5630.0,
+		"Number of IO": 15,
+		"Size of IO": 28661077,
+		"Latency": 0.93649,
+		"Kernel Time": 0.7338,
+		"Driver Time": 0.32867,
+		"Device Time": 0.53444,
+		"max": 0.174666,
+		"min": 0.27627,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 5640.0,
+		"Number of IO": 16,
+		"Size of IO": 32374784,
+		"Latency": 0.97248,
+		"Kernel Time": 0.8041,
+		"Driver Time": 0.35840,
+		"Device Time": 0.53366,
+		"max": 0.201572,
+		"min": 0.17025,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 5650.0,
+		"Number of IO": 12,
+		"Size of IO": 21146282,
+		"Latency": 0.95263,
+		"Kernel Time": 0.7370,
+		"Driver Time": 0.37984,
+		"Device Time": 0.49908,
+		"max": 0.179960,
+		"min": 0.26684,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 5660.0,
+		"Number of IO": 13,
+		"Size of IO": 27424295,
+		"Latency": 0.83836,
+		"Kernel Time": 0.8345,
+		"Driver Time": 0.29782,
+		"Device Time": 0.45709,
+		"max": 0.136793,
+		"min": 0.27787,
+		"var": 0.000000,
+		"std": 0.000036
+	}
+, 	{
+		"Window Time": 5670.0,
+		"Number of IO": 13,
+		"Size of IO": 25004504,
+		"Latency": 0.105413,
+		"Kernel Time": 0.9137,
+		"Driver Time": 0.33602,
+		"Device Time": 0.62673,
+		"max": 0.209572,
+		"min": 0.27218,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 5680.0,
+		"Number of IO": 13,
+		"Size of IO": 28876169,
+		"Latency": 0.88009,
+		"Kernel Time": 0.8780,
+		"Driver Time": 0.27563,
+		"Device Time": 0.51665,
+		"max": 0.165532,
+		"min": 0.26081,
+		"var": 0.000000,
+		"std": 0.000043
+	}
+, 	{
+		"Window Time": 5690.0,
+		"Number of IO": 12,
+		"Size of IO": 24816298,
+		"Latency": 0.94107,
+		"Kernel Time": 0.8226,
+		"Driver Time": 0.31151,
+		"Device Time": 0.54730,
+		"max": 0.207354,
+		"min": 0.17137,
+		"var": 0.000000,
+		"std": 0.000061
+	}
+, 	{
+		"Window Time": 5700.0,
+		"Number of IO": 11,
+		"Size of IO": 30694679,
+		"Latency": 0.83112,
+		"Kernel Time": 0.4559,
+		"Driver Time": 0.36855,
+		"Device Time": 0.41698,
+		"max": 0.190497,
+		"min": 0.16880,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 5710.0,
+		"Number of IO": 11,
+		"Size of IO": 28597527,
+		"Latency": 0.95184,
+		"Kernel Time": 0.6425,
+		"Driver Time": 0.38256,
+		"Device Time": 0.50503,
+		"max": 0.211226,
+		"min": 0.17606,
+		"var": 0.000000,
+		"std": 0.000068
+	}
+, 	{
+		"Window Time": 5720.0,
+		"Number of IO": 14,
+		"Size of IO": 24716434,
+		"Latency": 0.93884,
+		"Kernel Time": 0.10314,
+		"Driver Time": 0.34881,
+		"Device Time": 0.48688,
+		"max": 0.194575,
+		"min": 0.26911,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 5730.0,
+		"Number of IO": 12,
+		"Size of IO": 34253482,
+		"Latency": 0.101906,
+		"Kernel Time": 0.6958,
+		"Driver Time": 0.41072,
+		"Device Time": 0.53875,
+		"max": 0.176545,
+		"min": 0.26921,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 5740.0,
+		"Number of IO": 11,
+		"Size of IO": 29932078,
+		"Latency": 0.102754,
+		"Kernel Time": 0.7411,
+		"Driver Time": 0.38170,
+		"Device Time": 0.57171,
+		"max": 0.183658,
+		"min": 0.26881,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 5750.0,
+		"Number of IO": 15,
+		"Size of IO": 28521267,
+		"Latency": 0.80299,
+		"Kernel Time": 0.7173,
+		"Driver Time": 0.28418,
+		"Device Time": 0.44708,
+		"max": 0.172281,
+		"min": 0.25855,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 5760.0,
+		"Number of IO": 14,
+		"Size of IO": 29060534,
+		"Latency": 0.93695,
+		"Kernel Time": 0.8449,
+		"Driver Time": 0.38103,
+		"Device Time": 0.47142,
+		"max": 0.174134,
+		"min": 0.18417,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 5770.0,
+		"Number of IO": 17,
+		"Size of IO": 36515117,
+		"Latency": 0.102478,
+		"Kernel Time": 0.9582,
+		"Driver Time": 0.36378,
+		"Device Time": 0.56518,
+		"max": 0.173004,
+		"min": 0.26753,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 5780.0,
+		"Number of IO": 10,
+		"Size of IO": 15728640,
+		"Latency": 0.79159,
+		"Kernel Time": 0.9570,
+		"Driver Time": 0.34675,
+		"Device Time": 0.34914,
+		"max": 0.171263,
+		"min": 0.27998,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5790.0,
+		"Number of IO": 14,
+		"Size of IO": 30258907,
+		"Latency": 0.105039,
+		"Kernel Time": 0.6309,
+		"Driver Time": 0.41671,
+		"Device Time": 0.57058,
+		"max": 0.188425,
+		"min": 0.26520,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 5800.0,
+		"Number of IO": 13,
+		"Size of IO": 28230892,
+		"Latency": 0.84913,
+		"Kernel Time": 0.7966,
+		"Driver Time": 0.27440,
+		"Device Time": 0.49506,
+		"max": 0.153353,
+		"min": 0.18729,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5810.0,
+		"Number of IO": 12,
+		"Size of IO": 32505856,
+		"Latency": 0.91645,
+		"Kernel Time": 0.7971,
+		"Driver Time": 0.28852,
+		"Device Time": 0.54821,
+		"max": 0.166765,
+		"min": 0.26800,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 5820.0,
+		"Number of IO": 13,
+		"Size of IO": 31457280,
+		"Latency": 0.90530,
+		"Kernel Time": 0.7885,
+		"Driver Time": 0.31203,
+		"Device Time": 0.51442,
+		"max": 0.161544,
+		"min": 0.26805,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 5830.0,
+		"Number of IO": 17,
+		"Size of IO": 33060984,
+		"Latency": 0.105225,
+		"Kernel Time": 0.6726,
+		"Driver Time": 0.35462,
+		"Device Time": 0.63036,
+		"max": 0.180539,
+		"min": 0.20030,
+		"var": 0.000000,
+		"std": 0.000052
+	}
+, 	{
+		"Window Time": 5840.0,
+		"Number of IO": 11,
+		"Size of IO": 20399569,
+		"Latency": 0.84309,
+		"Kernel Time": 0.7272,
+		"Driver Time": 0.34879,
+		"Device Time": 0.42157,
+		"max": 0.243527,
+		"min": 0.26723,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 5850.0,
+		"Number of IO": 15,
+		"Size of IO": 31037849,
+		"Latency": 0.99664,
+		"Kernel Time": 0.7754,
+		"Driver Time": 0.34730,
+		"Device Time": 0.57180,
+		"max": 0.191492,
+		"min": 0.26862,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 5860.0,
+		"Number of IO": 17,
+		"Size of IO": 33307708,
+		"Latency": 0.91209,
+		"Kernel Time": 0.6200,
+		"Driver Time": 0.27046,
+		"Device Time": 0.57962,
+		"max": 0.208578,
+		"min": 0.26700,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5870.0,
+		"Number of IO": 14,
+		"Size of IO": 29809517,
+		"Latency": 0.101446,
+		"Kernel Time": 0.9600,
+		"Driver Time": 0.36341,
+		"Device Time": 0.55504,
+		"max": 0.223855,
+		"min": 0.17528,
+		"var": 0.000000,
+		"std": 0.000063
+	}
+, 	{
+		"Window Time": 5880.0,
+		"Number of IO": 15,
+		"Size of IO": 20971520,
+		"Latency": 0.98711,
+		"Kernel Time": 0.8165,
+		"Driver Time": 0.37859,
+		"Device Time": 0.52687,
+		"max": 0.219590,
+		"min": 0.26783,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 5890.0,
+		"Number of IO": 13,
+		"Size of IO": 19680964,
+		"Latency": 0.87293,
+		"Kernel Time": 0.7654,
+		"Driver Time": 0.33895,
+		"Device Time": 0.45743,
+		"max": 0.181652,
+		"min": 0.26772,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 5900.0,
+		"Number of IO": 9,
+		"Size of IO": 18874368,
+		"Latency": 0.75485,
+		"Kernel Time": 0.8726,
+		"Driver Time": 0.23501,
+		"Device Time": 0.43258,
+		"max": 0.162690,
+		"min": 0.26876,
+		"var": 0.000000,
+		"std": 0.000045
+	}
+, 	{
+		"Window Time": 5910.0,
+		"Number of IO": 17,
+		"Size of IO": 28373232,
+		"Latency": 0.110223,
+		"Kernel Time": 0.7699,
+		"Driver Time": 0.53599,
+		"Device Time": 0.48924,
+		"max": 0.272832,
+		"min": 0.27571,
+		"var": 0.000000,
+		"std": 0.000084
+	}
+, 	{
+		"Window Time": 5920.0,
+		"Number of IO": 16,
+		"Size of IO": 20578304,
+		"Latency": 0.84792,
+		"Kernel Time": 0.8138,
+		"Driver Time": 0.37072,
+		"Device Time": 0.39581,
+		"max": 0.193771,
+		"min": 0.18863,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5930.0,
+		"Number of IO": 13,
+		"Size of IO": 24520546,
+		"Latency": 0.79262,
+		"Kernel Time": 0.5338,
+		"Driver Time": 0.27224,
+		"Device Time": 0.46699,
+		"max": 0.164326,
+		"min": 0.18088,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 5940.0,
+		"Number of IO": 14,
+		"Size of IO": 27562569,
+		"Latency": 0.84445,
+		"Kernel Time": 0.4574,
+		"Driver Time": 0.33967,
+		"Device Time": 0.45903,
+		"max": 0.211921,
+		"min": 0.17202,
+		"var": 0.000000,
+		"std": 0.000060
+	}
+, 	{
+		"Window Time": 5950.0,
+		"Number of IO": 10,
+		"Size of IO": 15099494,
+		"Latency": 0.82920,
+		"Kernel Time": 0.8615,
+		"Driver Time": 0.39017,
+		"Device Time": 0.35286,
+		"max": 0.164345,
+		"min": 0.27553,
+		"var": 0.000000,
+		"std": 0.000047
+	}
+, 	{
+		"Window Time": 5960.0,
+		"Number of IO": 14,
+		"Size of IO": 33254838,
+		"Latency": 0.118429,
+		"Kernel Time": 0.7602,
+		"Driver Time": 0.54035,
+		"Device Time": 0.56792,
+		"max": 0.234537,
+		"min": 0.26306,
+		"var": 0.000000,
+		"std": 0.000070
+	}
+, 	{
+		"Window Time": 5970.0,
+		"Number of IO": 15,
+		"Size of IO": 28381457,
+		"Latency": 0.99856,
+		"Kernel Time": 0.7459,
+		"Driver Time": 0.36737,
+		"Device Time": 0.55659,
+		"max": 0.212581,
+		"min": 0.18927,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 5980.0,
+		"Number of IO": 21,
+		"Size of IO": 18375046,
+		"Latency": 0.79029,
+		"Kernel Time": 0.7280,
+		"Driver Time": 0.28076,
+		"Device Time": 0.43672,
+		"max": 0.219530,
+		"min": 0.18096,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 5990.0,
+		"Number of IO": 16,
+		"Size of IO": 18219008,
+		"Latency": 0.99039,
+		"Kernel Time": 0.7802,
+		"Driver Time": 0.24893,
+		"Device Time": 0.66343,
+		"max": 0.186626,
+		"min": 0.28649,
+		"var": 0.000000,
+		"std": 0.000055
+	}
+, 	{
+		"Window Time": 6000.0,
+		"Number of IO": 14,
+		"Size of IO": 22020096,
+		"Latency": 0.87048,
+		"Kernel Time": 0.7085,
+		"Driver Time": 0.24157,
+		"Device Time": 0.55805,
+		"max": 0.161457,
+		"min": 0.27078,
+		"var": 0.000000,
+		"std": 0.000049
+	}
+, 	{
+		"Window Time": 6010.0,
+		"Number of IO": 11,
+		"Size of IO": 32601181,
+		"Latency": 0.87935,
+		"Kernel Time": 0.5382,
+		"Driver Time": 0.34067,
+		"Device Time": 0.48485,
+		"max": 0.179230,
+		"min": 0.17988,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 6020.0,
+		"Number of IO": 13,
+		"Size of IO": 34844987,
+		"Latency": 0.96511,
+		"Kernel Time": 0.5852,
+		"Driver Time": 0.43562,
+		"Device Time": 0.47096,
+		"max": 0.170552,
+		"min": 0.18589,
+		"var": 0.000000,
+		"std": 0.000057
+	}
+, 	{
+		"Window Time": 6030.0,
+		"Number of IO": 15,
+		"Size of IO": 30618419,
+		"Latency": 0.95432,
+		"Kernel Time": 0.7052,
+		"Driver Time": 0.37740,
+		"Device Time": 0.50639,
+		"max": 0.184014,
+		"min": 0.26551,
+		"var": 0.000000,
+		"std": 0.000050
+	}
+, 	{
+		"Window Time": 6040.0,
+		"Number of IO": 10,
+		"Size of IO": 24536678,
+		"Latency": 0.84404,
+		"Kernel Time": 0.6425,
+		"Driver Time": 0.32655,
+		"Device Time": 0.45323,
+		"max": 0.174833,
+		"min": 0.26364,
+		"var": 0.000000,
+		"std": 0.000053
+	}
+, 	{
+		"Window Time": 6050.0,
+		"Number of IO": 13,
+		"Size of IO": 35490264,
+		"Latency": 0.122498,
+		"Kernel Time": 0.6818,
+		"Driver Time": 0.52095,
+		"Device Time": 0.63583,
+		"max": 0.219710,
+		"min": 0.27354,
+		"var": 0.000000,
+		"std": 0.000075
+	}
+, 	{
+		"Window Time": 6060.0,
+		"Number of IO": 14,
+		"Size of IO": 20671926,
+		"Latency": 0.80289,
+		"Kernel Time": 0.6585,
+		"Driver Time": 0.24157,
+		"Device Time": 0.49546,
+		"max": 0.180862,
+		"min": 0.18799,
+		"var": 0.000000,
+		"std": 0.000046
+	}
+, 	{
+		"Window Time": 6070.0,
+		"Number of IO": 11,
+		"Size of IO": 30885329,
+		"Latency": 0.99110,
+		"Kernel Time": 0.8833,
+		"Driver Time": 0.35861,
+		"Device Time": 0.54416,
+		"max": 0.184690,
+		"min": 0.21877,
+		"var": 0.000000,
+		"std": 0.000062
+	}
+, 	{
+		"Window Time": 6080.0,
+		"Number of IO": 13,
+		"Size of IO": 26617698,
+		"Latency": 0.88158,
+		"Kernel Time": 0.9348,
+		"Driver Time": 0.33614,
+		"Device Time": 0.45194,
+		"max": 0.152653,
+		"min": 0.17459,
+		"var": 0.000000,
+		"std": 0.000044
+	}
+, 	{
+		"Window Time": 6090.0,
+		"Number of IO": 11,
+		"Size of IO": 31266629,
+		"Latency": 0.101991,
+		"Kernel Time": 0.8227,
+		"Driver Time": 0.37732,
+		"Device Time": 0.56031,
+		"max": 0.202470,
+		"min": 0.26539,
+		"var": 0.000000,
+		"std": 0.000064
+	}
+, 	{
+		"Window Time": 6100.0,
+		"Number of IO": 12,
+		"Size of IO": 33729194,
+		"Latency": 0.96924,
+		"Kernel Time": 0.7463,
+		"Driver Time": 0.42670,
+		"Device Time": 0.46790,
+		"max": 0.206381,
+		"min": 0.26372,
+		"var": 0.000000,
+		"std": 0.000058
+	}
+, 	{
+		"Window Time": 6110.0,
+		"Number of IO": 13,
+		"Size of IO": 19680964,
+		"Latency": 0.81286,
+		"Kernel Time": 0.7990,
+		"Driver Time": 0.25755,
+		"Device Time": 0.47540,
+		"max": 0.191315,
+		"min": 0.28146,
+		"var": 0.000000,
+		"std": 0.000056
+	}
+, 	{
+		"Window Time": 6120.0,
+		"Number of IO": 15,
+		"Size of IO": 29499938,
+		"Latency": 0.116499,
+		"Kernel Time": 0.7012,
+		"Driver Time": 0.59140,
+		"Device Time": 0.50346,
+		"max": 0.407050,
+		"min": 0.26723,
+		"var": 0.000000,
+		"std": 0.000090
+	}
+, 	{
+		"Window Time": 6130.0,
+		"Number of IO": 12,
+		"Size of IO": 34603008,
+		"Latency": 0.108203,
+		"Kernel Time": 0.7216,
+		"Driver Time": 0.47316,
+		"Device Time": 0.53670,
+		"max": 0.197544,
+		"min": 0.19114,
+		"var": 0.000000,
+		"std": 0.000066
+	}
+, 	{
+		"Window Time": 6140.0,
+		"Number of IO": 11,
+		"Size of IO": 24784523,
+		"Latency": 0.86165,
+		"Kernel Time": 0.7879,
+		"Driver Time": 0.35189,
+		"Device Time": 0.43096,
+		"max": 0.191368,
+		"min": 0.32260,
+		"var": 0.000000,
+		"std": 0.000051
+	}
+, 	{
+		"Window Time": 6150.0,
+		"Number of IO": 13,
+		"Size of IO": 26779017,
+		"Latency": 0.92684,
+		"Kernel Time": 0.8137,
+		"Driver Time": 0.37976,
+		"Device Time": 0.46570,
+		"max": 0.163795,
+		"min": 0.25955,
+		"var": 0.000000,
+		"std": 0.000048
+	}
+, 	{
+		"Window Time": 6160.0,
+		"Number of IO": 11,
+		"Size of IO": 27262976,
+		"Latency": 0.92040,
+		"Kernel Time": 0.9631,
+		"Driver Time": 0.32089,
+		"Device Time": 0.50320,
+		"max": 0.171149,
+		"min": 0.28307,
+		"var": 0.000000,
+		"std": 0.000054
+	}
+, 	{
+		"Window Time": 6170.0,
+		"Number of IO": 9,
+		"Size of IO": 23767722,
+		"Latency": 0.78411,
+		"Kernel Time": 0.7992,
+		"Driver Time": 0.27826,
+		"Device Time": 0.42593,
+		"max": 0.174879,
+		"min": 0.18304,
+		"var": 0.000000,
+		"std": 0.000059
+	}
+, 	{
+		"Window Time": 6180.0,
+		"Number of IO": 15,
+		"Size of IO": 24606583,
+		"Latency": 0.101748,
+		"Kernel Time": 0.9182,
+		"Driver Time": 0.50424,
+		"Device Time": 0.42141,
+		"max": 0.264292,
+		"min": 0.27050,
+		"var": 0.000000,
+		"std": 0.000080
+	}
+, 	{
+		"Window Time": 6190.0,
+		"Number of IO": 13,
+		"Size of IO": 23229991,
+		"Latency": 0.108721,
+		"Kernel Time": 0.9743,
+		"Driver Time": 0.42805,
+		"Device Time": 0.56172,
+		"max": 0.356008,
+		"min": 0.29937,
+		"var": 0.000000,
+		"std": 0.000089
+	}
+, 	{
+		"Window Time": 6200.0,
+		"Number of IO": 12,
+		"Size of IO": 31282517,
+		"Latency": 0.113878,
+		"Kernel Time": 0.7871,
+		"Driver Time": 0.53248,
+		"Device Time": 0.52757,
+		"max": 0.243040,
+		"min": 0.26548,
+		"var": 0.000000,
+		"std": 0.000077
+	}
+, 	{
+		"Window Time": 6210.0,
+		"Number of IO": 2,
+		"Size of IO": 3145728,
+		"Latency": 0.43744,
+		"Kernel Time": 0.9741,
+		"Driver Time": 0.11043,
+		"Device Time": 0.22959,
+		"max": 0.58398,
+		"min": 0.29090,
+		"var": 0.000000,
+		"std": 0.000015
+	}
+]}

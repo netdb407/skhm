@@ -1,0 +1,197 @@
+{
+	"records": [	{
+		"Window Time": 0.0,
+		"Number of IO": 105,
+		"Size of IO": 57022561,
+		"Latency": 0.643011,
+		"Kernel Time": 0.70417,
+		"Driver Time": 0.34775,
+		"Device Time": 0.537818,
+		"max": 0.2096333,
+		"min": 0.19557,
+		"var": 0.000000,
+		"std": 0.000531
+	}
+, 	{
+		"Window Time": 10.0,
+		"Number of IO": 105,
+		"Size of IO": 60997163,
+		"Latency": 0.961045,
+		"Kernel Time": 0.78822,
+		"Driver Time": 0.61353,
+		"Device Time": 0.820868,
+		"max": 0.3699909,
+		"min": 0.18808,
+		"var": 0.000001,
+		"std": 0.001035
+	}
+, 	{
+		"Window Time": 20.0,
+		"Number of IO": 153,
+		"Size of IO": 61351976,
+		"Latency": 0.919174,
+		"Kernel Time": 0.86133,
+		"Driver Time": 0.41767,
+		"Device Time": 0.791272,
+		"max": 0.1916010,
+		"min": 0.22175,
+		"var": 0.000000,
+		"std": 0.000549
+	}
+, 	{
+		"Window Time": 30.0,
+		"Number of IO": 123,
+		"Size of IO": 57441504,
+		"Latency": 0.775097,
+		"Kernel Time": 0.132375,
+		"Driver Time": 0.35096,
+		"Device Time": 0.607625,
+		"max": 0.2102209,
+		"min": 0.18665,
+		"var": 0.000000,
+		"std": 0.000444
+	}
+, 	{
+		"Window Time": 40.0,
+		"Number of IO": 106,
+		"Size of IO": 60382150,
+		"Latency": 0.1066970,
+		"Kernel Time": 0.123167,
+		"Driver Time": 0.38101,
+		"Device Time": 0.905701,
+		"max": 0.2276708,
+		"min": 0.17754,
+		"var": 0.000000,
+		"std": 0.000576
+	}
+, 	{
+		"Window Time": 50.0,
+		"Number of IO": 126,
+		"Size of IO": 60151645,
+		"Latency": 0.916755,
+		"Kernel Time": 0.128860,
+		"Driver Time": 0.21349,
+		"Device Time": 0.766545,
+		"max": 0.2604538,
+		"min": 0.19087,
+		"var": 0.000000,
+		"std": 0.000690
+	}
+, 	{
+		"Window Time": 60.0,
+		"Number of IO": 56,
+		"Size of IO": 49058377,
+		"Latency": 0.934615,
+		"Kernel Time": 0.120177,
+		"Driver Time": 0.11033,
+		"Device Time": 0.803404,
+		"max": 0.2882056,
+		"min": 0.18113,
+		"var": 0.000001,
+		"std": 0.000891
+	}
+, 	{
+		"Window Time": 70.0,
+		"Number of IO": 159,
+		"Size of IO": 60659132,
+		"Latency": 0.1229757,
+		"Kernel Time": 0.138010,
+		"Driver Time": 0.32683,
+		"Device Time": 0.1059062,
+		"max": 0.3771390,
+		"min": 0.18411,
+		"var": 0.000001,
+		"std": 0.000983
+	}
+, 	{
+		"Window Time": 80.0,
+		"Number of IO": 108,
+		"Size of IO": 61050424,
+		"Latency": 0.798972,
+		"Kernel Time": 0.138093,
+		"Driver Time": 0.19489,
+		"Device Time": 0.641390,
+		"max": 0.2173308,
+		"min": 0.21034,
+		"var": 0.000000,
+		"std": 0.000469
+	}
+, 	{
+		"Window Time": 90.0,
+		"Number of IO": 175,
+		"Size of IO": 59738872,
+		"Latency": 0.1216923,
+		"Kernel Time": 0.150397,
+		"Driver Time": 0.29825,
+		"Device Time": 0.1036700,
+		"max": 0.4623286,
+		"min": 0.18711,
+		"var": 0.000001,
+		"std": 0.000969
+	}
+, 	{
+		"Window Time": 100.0,
+		"Number of IO": 107,
+		"Size of IO": 56642703,
+		"Latency": 0.655919,
+		"Kernel Time": 0.111630,
+		"Driver Time": 0.18125,
+		"Device Time": 0.526163,
+		"max": 0.1579172,
+		"min": 0.18667,
+		"var": 0.000000,
+		"std": 0.000402
+	}
+, 	{
+		"Window Time": 110.0,
+		"Number of IO": 1209,
+		"Size of IO": 65051608,
+		"Latency": 0.6901939,
+		"Kernel Time": 0.183194,
+		"Driver Time": 0.17609,
+		"Device Time": 0.6701134,
+		"max": 0.17224663,
+		"min": 0.17237,
+		"var": 0.000017,
+		"std": 0.004107
+	}
+, 	{
+		"Window Time": 120.0,
+		"Number of IO": 90,
+		"Size of IO": 52941437,
+		"Latency": 0.1951483,
+		"Kernel Time": 0.9144,
+		"Driver Time": 0.42510,
+		"Device Time": 0.1899827,
+		"max": 0.4881279,
+		"min": 0.18417,
+		"var": 0.000003,
+		"std": 0.001619
+	}
+, 	{
+		"Window Time": 130.0,
+		"Number of IO": 26,
+		"Size of IO": 50654286,
+		"Latency": 0.320441,
+		"Kernel Time": 0.22129,
+		"Driver Time": 0.41112,
+		"Device Time": 0.257199,
+		"max": 0.732897,
+		"min": 0.38161,
+		"var": 0.000000,
+		"std": 0.000193
+	}
+, 	{
+		"Window Time": 140.0,
+		"Number of IO": 13,
+		"Size of IO": 3549026,
+		"Latency": 0.287085,
+		"Kernel Time": 0.7865,
+		"Driver Time": 0.146778,
+		"Device Time": 0.132440,
+		"max": 0.359612,
+		"min": 0.207882,
+		"var": 0.000000,
+		"std": 0.000041
+	}
+]}

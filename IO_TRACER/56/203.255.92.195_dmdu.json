@@ -1,0 +1,44 @@
+{
+	"records": [	{
+		"time": 10,
+		"delta_disk_usage": 8032256,
+		"waf": 125,
+		"gc": 1,
+		"nand_write": 1008
+	}
+	, {
+		"time": 20,
+		"delta_disk_usage": 1765376,
+		"waf": -5,
+		"gc": 0,
+		"nand_write": 1512
+	}
+	, {
+		"time": 30,
+		"delta_disk_usage": 2088960,
+		"waf": -109,
+		"gc": 0,
+		"nand_write": 408
+	}
+	, {
+		"time": 40,
+		"delta_disk_usage": 659456,
+		"waf": 27,
+		"gc": 1,
+		"nand_write": 240
+	}
+	, {
+		"time": 50,
+		"delta_disk_usage": 0,
+		"waf": 0,
+		"gc": 0,
+		"nand_write": 0
+	}
+	, {
+		"time": 60,
+		"delta_disk_usage": 0,
+		"waf": 22,
+		"gc": 12,
+		"nand_write": 24
+	}
+]}

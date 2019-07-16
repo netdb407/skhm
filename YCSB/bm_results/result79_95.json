@@ -1,0 +1,308 @@
+[ {
+  "metric" : "OVERALL",
+  "measurement" : "RunTime(ms)",
+  "value" : 96952
+}, {
+  "metric" : "OVERALL",
+  "measurement" : "Throughput(ops/sec)",
+  "value" : 515.7191187391699
+}, {
+  "metric" : "TOTAL_GCS_PS_Scavenge",
+  "measurement" : "Count",
+  "value" : 5
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_Scavenge",
+  "measurement" : "Time(ms)",
+  "value" : 48
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_Scavenge",
+  "measurement" : "Time(%)",
+  "value" : 0.049509035398960316
+}, {
+  "metric" : "TOTAL_GCS_PS_MarkSweep",
+  "measurement" : "Count",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_MarkSweep",
+  "measurement" : "Time(ms)",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_MarkSweep",
+  "measurement" : "Time(%)",
+  "value" : 0.0
+}, {
+  "metric" : "TOTAL_GCs",
+  "measurement" : "Count",
+  "value" : 5
+}, {
+  "metric" : "TOTAL_GC_TIME",
+  "measurement" : "Time(ms)",
+  "value" : 48
+}, {
+  "metric" : "TOTAL_GC_TIME_%",
+  "measurement" : "Time(%)",
+  "value" : 0.049509035398960316
+}, {
+  "metric" : "READ",
+  "measurement" : "Operations",
+  "value" : 2488
+}, {
+  "metric" : "READ",
+  "measurement" : "AverageLatency(us)",
+  "value" : 24166.77893890675
+}, {
+  "metric" : "READ",
+  "measurement" : "MinLatency(us)",
+  "value" : 16718
+}, {
+  "metric" : "READ",
+  "measurement" : "MaxLatency(us)",
+  "value" : 56569
+}, {
+  "metric" : "READ",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 29951
+}, {
+  "metric" : "READ",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 41279
+}, {
+  "metric" : "READ",
+  "measurement" : "Return=OK",
+  "value" : 2488
+}, {
+  "metric" : "READ",
+  "measurement" : "0",
+  "value" : 19014.605714285713,
+  "operation" : 350.0
+}, {
+  "metric" : "READ",
+  "measurement" : "10000",
+  "value" : 20650.02985074627,
+  "operation" : 335.0
+}, {
+  "metric" : "READ",
+  "measurement" : "20000",
+  "value" : 22225.944237918215,
+  "operation" : 269.0
+}, {
+  "metric" : "READ",
+  "measurement" : "30000",
+  "value" : 23877.0622406639,
+  "operation" : 241.0
+}, {
+  "metric" : "READ",
+  "measurement" : "40000",
+  "value" : 25060.70731707317,
+  "operation" : 246.0
+}, {
+  "metric" : "READ",
+  "measurement" : "50000",
+  "value" : 25581.512096774193,
+  "operation" : 248.0
+}, {
+  "metric" : "READ",
+  "measurement" : "60000",
+  "value" : 26784.875518672197,
+  "operation" : 241.0
+}, {
+  "metric" : "READ",
+  "measurement" : "70000",
+  "value" : 27870.189873417723,
+  "operation" : 237.0
+}, {
+  "metric" : "READ",
+  "measurement" : "80000",
+  "value" : 28594.871794871793,
+  "operation" : 234.0
+}, {
+  "metric" : "READ",
+  "measurement" : "90000",
+  "value" : 29427.402298850575,
+  "operation" : 87.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "Operations",
+  "value" : 1
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "AverageLatency(us)",
+  "value" : 2215177.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MinLatency(us)",
+  "value" : 2215177
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MaxLatency(us)",
+  "value" : 2215177
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 2215935
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 2215935
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "0",
+  "value" : 2215177.0,
+  "operation" : 1.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Operations",
+  "value" : 25265
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "AverageLatency(us)",
+  "value" : 704.7530575895507
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MinLatency(us)",
+  "value" : 201
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MaxLatency(us)",
+  "value" : 216638
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 1083
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 1303
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Return=OK",
+  "value" : 25265
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "0",
+  "value" : 442.6897558386412,
+  "operation" : 3768.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "10000",
+  "value" : 439.81296402055966,
+  "operation" : 3502.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "20000",
+  "value" : 831.9741315594974,
+  "operation" : 2706.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "30000",
+  "value" : 941.676278354479,
+  "operation" : 2601.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "40000",
+  "value" : 897.1468237273874,
+  "operation" : 2377.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "50000",
+  "value" : 729.9323990107172,
+  "operation" : 2426.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "60000",
+  "value" : 735.9484536082474,
+  "operation" : 2425.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "70000",
+  "value" : 722.0072836332477,
+  "operation" : 2334.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "80000",
+  "value" : 764.7792706333973,
+  "operation" : 2084.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "90000",
+  "value" : 892.2360844529751,
+  "operation" : 1042.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "Operations",
+  "value" : 22247
+}, {
+  "metric" : "INSERT",
+  "measurement" : "AverageLatency(us)",
+  "value" : 713.6705623230098
+}, {
+  "metric" : "INSERT",
+  "measurement" : "MinLatency(us)",
+  "value" : 227
+}, {
+  "metric" : "INSERT",
+  "measurement" : "MaxLatency(us)",
+  "value" : 209911
+}, {
+  "metric" : "INSERT",
+  "measurement" : "95thPercentileLatency(us)",
+  "value" : 1167
+}, {
+  "metric" : "INSERT",
+  "measurement" : "99thPercentileLatency(us)",
+  "value" : 1382
+}, {
+  "metric" : "INSERT",
+  "measurement" : "Return=OK",
+  "value" : 22247
+}, {
+  "metric" : "INSERT",
+  "measurement" : "0",
+  "value" : 494.49593740595844,
+  "operation" : 3323.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "10000",
+  "value" : 493.14581961816987,
+  "operation" : 3038.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "20000",
+  "value" : 748.5965292841648,
+  "operation" : 2305.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "30000",
+  "value" : 769.1771201413428,
+  "operation" : 2264.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "40000",
+  "value" : 804.8015640273704,
+  "operation" : 2046.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "50000",
+  "value" : 806.7252075141984,
+  "operation" : 2289.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "60000",
+  "value" : 798.9315448658649,
+  "operation" : 2162.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "70000",
+  "value" : 784.0138822403063,
+  "operation" : 2089.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "80000",
+  "value" : 969.0455062571103,
+  "operation" : 1758.0
+}, {
+  "metric" : "INSERT",
+  "measurement" : "90000",
+  "value" : 726.4285714285714,
+  "operation" : 973.0
+} ]

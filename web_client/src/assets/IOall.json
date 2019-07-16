@@ -1,0 +1,79 @@
+{
+	"raw": [
+		{
+			"records": [
+				{
+				"Window Time": 2299,
+				"Size of IO": 4096,
+				"Latency": 0.000227,
+				"Kernel Time": 0.000000,
+				"Driver Time": 0.000011,
+				"Device Time": 0.000178
+				},
+			 {
+				"Window Time": 2299,
+				"Size of IO": 4096,
+				"Latency": 0.000202,
+				"Kernel Time": 0.000000,
+				"Driver Time": 0.000008,
+				"Device Time": 0.000168
+				}]
+				}
+			],
+	"trace": [
+		{
+		"records": [
+			{
+			"Window Time": 2299,
+			"Number of IO": 3,
+			"Size of IO": 4096,
+			"Latency": 0.000198,
+			"Kernel Time": 0.000000,
+			"Driver Time": 0.000009,
+			"Device Time": 0.000165,
+			"max": 0.000227,
+			"min": 0.000165,
+			"var": 0.000000,
+			"std": 0.000026
+			},
+		 {
+			"Window Time": 2304,
+			"Number of IO": 3,
+			"Size of IO": 5461,
+			"Latency": 0.000112,
+			"Kernel Time": 0.000000,
+			"Driver Time": 0.000040,
+			"Device Time": 0.000039,
+			"max": 0.000142,
+			"min": 0.000085,
+			"var": 0.000000,
+			"std": 0.000023
+			}]
+			}
+		],
+	"threshold": [
+			{
+				"best":77846,
+				"worst":18446744073709551615
+			}
+		],
+	"dmdu": [
+		{
+		"records": [
+			{
+			"time": 1561715540,
+			"delta_disk_usage": 0,
+			"waf": 0,
+			"gc": 0,
+			"nand_write": 0
+			},
+		 {
+			"time": 1561715545,
+			"delta_disk_usage": 0,
+			"waf": 0,
+			"gc": 0,
+			"nand_write": 0
+		}]
+		}
+	]
+	}

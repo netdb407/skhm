@@ -1,0 +1,2217 @@
+[
+{
+"nc_id": 1,
+"w_id": 2,
+"ycsb_result_path": "/home/skhm/YCSB/bm_results/result9_10.json",
+"ycsb": [
+{
+"metric": "OVERALL",
+"measurement": "RunTime(ms)",
+"value": 4414
+},
+{
+"metric": "OVERALL",
+"measurement": "Throughput(ops/sec)",
+"value": 226.55188038060717
+},
+{
+"metric": "TOTAL_GCS_PS_Scavenge",
+"measurement": "Count",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME_PS_Scavenge",
+"measurement": "Time(ms)",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME_%_PS_Scavenge",
+"measurement": "Time(%)",
+"value": 0
+},
+{
+"metric": "TOTAL_GCS_PS_MarkSweep",
+"measurement": "Count",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME_PS_MarkSweep",
+"measurement": "Time(ms)",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME_%_PS_MarkSweep",
+"measurement": "Time(%)",
+"value": 0
+},
+{
+"metric": "TOTAL_GCs",
+"measurement": "Count",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME",
+"measurement": "Time(ms)",
+"value": 0
+},
+{
+"metric": "TOTAL_GC_TIME_%",
+"measurement": "Time(%)",
+"value": 0
+},
+{
+"metric": "READ",
+"measurement": "Operations",
+"value": 288
+},
+{
+"metric": "READ",
+"measurement": "AverageLatency(us)",
+"value": 1802.2604166666667
+},
+{
+"metric": "READ",
+"measurement": "MinLatency(us)",
+"value": 588
+},
+{
+"metric": "READ",
+"measurement": "MaxLatency(us)",
+"value": 36890
+},
+{
+"metric": "READ",
+"measurement": "Return=OK",
+"value": 288
+},
+{
+"metric": "READ",
+"measurement": "Return=NOT_FOUND",
+"value": 661
+},
+{
+"metric": "READ",
+"measurement": "0",
+"value": 3501,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "30",
+"value": 1922.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "40",
+"value": 2137,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "50",
+"value": 1949,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "60",
+"value": 2397,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "90",
+"value": 1954,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "100",
+"value": 2639.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "110",
+"value": 2440,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "120",
+"value": 1974,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "130",
+"value": 1948.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "150",
+"value": 1844,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "160",
+"value": 1688,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "190",
+"value": 2475,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "200",
+"value": 2529.3333333333335,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "240",
+"value": 2210,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "250",
+"value": 2540,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "260",
+"value": 2399.6666666666665,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "270",
+"value": 2315,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "280",
+"value": 2105,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "290",
+"value": 2904,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "300",
+"value": 2546.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "320",
+"value": 1912.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "330",
+"value": 1820,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "340",
+"value": 1471,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "350",
+"value": 2492,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "360",
+"value": 2199,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "370",
+"value": 1893,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "390",
+"value": 2041,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "400",
+"value": 2282.75,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "410",
+"value": 2398,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "420",
+"value": 2202,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "440",
+"value": 2553.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "450",
+"value": 2303,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "460",
+"value": 2384.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "480",
+"value": 2660,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "490",
+"value": 2419,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "510",
+"value": 1832,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "520",
+"value": 1600.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "530",
+"value": 2004,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "540",
+"value": 1580,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "550",
+"value": 1625.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "560",
+"value": 1853.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "570",
+"value": 1960.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "580",
+"value": 1692.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "600",
+"value": 1164,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "610",
+"value": 1653,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "620",
+"value": 2066,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "640",
+"value": 1954,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "650",
+"value": 1618,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "660",
+"value": 2379,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "670",
+"value": 1547,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "680",
+"value": 1874,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "690",
+"value": 1789,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "700",
+"value": 1537,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "710",
+"value": 1352.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "720",
+"value": 1265.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "730",
+"value": 1673,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "740",
+"value": 1197.1666666666667,
+"operation": 6
+},
+{
+"metric": "READ",
+"measurement": "750",
+"value": 1369.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "760",
+"value": 1140,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "770",
+"value": 974.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "780",
+"value": 1220,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "790",
+"value": 1134.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "800",
+"value": 985.5,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "810",
+"value": 937,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "820",
+"value": 1136.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "830",
+"value": 1012.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "840",
+"value": 1452.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "850",
+"value": 1372,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "860",
+"value": 1572,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "870",
+"value": 1671.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "890",
+"value": 1132.5,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "900",
+"value": 1339,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "910",
+"value": 1633,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "920",
+"value": 1516.8,
+"operation": 5
+},
+{
+"metric": "READ",
+"measurement": "930",
+"value": 1396,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "940",
+"value": 1279.5,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "950",
+"value": 1386,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "960",
+"value": 1414.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "970",
+"value": 1482.5,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "980",
+"value": 1782,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "990",
+"value": 1110,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1000",
+"value": 1793,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1010",
+"value": 2224,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1020",
+"value": 1296.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1040",
+"value": 1390.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1050",
+"value": 1414.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1060",
+"value": 1493.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1070",
+"value": 1166.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1080",
+"value": 1730,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1090",
+"value": 1388.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1100",
+"value": 1573,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1110",
+"value": 1514.5,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "1120",
+"value": 1479,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1130",
+"value": 1571,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "1180",
+"value": 19714.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1190",
+"value": 2331,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1200",
+"value": 2190,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1210",
+"value": 1889,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1220",
+"value": 2314,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1230",
+"value": 2231.3333333333335,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1240",
+"value": 1940,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1250",
+"value": 1736.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1260",
+"value": 1514,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1270",
+"value": 1337.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1280",
+"value": 1569,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1290",
+"value": 1230,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1300",
+"value": 1390,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1310",
+"value": 1240.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1320",
+"value": 1139,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1330",
+"value": 1277.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1340",
+"value": 1435,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1350",
+"value": 2246,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1360",
+"value": 1975,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1370",
+"value": 1407.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1380",
+"value": 1775.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1390",
+"value": 1739.75,
+"operation": 4
+},
+{
+"metric": "READ",
+"measurement": "1400",
+"value": 1782.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1410",
+"value": 1895,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1420",
+"value": 1636,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1430",
+"value": 1616.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1440",
+"value": 1583.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1450",
+"value": 1372,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1460",
+"value": 1415.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1470",
+"value": 1241.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1480",
+"value": 1156,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1490",
+"value": 1223,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1500",
+"value": 1382.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1510",
+"value": 1488.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1520",
+"value": 1675,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1530",
+"value": 1482.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1540",
+"value": 2063,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1550",
+"value": 1871,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1560",
+"value": 1992.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1570",
+"value": 1636.5,
+"operation": 2
+},
+{
+"metric": "READ",
+"measurement": "1580",
+"value": 1561.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ",
+"measurement": "1590",
+"value": 1529,
+"operation": 1
+},
+{
+"metric": "READ",
+"measurement": "1600",
+"value": 1590.3333333333333,
+"operation": 3
+},
+{
+"metric": "CLEANUP",
+"measurement": "Operations",
+"value": 1
+},
+{
+"metric": "CLEANUP",
+"measurement": "AverageLatency(us)",
+"value": 2224200
+},
+{
+"metric": "CLEANUP",
+"measurement": "MinLatency(us)",
+"value": 2224200
+},
+{
+"metric": "CLEANUP",
+"measurement": "MaxLatency(us)",
+"value": 2224200
+},
+{
+"metric": "CLEANUP",
+"measurement": "0",
+"value": 2224200,
+"operation": 1
+},
+{
+"metric": "READ-FAILED",
+"measurement": "Operations",
+"value": 661
+},
+{
+"metric": "READ-FAILED",
+"measurement": "AverageLatency(us)",
+"value": 1510.7443267776098
+},
+{
+"metric": "READ-FAILED",
+"measurement": "MinLatency(us)",
+"value": 396
+},
+{
+"metric": "READ-FAILED",
+"measurement": "MaxLatency(us)",
+"value": 40725
+},
+{
+"metric": "READ-FAILED",
+"measurement": "0",
+"value": 22197,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "10",
+"value": 2592.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "20",
+"value": 1995.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "30",
+"value": 1816,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "40",
+"value": 1974,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "50",
+"value": 1644,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "60",
+"value": 1765.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "70",
+"value": 1808.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "90",
+"value": 1847.2,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "100",
+"value": 1719,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "110",
+"value": 1737.5,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "120",
+"value": 1936.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "130",
+"value": 2327,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "140",
+"value": 1602,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "150",
+"value": 1518,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "160",
+"value": 1652.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "170",
+"value": 1863,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "190",
+"value": 2343,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "200",
+"value": 2332,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "210",
+"value": 1484.8333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "220",
+"value": 1986.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "230",
+"value": 2241.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "240",
+"value": 1731,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "250",
+"value": 2125.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "260",
+"value": 1911,
+"operation": 1
+},
+{
+"metric": "READ-FAILED",
+"measurement": "270",
+"value": 1774.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "280",
+"value": 1644.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "290",
+"value": 2133,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "300",
+"value": 2127,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "310",
+"value": 2050.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "320",
+"value": 1906.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "330",
+"value": 1754,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "340",
+"value": 1931,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "350",
+"value": 2309.5,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "360",
+"value": 1885.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "370",
+"value": 1484.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "380",
+"value": 1966,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "390",
+"value": 1719.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "400",
+"value": 1434,
+"operation": 1
+},
+{
+"metric": "READ-FAILED",
+"measurement": "410",
+"value": 1924,
+"operation": 1
+},
+{
+"metric": "READ-FAILED",
+"measurement": "420",
+"value": 2334.3333333333335,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "430",
+"value": 2207.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "440",
+"value": 2109,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "450",
+"value": 2130,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "460",
+"value": 2232.6666666666665,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "470",
+"value": 2098.6666666666665,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "480",
+"value": 2080.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "490",
+"value": 1976.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "500",
+"value": 1891.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "510",
+"value": 1600,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "520",
+"value": 1718.5,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "530",
+"value": 1438,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "540",
+"value": 1542.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "550",
+"value": 1688.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "560",
+"value": 1323.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "570",
+"value": 1461.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "580",
+"value": 1157.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "590",
+"value": 1257.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "600",
+"value": 1265.3333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "610",
+"value": 1380.8333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "620",
+"value": 1840.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "630",
+"value": 1251.1666666666667,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "640",
+"value": 1399,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "650",
+"value": 1263.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "660",
+"value": 1488.2,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "670",
+"value": 1853.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "680",
+"value": 1482.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "690",
+"value": 1316,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "700",
+"value": 1303.5,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "710",
+"value": 1222.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "720",
+"value": 751.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "730",
+"value": 1021.1666666666666,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "740",
+"value": 1165.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "750",
+"value": 1509,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "760",
+"value": 1118,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "770",
+"value": 972,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "780",
+"value": 962.2,
+"operation": 10
+},
+{
+"metric": "READ-FAILED",
+"measurement": "790",
+"value": 744.8571428571429,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "800",
+"value": 1049.875,
+"operation": 8
+},
+{
+"metric": "READ-FAILED",
+"measurement": "810",
+"value": 1068.2,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "820",
+"value": 993.8571428571429,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "830",
+"value": 1040,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "840",
+"value": 1041.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "850",
+"value": 1105,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "860",
+"value": 1285,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "870",
+"value": 1397,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "880",
+"value": 1772.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "890",
+"value": 1415.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "900",
+"value": 1228.6666666666667,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "910",
+"value": 808.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "920",
+"value": 1025.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "930",
+"value": 799,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "940",
+"value": 834.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "950",
+"value": 1093,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "960",
+"value": 1244.3333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "970",
+"value": 1653,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "980",
+"value": 1404.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "990",
+"value": 1514.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1000",
+"value": 1456,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1010",
+"value": 1517,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1020",
+"value": 1643.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1030",
+"value": 1395.1666666666667,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1040",
+"value": 1031,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1050",
+"value": 993.6666666666666,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1060",
+"value": 1226.2,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1070",
+"value": 1296.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1080",
+"value": 1217.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1090",
+"value": 1347,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1100",
+"value": 1305.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1110",
+"value": 1223,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1120",
+"value": 1190.5,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1130",
+"value": 1451.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1140",
+"value": 1203.3333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1150",
+"value": 1571.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1190",
+"value": 1886,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1200",
+"value": 1990,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1210",
+"value": 1644.6,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1220",
+"value": 2557.3333333333335,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1230",
+"value": 1981.6666666666667,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1240",
+"value": 1232,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1250",
+"value": 1532.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1260",
+"value": 1177.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1270",
+"value": 1416.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1280",
+"value": 1582.2,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1290",
+"value": 1471.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1300",
+"value": 1195.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1310",
+"value": 1258.7142857142858,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1320",
+"value": 1413.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1330",
+"value": 1290.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1340",
+"value": 1421,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1350",
+"value": 1245.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1360",
+"value": 1598.8333333333333,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1370",
+"value": 1247,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1380",
+"value": 1531,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1390",
+"value": 1613,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1400",
+"value": 1220.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1410",
+"value": 1572.5,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1420",
+"value": 1640,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1430",
+"value": 1604.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1440",
+"value": 1045.1666666666667,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1450",
+"value": 1177.1666666666667,
+"operation": 6
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1460",
+"value": 1031.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1470",
+"value": 1016.75,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1480",
+"value": 997,
+"operation": 7
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1490",
+"value": 788.3333333333334,
+"operation": 12
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1500",
+"value": 1030.4,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1510",
+"value": 1129,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1520",
+"value": 1458,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1530",
+"value": 1349,
+"operation": 2
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1540",
+"value": 1548,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1550",
+"value": 1789.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1560",
+"value": 1841.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1570",
+"value": 1690.25,
+"operation": 4
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1580",
+"value": 1425.3333333333333,
+"operation": 3
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1590",
+"value": 1253,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1600",
+"value": 1410.8,
+"operation": 5
+},
+{
+"metric": "READ-FAILED",
+"measurement": "1610",
+"value": 1416,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "Operations",
+"value": 51
+},
+{
+"metric": "UPDATE",
+"measurement": "AverageLatency(us)",
+"value": 2096.1372549019607
+},
+{
+"metric": "UPDATE",
+"measurement": "MinLatency(us)",
+"value": 638
+},
+{
+"metric": "UPDATE",
+"measurement": "MaxLatency(us)",
+"value": 9244
+},
+{
+"metric": "UPDATE",
+"measurement": "Return=OK",
+"value": 51
+},
+{
+"metric": "UPDATE",
+"measurement": "0",
+"value": 7505,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "20",
+"value": 9225,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "80",
+"value": 3683,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "120",
+"value": 9244,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "160",
+"value": 4430,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "180",
+"value": 4632,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "220",
+"value": 2078,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "310",
+"value": 4092,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "380",
+"value": 2025,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "460",
+"value": 4233,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "500",
+"value": 1766,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "520",
+"value": 1571,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "540",
+"value": 1350,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "560",
+"value": 3360,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "590",
+"value": 1526,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "640",
+"value": 1453,
+"operation": 2
+},
+{
+"metric": "UPDATE",
+"measurement": "650",
+"value": 802,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "660",
+"value": 1427,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "670",
+"value": 1427,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "690",
+"value": 695.5,
+"operation": 2
+},
+{
+"metric": "UPDATE",
+"measurement": "700",
+"value": 1201,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "710",
+"value": 1090,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "750",
+"value": 842,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "760",
+"value": 1318,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "780",
+"value": 1550,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "820",
+"value": 1413,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "840",
+"value": 1261,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "850",
+"value": 905,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "870",
+"value": 2397,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "880",
+"value": 964,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "890",
+"value": 1255,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "960",
+"value": 1805,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "970",
+"value": 1554,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "980",
+"value": 1358,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1010",
+"value": 1230,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1020",
+"value": 1055,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1030",
+"value": 1056,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1270",
+"value": 1322.5,
+"operation": 2
+},
+{
+"metric": "UPDATE",
+"measurement": "1360",
+"value": 1669,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1370",
+"value": 1437,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1390",
+"value": 1242,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1400",
+"value": 1033,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1420",
+"value": 962,
+"operation": 2
+},
+{
+"metric": "UPDATE",
+"measurement": "1440",
+"value": 1394,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1460",
+"value": 1681,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1490",
+"value": 1451,
+"operation": 1
+},
+{
+"metric": "UPDATE",
+"measurement": "1550",
+"value": 1500,
+"operation": 1
+}
+]
+}
+]

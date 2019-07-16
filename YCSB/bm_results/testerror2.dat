@@ -1,0 +1,8 @@
+com.yahoo.ycsb.DBException: com.yahoo.ycsb.DBException: Required property "hosts" missing for CassandraCQLClient
+	at com.yahoo.ycsb.db.CassandraCQLClient.init(CassandraCQLClient.java:225)
+	at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:86)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:424)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.yahoo.ycsb.DBException: Required property "hosts" missing for CassandraCQLClient
+	at com.yahoo.ycsb.db.CassandraCQLClient.init(CassandraCQLClient.java:154)
+	... 3 more

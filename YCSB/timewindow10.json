@@ -1,0 +1,993 @@
+[ {
+  "metric" : "OVERALL",
+  "measurement" : "RunTime(ms)",
+  "value" : 4285
+}, {
+  "metric" : "OVERALL",
+  "measurement" : "Throughput(ops/sec)",
+  "value" : 233.37222870478413
+}, {
+  "metric" : "TOTAL_GCS_PS_Scavenge",
+  "measurement" : "Count",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_Scavenge",
+  "measurement" : "Time(ms)",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_Scavenge",
+  "measurement" : "Time(%)",
+  "value" : 0.0
+}, {
+  "metric" : "TOTAL_GCS_PS_MarkSweep",
+  "measurement" : "Count",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_PS_MarkSweep",
+  "measurement" : "Time(ms)",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_%_PS_MarkSweep",
+  "measurement" : "Time(%)",
+  "value" : 0.0
+}, {
+  "metric" : "TOTAL_GCs",
+  "measurement" : "Count",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME",
+  "measurement" : "Time(ms)",
+  "value" : 0
+}, {
+  "metric" : "TOTAL_GC_TIME_%",
+  "measurement" : "Time(%)",
+  "value" : 0.0
+}, {
+  "metric" : "READ",
+  "measurement" : "Operations",
+  "value" : 491
+}, {
+  "metric" : "READ",
+  "measurement" : "AverageLatency(us)",
+  "value" : 1491.753564154786
+}, {
+  "metric" : "READ",
+  "measurement" : "MinLatency(us)",
+  "value" : 420
+}, {
+  "metric" : "READ",
+  "measurement" : "MaxLatency(us)",
+  "value" : 56475
+}, {
+  "metric" : "READ",
+  "measurement" : "Return=OK",
+  "value" : 491
+}, {
+  "metric" : "READ",
+  "measurement" : "0",
+  "value" : 56475.0
+}, {
+  "metric" : "READ",
+  "measurement" : "30",
+  "value" : 12498.0
+}, {
+  "metric" : "READ",
+  "measurement" : "80",
+  "value" : 16970.0
+}, {
+  "metric" : "READ",
+  "measurement" : "90",
+  "value" : 2510.5
+}, {
+  "metric" : "READ",
+  "measurement" : "110",
+  "value" : 19488.0
+}, {
+  "metric" : "READ",
+  "measurement" : "140",
+  "value" : 3634.0
+}, {
+  "metric" : "READ",
+  "measurement" : "150",
+  "value" : 3395.0
+}, {
+  "metric" : "READ",
+  "measurement" : "170",
+  "value" : 2802.0
+}, {
+  "metric" : "READ",
+  "measurement" : "190",
+  "value" : 19160.0
+}, {
+  "metric" : "READ",
+  "measurement" : "210",
+  "value" : 12395.0
+}, {
+  "metric" : "READ",
+  "measurement" : "220",
+  "value" : 3079.0
+}, {
+  "metric" : "READ",
+  "measurement" : "230",
+  "value" : 2244.3333333333335
+}, {
+  "metric" : "READ",
+  "measurement" : "240",
+  "value" : 2736.0
+}, {
+  "metric" : "READ",
+  "measurement" : "250",
+  "value" : 2304.5
+}, {
+  "metric" : "READ",
+  "measurement" : "260",
+  "value" : 1889.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "270",
+  "value" : 1281.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "280",
+  "value" : 1197.8
+}, {
+  "metric" : "READ",
+  "measurement" : "290",
+  "value" : 1234.5
+}, {
+  "metric" : "READ",
+  "measurement" : "300",
+  "value" : 1256.6
+}, {
+  "metric" : "READ",
+  "measurement" : "310",
+  "value" : 1330.1666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "320",
+  "value" : 1121.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "330",
+  "value" : 1022.0
+}, {
+  "metric" : "READ",
+  "measurement" : "340",
+  "value" : 1833.5
+}, {
+  "metric" : "READ",
+  "measurement" : "350",
+  "value" : 2110.6666666666665
+}, {
+  "metric" : "READ",
+  "measurement" : "360",
+  "value" : 1979.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "370",
+  "value" : 1884.0
+}, {
+  "metric" : "READ",
+  "measurement" : "380",
+  "value" : 2215.5
+}, {
+  "metric" : "READ",
+  "measurement" : "390",
+  "value" : 1692.0
+}, {
+  "metric" : "READ",
+  "measurement" : "400",
+  "value" : 1690.5
+}, {
+  "metric" : "READ",
+  "measurement" : "410",
+  "value" : 1440.75
+}, {
+  "metric" : "READ",
+  "measurement" : "420",
+  "value" : 1336.25
+}, {
+  "metric" : "READ",
+  "measurement" : "430",
+  "value" : 1563.0
+}, {
+  "metric" : "READ",
+  "measurement" : "440",
+  "value" : 1437.0
+}, {
+  "metric" : "READ",
+  "measurement" : "450",
+  "value" : 1544.25
+}, {
+  "metric" : "READ",
+  "measurement" : "460",
+  "value" : 1567.75
+}, {
+  "metric" : "READ",
+  "measurement" : "470",
+  "value" : 1867.0
+}, {
+  "metric" : "READ",
+  "measurement" : "480",
+  "value" : 1747.3333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "490",
+  "value" : 1513.6
+}, {
+  "metric" : "READ",
+  "measurement" : "500",
+  "value" : 1427.75
+}, {
+  "metric" : "READ",
+  "measurement" : "510",
+  "value" : 1342.3333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "520",
+  "value" : 1203.0
+}, {
+  "metric" : "READ",
+  "measurement" : "530",
+  "value" : 1183.5
+}, {
+  "metric" : "READ",
+  "measurement" : "540",
+  "value" : 1502.3333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "550",
+  "value" : 1310.2
+}, {
+  "metric" : "READ",
+  "measurement" : "560",
+  "value" : 1187.2
+}, {
+  "metric" : "READ",
+  "measurement" : "570",
+  "value" : 1189.6
+}, {
+  "metric" : "READ",
+  "measurement" : "580",
+  "value" : 1313.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "590",
+  "value" : 1078.0
+}, {
+  "metric" : "READ",
+  "measurement" : "600",
+  "value" : 832.375
+}, {
+  "metric" : "READ",
+  "measurement" : "610",
+  "value" : 885.0
+}, {
+  "metric" : "READ",
+  "measurement" : "620",
+  "value" : 795.0
+}, {
+  "metric" : "READ",
+  "measurement" : "630",
+  "value" : 892.2222222222222
+}, {
+  "metric" : "READ",
+  "measurement" : "640",
+  "value" : 778.6
+}, {
+  "metric" : "READ",
+  "measurement" : "650",
+  "value" : 855.2
+}, {
+  "metric" : "READ",
+  "measurement" : "660",
+  "value" : 861.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "670",
+  "value" : 957.7142857142857
+}, {
+  "metric" : "READ",
+  "measurement" : "680",
+  "value" : 1064.2
+}, {
+  "metric" : "READ",
+  "measurement" : "690",
+  "value" : 1001.0
+}, {
+  "metric" : "READ",
+  "measurement" : "700",
+  "value" : 1138.0
+}, {
+  "metric" : "READ",
+  "measurement" : "710",
+  "value" : 894.5714285714286
+}, {
+  "metric" : "READ",
+  "measurement" : "720",
+  "value" : 849.2
+}, {
+  "metric" : "READ",
+  "measurement" : "730",
+  "value" : 998.2857142857143
+}, {
+  "metric" : "READ",
+  "measurement" : "740",
+  "value" : 915.75
+}, {
+  "metric" : "READ",
+  "measurement" : "750",
+  "value" : 784.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "760",
+  "value" : 936.0
+}, {
+  "metric" : "READ",
+  "measurement" : "770",
+  "value" : 954.5
+}, {
+  "metric" : "READ",
+  "measurement" : "780",
+  "value" : 942.0
+}, {
+  "metric" : "READ",
+  "measurement" : "790",
+  "value" : 876.6666666666666
+}, {
+  "metric" : "READ",
+  "measurement" : "800",
+  "value" : 997.75
+}, {
+  "metric" : "READ",
+  "measurement" : "810",
+  "value" : 830.2
+}, {
+  "metric" : "READ",
+  "measurement" : "820",
+  "value" : 909.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "830",
+  "value" : 1053.5
+}, {
+  "metric" : "READ",
+  "measurement" : "840",
+  "value" : 831.5
+}, {
+  "metric" : "READ",
+  "measurement" : "850",
+  "value" : 966.0
+}, {
+  "metric" : "READ",
+  "measurement" : "860",
+  "value" : 773.6666666666666
+}, {
+  "metric" : "READ",
+  "measurement" : "870",
+  "value" : 737.4
+}, {
+  "metric" : "READ",
+  "measurement" : "880",
+  "value" : 915.1666666666666
+}, {
+  "metric" : "READ",
+  "measurement" : "890",
+  "value" : 950.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "900",
+  "value" : 979.0
+}, {
+  "metric" : "READ",
+  "measurement" : "910",
+  "value" : 808.0
+}, {
+  "metric" : "READ",
+  "measurement" : "920",
+  "value" : 880.8
+}, {
+  "metric" : "READ",
+  "measurement" : "930",
+  "value" : 744.0
+}, {
+  "metric" : "READ",
+  "measurement" : "940",
+  "value" : 720.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "950",
+  "value" : 944.2
+}, {
+  "metric" : "READ",
+  "measurement" : "960",
+  "value" : 875.1428571428571
+}, {
+  "metric" : "READ",
+  "measurement" : "970",
+  "value" : 767.0
+}, {
+  "metric" : "READ",
+  "measurement" : "980",
+  "value" : 1141.1666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "990",
+  "value" : 1153.75
+}, {
+  "metric" : "READ",
+  "measurement" : "1000",
+  "value" : 936.8
+}, {
+  "metric" : "READ",
+  "measurement" : "1210",
+  "value" : 2237.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1220",
+  "value" : 1855.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "1230",
+  "value" : 1843.3333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "1240",
+  "value" : 1737.4
+}, {
+  "metric" : "READ",
+  "measurement" : "1250",
+  "value" : 1697.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1260",
+  "value" : 1726.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "1270",
+  "value" : 1253.5
+}, {
+  "metric" : "READ",
+  "measurement" : "1280",
+  "value" : 1270.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1290",
+  "value" : 1270.5
+}, {
+  "metric" : "READ",
+  "measurement" : "1300",
+  "value" : 1381.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1310",
+  "value" : 1205.25
+}, {
+  "metric" : "READ",
+  "measurement" : "1320",
+  "value" : 1241.3333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "1330",
+  "value" : 1067.5
+}, {
+  "metric" : "READ",
+  "measurement" : "1340",
+  "value" : 1609.8333333333333
+}, {
+  "metric" : "READ",
+  "measurement" : "1350",
+  "value" : 1576.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1360",
+  "value" : 1361.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1370",
+  "value" : 1260.142857142857
+}, {
+  "metric" : "READ",
+  "measurement" : "1380",
+  "value" : 1231.5
+}, {
+  "metric" : "READ",
+  "measurement" : "1390",
+  "value" : 1417.4
+}, {
+  "metric" : "READ",
+  "measurement" : "1400",
+  "value" : 1573.8
+}, {
+  "metric" : "READ",
+  "measurement" : "1410",
+  "value" : 1221.0
+}, {
+  "metric" : "READ",
+  "measurement" : "1420",
+  "value" : 1429.6666666666667
+}, {
+  "metric" : "READ",
+  "measurement" : "1430",
+  "value" : 1170.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "Operations",
+  "value" : 1
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "AverageLatency(us)",
+  "value" : 2229315.0
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MinLatency(us)",
+  "value" : 2229315
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "MaxLatency(us)",
+  "value" : 2229315
+}, {
+  "metric" : "CLEANUP",
+  "measurement" : "0",
+  "value" : 2229315.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Operations",
+  "value" : 509
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "AverageLatency(us)",
+  "value" : 1524.5127701375245
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MinLatency(us)",
+  "value" : 363
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "MaxLatency(us)",
+  "value" : 203482
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "Return=OK",
+  "value" : 509
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "0",
+  "value" : 23560.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "100",
+  "value" : 6368.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "120",
+  "value" : 19550.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "140",
+  "value" : 6370.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "200",
+  "value" : 33016.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "210",
+  "value" : 6106.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "220",
+  "value" : 2526.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "230",
+  "value" : 4083.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "270",
+  "value" : 6278.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "280",
+  "value" : 3897.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "290",
+  "value" : 2002.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "300",
+  "value" : 3178.3333333333335
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "310",
+  "value" : 2021.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "320",
+  "value" : 1844.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "330",
+  "value" : 1766.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "340",
+  "value" : 945.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "350",
+  "value" : 878.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "360",
+  "value" : 963.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "370",
+  "value" : 907.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "380",
+  "value" : 723.125
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "390",
+  "value" : 776.25
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "400",
+  "value" : 1474.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "410",
+  "value" : 1491.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "420",
+  "value" : 1705.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "430",
+  "value" : 1520.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "440",
+  "value" : 1465.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "450",
+  "value" : 1555.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "460",
+  "value" : 1246.3333333333333
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "470",
+  "value" : 1477.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "480",
+  "value" : 1267.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "490",
+  "value" : 1221.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "500",
+  "value" : 1271.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "510",
+  "value" : 1246.6666666666667
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "520",
+  "value" : 1505.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "530",
+  "value" : 1405.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "540",
+  "value" : 1389.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "550",
+  "value" : 1154.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "560",
+  "value" : 875.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "570",
+  "value" : 1017.6
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "580",
+  "value" : 955.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "590",
+  "value" : 1124.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "600",
+  "value" : 990.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "610",
+  "value" : 906.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "620",
+  "value" : 926.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "630",
+  "value" : 921.6
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "640",
+  "value" : 795.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "650",
+  "value" : 687.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "660",
+  "value" : 660.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "670",
+  "value" : 747.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "680",
+  "value" : 660.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "690",
+  "value" : 616.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "700",
+  "value" : 657.8888888888889
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "710",
+  "value" : 717.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "720",
+  "value" : 626.6
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "730",
+  "value" : 694.8
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "740",
+  "value" : 743.6666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "750",
+  "value" : 714.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "760",
+  "value" : 678.3333333333334
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "770",
+  "value" : 634.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "780",
+  "value" : 655.875
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "790",
+  "value" : 678.6
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "800",
+  "value" : 534.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "810",
+  "value" : 610.1666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "820",
+  "value" : 673.4285714285714
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "830",
+  "value" : 582.1666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "840",
+  "value" : 579.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "850",
+  "value" : 588.375
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "860",
+  "value" : 578.4
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "870",
+  "value" : 594.5555555555555
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "880",
+  "value" : 593.4
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "890",
+  "value" : 657.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "900",
+  "value" : 640.875
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "910",
+  "value" : 641.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "920",
+  "value" : 671.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "930",
+  "value" : 572.3636363636364
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "940",
+  "value" : 596.6666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "950",
+  "value" : 579.1666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "960",
+  "value" : 571.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "970",
+  "value" : 540.4166666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "980",
+  "value" : 644.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "990",
+  "value" : 542.7142857142857
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1000",
+  "value" : 486.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1010",
+  "value" : 584.8888888888889
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1020",
+  "value" : 513.2857142857143
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1030",
+  "value" : 734.875
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1040",
+  "value" : 845.25
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1050",
+  "value" : 961.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1060",
+  "value" : 830.1666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1270",
+  "value" : 102738.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1280",
+  "value" : 1565.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1290",
+  "value" : 1329.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1300",
+  "value" : 1501.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1310",
+  "value" : 1349.2
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1320",
+  "value" : 1009.75
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1330",
+  "value" : 712.5714285714286
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1340",
+  "value" : 1137.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1350",
+  "value" : 947.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1360",
+  "value" : 865.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1380",
+  "value" : 1179.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1390",
+  "value" : 1065.5
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1400",
+  "value" : 1057.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1410",
+  "value" : 1161.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1420",
+  "value" : 1126.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1430",
+  "value" : 1069.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1440",
+  "value" : 959.4285714285714
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1450",
+  "value" : 1023.0
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1460",
+  "value" : 1113.3333333333333
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1470",
+  "value" : 990.2857142857143
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1480",
+  "value" : 954.1666666666666
+}, {
+  "metric" : "UPDATE",
+  "measurement" : "1490",
+  "value" : 851.0
+} ]

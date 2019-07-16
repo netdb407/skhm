@@ -1,0 +1,28 @@
+{
+	"records": [	{
+		"Window Time": 0.0,
+		"Number of IO": 8,
+		"Size of IO": 3145728,
+		"Latency": 0.70520,
+		"Kernel Time": 0.7255,
+		"Driver Time": 0.26828,
+		"Device Time": 0.36437,
+		"max": 0.109252,
+		"min": 0.19373,
+		"var": 0.000000,
+		"std": 0.000027
+	}
+, 	{
+		"Window Time": 50.0,
+		"Number of IO": 1,
+		"Size of IO": 2097152,
+		"Latency": 0.50140,
+		"Kernel Time": 0.7132,
+		"Driver Time": 0.9618,
+		"Device Time": 0.33390,
+		"max": 0.50140,
+		"min": 0.50140,
+		"var": 0.000000,
+		"std": 0.000000
+	}
+]}

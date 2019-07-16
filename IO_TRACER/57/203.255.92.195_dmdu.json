@@ -1,0 +1,72 @@
+{
+	"records": [	{
+		"time": 10,
+		"delta_disk_usage": 6463488,
+		"waf": -118,
+		"gc": 0,
+		"nand_write": 48
+	}
+	, {
+		"time": 20,
+		"delta_disk_usage": 8568832,
+		"waf": 153,
+		"gc": 1,
+		"nand_write": 3360
+	}
+	, {
+		"time": 30,
+		"delta_disk_usage": 1945600,
+		"waf": 26,
+		"gc": 1,
+		"nand_write": 816
+	}
+	, {
+		"time": 40,
+		"delta_disk_usage": 1904640,
+		"waf": -84,
+		"gc": 0,
+		"nand_write": 408
+	}
+	, {
+		"time": 50,
+		"delta_disk_usage": 1957888,
+		"waf": -127,
+		"gc": 0,
+		"nand_write": 360
+	}
+	, {
+		"time": 60,
+		"delta_disk_usage": 1724416,
+		"waf": 7,
+		"gc": 1,
+		"nand_write": 456
+	}
+	, {
+		"time": 70,
+		"delta_disk_usage": 1835008,
+		"waf": 127,
+		"gc": 1,
+		"nand_write": 576
+	}
+	, {
+		"time": 80,
+		"delta_disk_usage": 598016,
+		"waf": -84,
+		"gc": 0,
+		"nand_write": 120
+	}
+	, {
+		"time": 90,
+		"delta_disk_usage": 0,
+		"waf": 0,
+		"gc": 0,
+		"nand_write": 0
+	}
+	, {
+		"time": 100,
+		"delta_disk_usage": 0,
+		"waf": 0,
+		"gc": 0,
+		"nand_write": 0
+	}
+]}

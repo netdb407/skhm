@@ -1,0 +1,12 @@
+com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: /203.255.92.195:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.195] Cannot connect), /203.255.92.194:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.194] Cannot connect), /203.255.92.193:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.193] Cannot connect))
+	at com.yahoo.ycsb.db.CassandraCQLClient.init(CassandraCQLClient.java:225)
+	at com.yahoo.ycsb.DBWrapper.init(DBWrapper.java:86)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:424)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: /203.255.92.195:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.195] Cannot connect), /203.255.92.194:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.194] Cannot connect), /203.255.92.193:9042 (com.datastax.driver.core.exceptions.TransportException: [/203.255.92.193] Cannot connect))
+	at com.datastax.driver.core.ControlConnection.reconnectInternal(ControlConnection.java:231)
+	at com.datastax.driver.core.ControlConnection.connect(ControlConnection.java:77)
+	at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1414)
+	at com.datastax.driver.core.Cluster.getMetadata(Cluster.java:393)
+	at com.yahoo.ycsb.db.CassandraCQLClient.init(CassandraCQLClient.java:212)
+	... 3 more

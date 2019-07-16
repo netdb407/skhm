@@ -1,0 +1,106 @@
+{
+	"records": [	{
+		"Window Time": 0.0,
+		"Number of IO": 101,
+		"Size of IO": 56456992,
+		"Latency": 0.884281,
+		"Kernel Time": 0.84289,
+		"Driver Time": 0.24292,
+		"Device Time": 0.775698,
+		"max": 0.2503666,
+		"min": 0.18777,
+		"var": 0.000001,
+		"std": 0.000720
+	}
+, 	{
+		"Window Time": 10.0,
+		"Number of IO": 30,
+		"Size of IO": 51729749,
+		"Latency": 0.395197,
+		"Kernel Time": 0.19026,
+		"Driver Time": 0.20261,
+		"Device Time": 0.355908,
+		"max": 0.945062,
+		"min": 0.40267,
+		"var": 0.000000,
+		"std": 0.000267
+	}
+, 	{
+		"Window Time": 20.0,
+		"Number of IO": 19,
+		"Size of IO": 38852500,
+		"Latency": 0.395872,
+		"Kernel Time": 0.42143,
+		"Driver Time": 0.195859,
+		"Device Time": 0.157870,
+		"max": 0.3131880,
+		"min": 0.49110,
+		"var": 0.000000,
+		"std": 0.000659
+	}
+, 	{
+		"Window Time": 30.0,
+		"Number of IO": 28,
+		"Size of IO": 21870299,
+		"Latency": 0.257242,
+		"Kernel Time": 0.17858,
+		"Driver Time": 0.54094,
+		"Device Time": 0.185289,
+		"max": 0.533955,
+		"min": 0.45834,
+		"var": 0.000000,
+		"std": 0.000167
+	}
+, 	{
+		"Window Time": 40.0,
+		"Number of IO": 16,
+		"Size of IO": 38535168,
+		"Latency": 0.201921,
+		"Kernel Time": 0.27819,
+		"Driver Time": 0.28695,
+		"Device Time": 0.145406,
+		"max": 0.445288,
+		"min": 0.40652,
+		"var": 0.000000,
+		"std": 0.000134
+	}
+, 	{
+		"Window Time": 50.0,
+		"Number of IO": 16,
+		"Size of IO": 41943040,
+		"Latency": 0.253532,
+		"Kernel Time": 0.34520,
+		"Driver Time": 0.36827,
+		"Device Time": 0.182185,
+		"max": 0.470871,
+		"min": 0.48161,
+		"var": 0.000000,
+		"std": 0.000143
+	}
+, 	{
+		"Window Time": 60.0,
+		"Number of IO": 22,
+		"Size of IO": 27930251,
+		"Latency": 0.295607,
+		"Kernel Time": 0.27259,
+		"Driver Time": 0.114010,
+		"Device Time": 0.154338,
+		"max": 0.792475,
+		"min": 0.39304,
+		"var": 0.000000,
+		"std": 0.000206
+	}
+, 	{
+		"Window Time": 70.0,
+		"Number of IO": 8,
+		"Size of IO": 43253760,
+		"Latency": 0.251223,
+		"Kernel Time": 0.35989,
+		"Driver Time": 0.119594,
+		"Device Time": 0.95639,
+		"max": 0.713227,
+		"min": 0.77553,
+		"var": 0.000000,
+		"std": 0.000181
+	}
+]}
