@@ -76,7 +76,6 @@
             <template v-slot:items="props">
                 <tr>
                   <td class="text-xs-center">{{ props.item.flagStr }}</td>
-                  <td class="text-xs-center">{{ props.item.r_id }}</td>
                   <td class="text-xs-center">{{ props.item.r_name }}</td>
                   <td class="text-xs-center">{{ props.item.r_c_timestamp }}</td>
                   <td class="text-xs-center">{{ props.item.r_s_timestamp }}</td>
@@ -215,7 +214,6 @@
         expand: true,
         BMheaders: [
           { text: '상태', sortable: false, align: 'center', width: '7%' },
-          { text: 'r_id', sortable: false, align: 'center', width: '1%' },
           { text: '벤치마킹 이름', sortable: false, align: 'center', width: '15%' },
           { text: '생성시간', value: 'create', align: 'center', width: '10%' },
           { text: '시작시간', value: 'start', align: 'center', width: '10%' },
