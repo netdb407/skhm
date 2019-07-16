@@ -190,10 +190,10 @@
 
                                   <v-layout justify-center>
                                     <v-tooltip top>
-                                      <v-btn color="grey" slot="activator" dark round @click="download(rid, rel.ip)">
+                                      <v-btn color="grey" slot="activator" dark round">
                                         <v-icon>get_app</v-icon>download
                                       </v-btn>
-                                      <span>Raw.json파일 다운</span>
+                                      <span>현재 지원하지 않는 기능입니다.</span>
                                     </v-tooltip>
                                   </v-layout>
 
@@ -613,13 +613,7 @@
       //   .catch(() => console.log('error occured'))
       // },
 
-      download: function(rid, ip) {
-        let payload = {
-          r_id: rid,
-          ip: ip
-        }
-        this.$store.dispatch('getResultIOraw', payload)
-      }
+      
     } //methods End
   }
 

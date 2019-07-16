@@ -25,14 +25,21 @@ io.listen(8080)
 
 var pids = new Map()
 let hostnames = [
-		{"hostname" : "203.255.92.193"},
+	{"hostname" : "203.255.92.193"},
 	{"hostname" : "203.255.92.194"},
-{"hostname" : "203.255.92.195"}
+	{"hostname" : "203.255.92.195"}
 ]
 
 
 /*for Logger*/
+const { createLogger, format, transports } = require('winston');
 const winston = require('winston');
+const { combine, timestamp, label, printf } = format;
+
+const myFormat = printf(({ level, message, label, timestamp }) => {
+	  return `${timestamp} ${level}: ${message}`;
+});
+
 const winstonDaily = require('winston-daily-rotate-file');
 
 
@@ -40,7 +47,13 @@ const timeStampFormat = () =>{
 	return Moment().format('YYYY-MM-DD HH:mm:ss.SSS zz');
 }
 
-var logger =  winston.createLogger({
+var logger =  createLogger({
+    format : combine(
+//	format.splat(),
+//	format.simple(),
+	timestamp(),
+	myFormat
+     ),
     transports: [
         new (winstonDaily)({
             name: 'info-file',
@@ -52,7 +65,7 @@ var logger =  winston.createLogger({
             level: 'debug',
             showLevel: true,
             json: false,
-            timestamp: timeStampFormat
+            timestamp: true 
         })
     ],
     exceptionHandlers: [
@@ -66,7 +79,7 @@ var logger =  winston.createLogger({
             level: 'debug',
             showLevel: true,
             json: false,
-            timestamp: timeStampFormat
+            timestamp: true 
         })
     ]
 });
@@ -782,7 +795,7 @@ const killAll = (hosts, rId, data) =>{
 					"result": "/root/output/"+rId
 
 			}	
-			let run_cmd = "echo \'" + JSON.stringify(io_data) + "\' | bash /root/scripts/bm_result.sh"
+			let run_cmd = "echo \'" + JSON.stringify(io_data) + "\' | bash /home/skhm/web_service/scripts/bm_result.sh"
 			logger.debug(run_cmd)
 			exec(run_cmd, (err, stdout, stderr) =>{
 				logger.debug("run cmd")
@@ -862,7 +875,7 @@ const n_Check = (times, result_file, check_file, rId, runYCSB, data) => {
 						"result": "/root/output/"+rId
 				}	
 
-				let run_cmd = "echo \'" + JSON.stringify(io_data) + "\' | bash /root/scripts/bm_start.sh"
+				let run_cmd = "echo \'" + JSON.stringify(io_data) + "\' | bash /home/skhm/web_service/scripts/bm_start.sh"
 				logger.debug(run_cmd)
 
 				exec(run_cmd,  (err, stdout, stderr) =>{
@@ -951,9 +964,9 @@ const executeBenchmark = (req, res) => {
 //	console.log(req.body)
 //	console.log(settings.w_ids)
 
-	let checkNosql= '/home/skhm/song_test/checkNosql.sh 0'//NoSQL상태점검 스크립트 파일명(경로 명시 필요)
-	let runYCSB='/home/skhm/test_sb/App.jar'
-	let nodeStatus='/home/skhm/song_test/result.json'
+	let checkNosql= '/home/skhm/server_management_scripts/checkNosql.sh 0'//NoSQL상태점검 스크립트 파일명(경로 명시 필요)
+	let runYCSB='/home/skhm/YCSB_manager/App.jar'
+	let nodeStatus='/home/skhm/server_management_scripts/result.json'
 
 	let times=5//setTimeout 내 함수 반복 횟수
 	

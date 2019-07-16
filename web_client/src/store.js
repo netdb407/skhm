@@ -4,7 +4,7 @@ import axios from 'axios'
 Vue.use(Vuex);
 import { format, subDays } from 'date-fns'
 // --------------------------------변수 선언 -------------------------------------------------------------------------------------------------
-const addr = "http://203.255.92.192/"
+const addr = "http://203.255.92.195/"
 const msg = {
   timeout : 3000, //3s
   remove : "정상적으로 삭제되었습니다.",
