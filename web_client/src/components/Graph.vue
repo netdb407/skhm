@@ -76,7 +76,7 @@
 
                                                   <!-- overall -->
                                                   <v-flex xs11 ma-4>
-                                                    <v-toolbar flat dense color="rgb(232, 232, 233)">
+                                                    <v-toolbar flat dense color="rgb(246, 246, 246)">
                                                       <h2 class="title">총 latency</h2>
                                                     </v-toolbar>
                                                     <v-data-table :headers="YOverallTableHeaders"
@@ -96,7 +96,7 @@
 
                                                   <!-- 나머지 operation -->
                                                   <v-flex xs11 ma-4>
-                                                    <v-toolbar flat dense color="rgb(232, 232, 233)">
+                                                    <v-toolbar flat dense color="rgb(246, 246, 246)">
                                                       <h2 class="title">연산별 latency</h2>
                                                     </v-toolbar>
                                                     <v-data-table :headers="YTypeTableHeaders"
