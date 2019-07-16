@@ -1,5 +1,5 @@
 # essd-web
-dojin branch test
+
 ## 프로젝트 에러시
 ```
 npm install yarn
