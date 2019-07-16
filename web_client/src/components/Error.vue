@@ -4,7 +4,7 @@
     <v-layout row wrap justify-center>
       <v-flex xs12>
         <v-card-title primary-title>
-          <h3 class="headline mb-0"><b>Error 정보</b>&nbsp; &nbsp;{{this.contents.r_name}}</h3>
+          <h3 class="headline mb-0">{{this.contents.r_name}}&nbsp;<b>의 Error 정보</b></h3>
         </v-card-title>
         <hr />&nbsp;
         <v-card flat>
@@ -14,7 +14,7 @@
               <v-card flat color="grey lighten-3">
                 <v-card-title primary-title>
                   <div>
-
+                    <v-card-title>{{msg}}</v-card-title>
                     <v-data-table :headers="errorInfoHeaders"
                                   :items="error"
                                   class="elevation-1"
@@ -48,6 +48,7 @@
   export default {
     data: () => ({
       error: [],
+      msg: null,
       errorInfoHeaders: [
         { text: 'DBconfig(nc_id)', align: 'center', sortable: false, width: '10%' },
         { text: '워크로드(w_id)', align: 'center', sortable: false, width: '10%' },
@@ -58,7 +59,10 @@
 
     created() {
       this.error = this.contents.Error
-      // console.log(this.error)
+      console.log(this.error)
+      if (this.error.length == 0){
+        this.msg = "IO Tracer에서 에러가 발생하여 에러정보가 저장되지 않았습니다."
+      }
     }
   } //export default End
 
