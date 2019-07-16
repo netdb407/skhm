@@ -1,5 +1,5 @@
 const mode = 0// 1 = debug, 0 = run
-const host = "203.255.92.192"
+const host = "203.255.92.195"
 const port =  mode == 1 ?  8082 : 80
 const propPath = '/home/skhm/YCSB/workloads/'
 const dbSetting = {
