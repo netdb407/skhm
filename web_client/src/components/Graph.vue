@@ -5,7 +5,7 @@
     <v-layout justify-center>
       <v-flex xs12>
         <v-card-title primary-title>
-          <h3 class="headline mb-0"><b>벤치마킹 결과</b>&nbsp; &nbsp;{{this.contents.DBWL.r_name}}</h3>
+          <h3 class="headline mb-0">{{this.contents.DBWL.r_name}}&nbsp;<b>의 벤치마킹 결과</b></h3>
         </v-card-title>
         <hr /> &nbsp;
         <v-layout justify-center>
@@ -190,9 +190,10 @@
 
                                   <v-layout justify-center>
                                     <v-tooltip top>
-                                      <v-btn color="grey" slot="activator" dark round">
+                                      <v-btn color="grey" slot="activator" dark round @click="download(rid, rel.ip)">
                                         <v-icon>get_app</v-icon>download
                                       </v-btn>
+                                      <!-- <span>Raw.json파일 다운</span> -->
                                       <span>현재 지원하지 않는 기능입니다.</span>
                                     </v-tooltip>
                                   </v-layout>
@@ -613,7 +614,13 @@
       //   .catch(() => console.log('error occured'))
       // },
 
-      
+      // download: function(rid, ip) {
+      //   let payload = {
+      //     r_id: rid,
+      //     ip: ip
+      //   }
+      //   this.$store.dispatch('getResultIOraw', payload)
+      // }
     } //methods End
   }
 
