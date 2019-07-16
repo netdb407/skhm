@@ -1,0 +1,95 @@
+2019-07-16T07:18:38.434Z error: uncaughtException: Unexpected token u in JSON at position 0
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at ReadFileContext.callback (/home/skhm/gitUpload/web_service/queries.js:859:24)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:437:13)
+2019-07-16T07:20:16.820Z error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at results.rows.forEach.row (/home/skhm/gitUpload/web_service/queries.js:756:22)
+    at Array.forEach (<anonymous>)
+    at funcQuery (/home/skhm/gitUpload/web_service/queries.js:754:16)
+    at Query.client.query (/home/skhm/gitUpload/web_service/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/home/skhm/gitUpload/web_service/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/home/skhm/gitUpload/web_service/node_modules/pg/lib/client.js:215:19)
+    at Connection.emit (events.js:160:13)
+    at Socket.<anonymous> (/home/skhm/gitUpload/web_service/node_modules/pg/lib/connection.js:125:12)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+2019-07-16T07:20:16.822Z error: uncaughtException: Cannot read property 'status' of null
+TypeError: Cannot read property 'status' of null
+    at checkErr (/home/skhm/gitUpload/web_service/queries.js:148:8)
+    at pool.query (/home/skhm/gitUpload/web_service/queries.js:127:3)
+    at Query.client.query [as callback] (/home/skhm/gitUpload/web_service/node_modules/pg-pool/index.js:298:18)
+    at Query.handleError (/home/skhm/gitUpload/web_service/node_modules/pg/lib/query.js:142:17)
+    at Connection.connectedErrorMessageHandler (/home/skhm/gitUpload/web_service/node_modules/pg/lib/client.js:183:17)
+    at Connection.emit (events.js:160:13)
+    at Socket.<anonymous> (/home/skhm/gitUpload/web_service/node_modules/pg/lib/connection.js:125:12)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+2019-07-16T07:44:49.852Z error: uncaughtException: Cannot read property 'io_result_path' of undefined
+TypeError: Cannot read property 'io_result_path' of undefined
+    at funcQuery (/home/skhm/gitUpload/web_service/queries.js:604:30)
+    at Query.client.query (/home/skhm/gitUpload/web_service/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/home/skhm/gitUpload/web_service/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/home/skhm/gitUpload/web_service/node_modules/pg/lib/client.js:215:19)
+    at Connection.emit (events.js:160:13)
+    at Socket.<anonymous> (/home/skhm/gitUpload/web_service/node_modules/pg/lib/connection.js:125:12)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+2019-07-16T08:03:27.216Z error: uncaughtException: listen EADDRINUSE :::8080
+Error: listen EADDRINUSE :::8080
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1366:14)
+    at listenInCluster (net.js:1407:12)
+    at Server.listen (net.js:1495:7)
+    at Server.listen.Server.attach (/home/skhm/gitUpload/web_service/node_modules/socket.io/lib/index.js:273:9)
+    at Object.<anonymous> (/home/skhm/gitUpload/web_service/queries.js:24:4)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+2019-07-16T08:03:27.219Z error: uncaughtException: listen EADDRINUSE 203.255.92.192:80
+Error: listen EADDRINUSE 203.255.92.192:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1366:14)
+    at listenInCluster (net.js:1407:12)
+    at doListen (net.js:1522:7)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+2019-07-16T08:04:40.462Z error: uncaughtException: Assignment to constant variable.
+TypeError: Assignment to constant variable.
+    at /home/skhm/gitUpload/web_service/queries.js:913:20
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:528:3)
+2019-07-16T08:13:11.820Z error: uncaughtException: listen EADDRINUSE :::8080
+Error: listen EADDRINUSE :::8080
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1366:14)
+    at listenInCluster (net.js:1407:12)
+    at Server.listen (net.js:1495:7)
+    at Server.listen.Server.attach (/home/skhm/gitUpload/web_service/node_modules/socket.io/lib/index.js:273:9)
+    at Object.<anonymous> (/home/skhm/gitUpload/web_service/queries.js:24:4)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+2019-07-16T08:13:11.823Z error: uncaughtException: listen EADDRINUSE 203.255.92.192:80
+Error: listen EADDRINUSE 203.255.92.192:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1366:14)
+    at listenInCluster (net.js:1407:12)
+    at doListen (net.js:1522:7)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+2019-07-16T08:13:42.549Z error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at validateHeader (_http_outgoing.js:500:11)
+    at ServerResponse.setHeader (_http_outgoing.js:507:3)
+    at ServerResponse.header (/home/skhm/gitUpload/web_service/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/home/skhm/gitUpload/web_service/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/skhm/gitUpload/web_service/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/home/skhm/gitUpload/web_service/node_modules/express/lib/response.js:158:21)
+    at fs.readdir (/home/skhm/gitUpload/web_service/queries.js:622:9)
+    at FSReqWrap.oncomplete (fs.js:149:20)

@@ -594,34 +594,40 @@ const getResultE = (req, res) =>{
 
 const getResultIO = (req, res) =>{
 	
-	logger.debug("GET RESULT ERROR " + req.query.r_id)
+	logger.debug("GET RESULT IO" + req.query.r_id)
 
 	let sql = 'SELECT io_result_path FROM sk2.io_result WHERE r_id = $1'
 	let rId = req.query.r_id
 	funcQuery(sql, [rId], (err, results) =>{
 		checkErr(err, res)	
 		let rtv = []
-		fs.readdir(results.rows[0].io_result_path, (err, files) =>{
-			let temp = {}
-//			let num = files.length / 4
-			files.forEach( file =>{
-				let sp = file.split('_')
-				if(!sp[1].includes('raw')){
-					if(typeof temp[sp[0]] === 'undefined'){
-						temp[sp[0]] = rtv.length
-						rtv.push({"ip" : sp[0]})
+		if(results.rows.length > 0) {
+			fs.readdir(results.rows[0].io_result_path, (err, files) =>{
+				let temp = {}
+	//			let num = files.length / 4
+				files.forEach( file =>{
+					let sp = file.split('_')
+					if(!sp[1].includes('raw')){
+						if(typeof temp[sp[0]] === 'undefined'){
+							temp[sp[0]] = rtv.length
+							rtv.push({"ip" : sp[0]})
+						}
+						
+		//				console.log(file)
+						let data = fs.readFileSync(results.rows[0].io_result_path+"/"+file).toString()
+						rtv[temp[sp[0]]][sp[1].split('.')[0]] = JSON.parse(data) 			
 					}
-					
-	//				console.log(file)
-					let data = fs.readFileSync(results.rows[0].io_result_path+"/"+file).toString()
-					rtv[temp[sp[0]]][sp[1].split('.')[0]] = JSON.parse(data) 			
-				}
+				})
+				res.statusCode = 200
+				res.send(rtv)
+				res.end()
+				return
 			})
+		}else{
 			res.statusCode = 200
 			res.send(rtv)
 			res.end()
-
-		})
+		}
 	})
 }
 
@@ -746,14 +752,14 @@ const setErrorAndMsg = (rId, r_name) =>{
 	var date = new Date()
 	let convD = convertDate(date)
 	let sql = 'UPDATE sk2.run SET r_status_flag=2, r_e_timestamp=now() WHERE r_id = $1'
-	let errCountSql = 'UPDATE sk2.workload SET w_error_count=w_errorcount+1 WHERE w_id = $1'
+	let errCountSql = 'UPDATE sk2.workload SET w_error_count=w_error_count+1 WHERE w_id = $1'
 	simpleQuery(sql, null, 2, [rId])	
 	sql = 'SELECT w_id FROM sk2.run_relation WHERE r_id = $1'	
 	funcQuery(sql, [rId], (err, results)=>{
 		checkErr(err)
 		results.rows.forEach(row =>{
 			simpleQuery(errCountSql, null, 2, [row.w_id])
-			alarm.emit("msg", data.r_name)
+			alarm.emit("msg", r_name)
 		})
 
 	})
@@ -877,28 +883,24 @@ const n_Check = (times, result_file, check_file, rId, runYCSB, data) => {
 
 				let run_cmd = "echo \'" + JSON.stringify(io_data) + "\' | bash /home/skhm/web_service/scripts/bm_start.sh"
 				logger.debug(run_cmd)
-
-				exec(run_cmd,  (err, stdout, stderr) =>{
-						checkErr(err)
-						logger.debug(err)
-						console.log(stdout)
-						console.log(err)
-						let rtv = JSON.parse(stdout)
-						if(rtv.status[0].pid < 0 )
-						{
-							logger.debug("IO TRACE Error")
-							setErrorAndMsg(rId, data.r_name)	
-							return
-								
-						}else{
-							//save pid
-							logger.debug(rtv)
+				let rp_count = 5 
+				const RUN_IO_TRACER = (rc)=>{
+					exec(run_cmd,  (err, stdout, stderr) =>{
+							checkErr(err)
+							logger.debug(err)
+							let rtv = JSON.parse(stdout)
+							logger.debug(stdout)
 							if(rtv.status.filter(x => x.pid == -1).length > 0){
-								killAll(rtv.status, -1)							
-								setErrorAndMsg(rId, data.r_name)
-								return
-							}
-							else{
+							
+								logger.debug("IO TRACE Error")
+								if(rc > 0)	
+									setTimeout(RUN_IO_TRACER(rc-1), 1000)
+								else{			
+									killAll(rtv.status, -1)							
+									setErrorAndMsg(rId, data.r_name)
+									return
+								}
+							}else{
 								pids.set(rId, rtv.status)
 								//YCSB 실행 코드가 들어갈 부위.
 								exec('java -jar '+runYCSB+' '+rId, function(err, stdout, stderr){//runnable jar 파일로 만들어줘야 실행이 가능함. java(X), 그냥 jar도 (X							
@@ -907,28 +909,14 @@ const n_Check = (times, result_file, check_file, rId, runYCSB, data) => {
 									checkErr(err)
 									killAll(pids.get(rId), rId, data)
 									pids.delete(rId)
-									//send alarm
-									
-//									let sql = 'SELECT r_status_flag FROM sk2.run WHERE r_id = $1'	
-//									
-//									funcQuery(sql, [rId], (err, results) =>{
-//										checkErr(err)
-//										switch(results.rows[0].r_status_flag){
-//											case 2 : //error 
-//												break; 
-//											case 3 : //complete
-//												break;
-//										}
-//
-//									})
 									return	
 								})//자바 파일 실행하는 코드*/
-							}
+							}					
+							
+					})
+				}
 
-						}
-
-						
-				})
+				 RUN_IO_TRACER(rp_count)
 			}else{
 				logger.debug('Re-running requested nosql. Please wait for a moment.')//nosql에 이상이 있어서 재구동 중임.
 				var script = exec(check_file, (err, stdout, stderr)=>{
@@ -964,7 +952,7 @@ const executeBenchmark = (req, res) => {
 //	console.log(req.body)
 //	console.log(settings.w_ids)
 
-	let checkNosql= '/home/skhm/server_management_scripts/checkNosql.sh 0'//NoSQL상태점검 스크립트 파일명(경로 명시 필요)
+	let checkNosql= '/home/skhm/server_management_scripts/checkNosql.sh '+hostnames[0].hostname+" 0"//NoSQL상태점검 스크립트 파일명(경로 명시 필요)
 	let runYCSB='/home/skhm/YCSB_manager/App.jar'
 	let nodeStatus='/home/skhm/server_management_scripts/result.json'
 

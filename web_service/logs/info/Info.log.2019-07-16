@@ -1,0 +1,352 @@
+2019-07-16T07:18:21.241Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:18:21.250Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:18:21.470Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:18:21.476Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:18:21.508Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:18:21.509Z info: DATA 		  ==> undefined
+2019-07-16T07:18:21.544Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,40,40)
+2019-07-16T07:18:26.153Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:18:26.157Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:18:26.160Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:18:26.160Z info: DATA 		  ==> undefined
+2019-07-16T07:18:35.397Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T07:18:35.424Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 16:18:35'
+2019-07-16T07:18:35.425Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T07:18:35.431Z error: Command failed: /home/skhm/server_management_scripts/checkNosql.sh 0
+/bin/sh: /home/skhm/server_management_scripts/checkNosql.sh: No such file or directory
+
+2019-07-16T07:18:35.443Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T07:18:38.430Z error: ENOENT: no such file or directory, open '/home/skhm/server_management_scripts/result.json'
+2019-07-16T07:18:38.983Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:18:38.991Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:19:55.707Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:19:55.715Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:19:55.715Z info: DATA 		  ==> undefined
+2019-07-16T07:19:55.737Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:20:01.693Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T07:20:01.755Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 16:20:01'
+2019-07-16T07:20:01.758Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T07:20:01.775Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T07:20:03.134Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:20:03.143Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:20:16.809Z info: SIMPLE_QUERY ==> UPDATE sk2.run SET r_status_flag=2, r_e_timestamp=now() WHERE r_id = $1
+2019-07-16T07:20:16.810Z info: DATA 		  ==> 124
+2019-07-16T07:20:16.811Z info: FUNC_QUERY ==> SELECT w_id FROM sk2.run_relation WHERE r_id = $1
+2019-07-16T07:20:16.818Z info: SIMPLE_QUERY ==> UPDATE sk2.workload SET w_error_count=w_errorcount+1 WHERE w_id = $1
+2019-07-16T07:20:16.818Z info: DATA 		  ==> 26
+2019-07-16T07:20:16.821Z error: column "w_errorcount" does not exist
+2019-07-16T07:37:48.325Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:37:48.333Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:37:48.411Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:37:48.414Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:37:48.448Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:37:48.448Z info: DATA 		  ==> undefined
+2019-07-16T07:37:48.489Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26)
+2019-07-16T07:37:51.989Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T07:37:52.690Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T07:38:25.599Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:39:41.612Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:39:41.629Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:39:42.007Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:39:42.011Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:39:42.050Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:39:42.050Z info: DATA 		  ==> undefined
+2019-07-16T07:39:42.081Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26)
+2019-07-16T07:39:43.383Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:42:19.265Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:42:19.273Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:42:19.675Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:42:19.679Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:42:19.720Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:42:19.722Z info: DATA 		  ==> undefined
+2019-07-16T07:42:19.770Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26)
+2019-07-16T07:42:20.827Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:42:20.829Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:42:20.830Z info: DATA 		  ==> undefined
+2019-07-16T07:42:20.832Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:42:26.636Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:42:26.637Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:42:26.637Z info: DATA 		  ==> undefined
+2019-07-16T07:42:26.637Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:42:44.720Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:42:44.724Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:42:44.724Z info: DATA 		  ==> undefined
+2019-07-16T07:42:44.729Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:43:49.177Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:43:49.181Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:43:49.181Z info: DATA 		  ==> undefined
+2019-07-16T07:43:49.186Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:43:55.552Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T07:43:55.572Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 16:43:55'
+2019-07-16T07:43:55.574Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T07:43:55.607Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T07:43:57.352Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:43:57.361Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:07.319Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:07.322Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:12.941Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:44:47.464Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:47.469Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:47.487Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:47.490Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:47.496Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:47.500Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:48.702Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:48.708Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:44:49.761Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T07:44:49.840Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T07:44:50.745Z info: SIMPLE_QUERY ==> INSERT INTO sk2.io_result(p_kid, r_id, io_result_path) VALUES (1, $1, $2)
+2019-07-16T07:44:50.745Z info: DATA 		  ==> 125,/home/skhm/IO_TRACER/125
+2019-07-16T07:44:59.584Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:44:59.621Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:45:05.139Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T07:45:05.217Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T07:45:43.814Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:45:49.061Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:46:02.914Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T07:46:03.008Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T07:47:20.479Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:47:20.483Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:47:20.549Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:47:20.553Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:47:20.588Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:47:20.588Z info: DATA 		  ==> undefined
+2019-07-16T07:47:20.635Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26)
+2019-07-16T07:52:34.790Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:52:38.850Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:55:25.403Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T07:55:25.415Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T07:55:25.803Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T07:55:25.807Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T07:55:25.833Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T07:55:25.833Z info: DATA 		  ==> undefined
+2019-07-16T07:55:25.867Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26)
+2019-07-16T07:55:27.308Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:55:30.495Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:55:33.534Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T07:55:37.904Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:04:28.436Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:04:28.450Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:04:28.451Z info: DATA 		  ==> undefined
+2019-07-16T08:04:28.468Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:04:37.407Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T08:04:37.439Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 17:04:37'
+2019-07-16T08:04:37.442Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T08:04:37.470Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T08:04:38.635Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:04:38.645Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:05:15.516Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:05:15.555Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:05:15.597Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:05:15.598Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:05:15.633Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:05:15.633Z info: DATA 		  ==> undefined
+2019-07-16T08:05:15.660Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26)
+2019-07-16T08:05:18.213Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:05:18.216Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:05:18.217Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:05:18.218Z info: DATA 		  ==> undefined
+2019-07-16T08:05:19.101Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:05:19.107Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:05:21.892Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:05:22.013Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:05:27.070Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:05:27.078Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:05:27.151Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:05:27.153Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:05:27.189Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:05:27.190Z info: DATA 		  ==> undefined
+2019-07-16T08:05:27.230Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26)
+2019-07-16T08:05:31.376Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:05:31.953Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:05:38.570Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:05:38.575Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:05:38.639Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:05:38.641Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:05:38.660Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:05:38.661Z info: DATA 		  ==> undefined
+2019-07-16T08:05:38.698Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26)
+2019-07-16T08:05:50.041Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:05:50.346Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:05:57.214Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:06:45.230Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:06:45.247Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:06:45.326Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:06:45.329Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:06:45.362Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:06:45.363Z info: DATA 		  ==> undefined
+2019-07-16T08:06:45.409Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26)
+2019-07-16T08:06:47.479Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:06:47.480Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:06:47.486Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:06:47.486Z info: DATA 		  ==> undefined
+2019-07-16T08:06:58.847Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T08:06:58.876Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 17:06:58'
+2019-07-16T08:06:58.879Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T08:06:58.909Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T08:07:00.417Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:07:00.423Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:07:05.534Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:07:05.536Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:07:24.094Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:07:24.096Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:07:24.096Z info: DATA 		  ==> undefined
+2019-07-16T08:07:24.100Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:07:25.756Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:07:25.763Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:07:56.853Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:07:56.857Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:07:56.858Z info: DATA 		  ==> undefined
+2019-07-16T08:07:56.859Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:07:56.873Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:07:56.876Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:07:56.887Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:07:56.891Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:08:00.093Z info: SIMPLE_QUERY ==> INSERT INTO sk2.io_result(p_kid, r_id, io_result_path) VALUES (1, $1, $2)
+2019-07-16T08:08:00.093Z info: DATA 		  ==> 128,/home/skhm/IO_TRACER/128
+2019-07-16T08:08:01.067Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:08:01.075Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:08:14.696Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:08:14.807Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:08:27.364Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:08:41.084Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:09:55.003Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:10:06.640Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:13:42.525Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:14:13.232Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:15:20.633Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:15:20.651Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:15:20.839Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:15:20.843Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:15:20.871Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:15:20.871Z info: DATA 		  ==> undefined
+2019-07-16T08:15:20.908Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26)
+2019-07-16T08:15:25.002Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:15:25.111Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:15:53.780Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:15:54.106Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:16:00.519Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:16:15.972Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:16:15.981Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:16:16.051Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:16:16.055Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:16:16.086Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:16:16.087Z info: DATA 		  ==> undefined
+2019-07-16T08:16:16.123Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26)
+2019-07-16T08:16:24.161Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:16:24.426Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:16:34.346Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:16:43.009Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:16:43.010Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:16:43.098Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:16:43.101Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:16:43.134Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:16:43.135Z info: DATA 		  ==> undefined
+2019-07-16T08:16:43.171Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26)
+2019-07-16T08:16:44.798Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:16:44.800Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:16:44.800Z info: DATA 		  ==> undefined
+2019-07-16T08:16:44.803Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:16:51.975Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T08:16:52.009Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 17:16:51'
+2019-07-16T08:16:52.011Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T08:16:52.029Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T08:16:53.930Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:16:53.940Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:17:05.139Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:17:05.223Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:17:46.937Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:17:46.942Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:17:50.461Z info: SIMPLE_QUERY ==> INSERT INTO sk2.io_result(p_kid, r_id, io_result_path) VALUES (1, $1, $2)
+2019-07-16T08:17:50.463Z info: DATA 		  ==> 129,/home/skhm/IO_TRACER/129
+2019-07-16T08:17:52.709Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:17:52.716Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:17:56.066Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:17:56.074Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:17:56.140Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:17:56.142Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:17:56.170Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:17:56.171Z info: DATA 		  ==> undefined
+2019-07-16T08:17:56.207Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26)
+2019-07-16T08:17:58.568Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:17:58.658Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:18:20.406Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:18:20.424Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:18:20.481Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:18:20.483Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:18:20.506Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:18:20.506Z info: DATA 		  ==> undefined
+2019-07-16T08:18:20.541Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26)
+2019-07-16T08:18:25.288Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:18:25.370Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:19:51.400Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:19:51.415Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:19:51.440Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:19:51.441Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:19:51.467Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:19:51.468Z info: DATA 		  ==> undefined
+2019-07-16T08:19:51.501Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26)
+2019-07-16T08:19:57.416Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:19:57.453Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:19:57.611Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:19:57.612Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:19:57.645Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:19:57.645Z info: DATA 		  ==> undefined
+2019-07-16T08:19:57.673Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26)
+2019-07-16T08:19:58.724Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:19:58.726Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:19:58.726Z info: DATA 		  ==> undefined
+2019-07-16T08:19:58.728Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:20:06.112Z info: FUNC_QUERY ==> INSERT INTO sk2.run(r_s_timestamp, r_e_timestamp, r_c_timestamp, r_status_flag, r_window_size, r_threshold, r_name) VALUES(null, null, $1, 0, $2, $3, $4)
+2019-07-16T08:20:06.146Z info: FUNC_QUERY ==> SELECT r_id FROM sk2.run WHERE r_c_timestamp='2019-07-16 17:20:06'
+2019-07-16T08:20:06.150Z info: FUNC_QUERY ==> INSERT INTO sk2.run_relation (r_id, nc_id, w_id) VALUES($1, $2, $3)
+2019-07-16T08:20:06.166Z info: FUNC_QUERY ==> UPDATE sk2.workload SET w_freq_count = w_freq_count + 1 WHERE w_id = $1
+2019-07-16T08:20:07.523Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:20:07.534Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:20:17.183Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:20:17.185Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:21:30.961Z info: SIMPLE_QUERY ==> INSERT INTO sk2.io_result(p_kid, r_id, io_result_path) VALUES (1, $1, $2)
+2019-07-16T08:21:30.962Z info: DATA 		  ==> 130,/home/skhm/IO_TRACER/130
+2019-07-16T08:21:44.489Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:21:44.507Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:21:47.051Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:21:47.155Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:22:20.592Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id
+2019-07-16T08:22:20.717Z info: FUNC_QUERY ==> SELECT io_result_path FROM sk2.io_result WHERE r_id = $1
+2019-07-16T08:25:15.182Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:25:15.199Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:25:15.245Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:25:15.249Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:25:15.273Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:25:15.274Z info: DATA 		  ==> undefined
+2019-07-16T08:25:15.311Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26,24)
+2019-07-16T08:25:16.771Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:25:32.482Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:25:35.433Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:25:39.539Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:25:42.536Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:29:54.232Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:29:54.248Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:29:54.621Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:29:54.625Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:29:54.665Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:29:54.666Z info: DATA 		  ==> undefined
+2019-07-16T08:29:54.716Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26,24)
+2019-07-16T08:29:59.268Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:40:19.479Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:40:19.490Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:40:19.880Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:40:19.884Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:40:19.926Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:40:19.927Z info: DATA 		  ==> undefined
+2019-07-16T08:40:19.960Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26,24)
+2019-07-16T08:40:25.772Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:40:45.102Z info: FUNC_QUERY ==> SELECT * FROM sk2.run
+2019-07-16T08:40:45.120Z info: FUNC_QUERY ==> SELECT r_id, nc_id, w_id FROM sk2.run_relation ORDER BY r_id, nc_id
+2019-07-16T08:40:45.148Z info: FUNC_QUERY ==> SELECT * FROM sk2.nosql AS n, sk2.nosql_config AS c WHERE n.n_id = c.n_id
+2019-07-16T08:40:45.149Z info: FUNC_QUERY ==> SELECT * FROM sk2.node_spec AS ns, sk2.node_relation AS nr WHERE ns.ip = nr.ip
+2019-07-16T08:40:45.173Z info: SIMPLE_QUERY ==> SELECT w_id, w_name, w_read, w_insert, w_update, w_readmodifywrite, w_scan, w_c_timestamp, w_freq_count, w_error_count, w_d_flag FROM sk2.workload ORDER BY w_id ASC
+2019-07-16T08:40:45.173Z info: DATA 		  ==> undefined
+2019-07-16T08:40:45.205Z info: FUNC_QUERY ==> SELECT w_id, w_config_file_path FROM sk2.workload WHERE w_id in(19,19,19,34,34,20,20,7,27,27,21,21,27,23,27,5,6,7,27,17,24,24,2,17,38,38,27,6,18,34,34,6,6,26,26,27,10,10,6,6,10,27,27,18,27,18,18,23,23,18,18,18,19,19,28,28,23,23,29,29,27,27,27,27,27,27,27,27,27,27,27,33,33,27,27,21,21,30,30,34,34,21,21,24,24,33,33,26,26,34,34,35,35,38,38,34,34,35,35,38,38,37,37,39,39,38,38,26,39,39,39,39,2,26,40,40,26,26,26,26,26,26,24)
+2019-07-16T08:40:49.356Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';
+2019-07-16T08:41:17.188Z info: FUNC_QUERY ==> SELECT nc_id, w_id, ycsb_result_path FROM sk2.run_relation rr, sk2.ycsb_result yr WHERE rr.r_id = $1 AND rr.rr_id = yr.rr_id AND ycsb_result_path LIKE '%error%';

@@ -2,6 +2,7 @@ checkNode=$1
 repeatCount=$2
 
 connect='sshpass -p netdb3230 ssh root@'$checkNode
+echo $connect
 result=''
 echo $repeatCount
 
@@ -17,10 +18,10 @@ then
 	echo $result
 else
 	echo "start nosql status check"
-	$connect ./ssdStorage/Nosql/apache-cassandra-3.11.4/bin/nodetool status | sed '1,4d' > check_cas_status.txt
+	$connect /ssdStorage/Nosql/apache-cassandra-3.11.4/bin/nodetool status | sed '1,4d' > check_cas_status.txt
 	cat check_cas_status.txt
-	grepDownresult=`grep D[NLJM] check_nosql_status.txt`
-	filesize=$(wc -c check_nosql_status.txt | awk '{print $1}')
+	grepDownresult=`grep D[NLJM] check_cas_status.txt`
+	filesize=$(wc -c check_cas_status.txt | awk '{print $1}')
 	echo "file size : " $filesize
 	echo "grepresult :" $grepDownresult
 	echo "D[NLJM] or Error Check.."
@@ -30,10 +31,10 @@ else
    	    result='inactive'
    		./startNosql.sh
    		repeatCount=$((repeatCount+1))
-   	   	./checkNosql.sh $repeatCount
+   	   	./checkNosql.sh $checkNode $repeatCount
 	else
-   		grepULJMresult=`grep U[LJM] check_nosql_status.txt`
-		grepRNLJMresult=`grep ?[NLJM] check_nosql_status.txt`
+   		grepULJMresult=`grep U[LJM] check_cas_status.txt`
+		grepRNLJMresult=`grep ?[NLJM] check_cas_status.txt`
        	echo $grepULJMresult
        	echo "U[LJM],?[NLJM] Check.."
        	
@@ -43,7 +44,7 @@ else
        		echo "U[LJM] or ?[NLJM].. start loading.."
       		repeatCount=$((repeatCount+1))
       		sleep 5
-       		./checkNosql.sh $repeatCount
+       		./checkNosql.sh $checkNode $repeatCount
       	else
 			result='active'
 	   		echo $result
