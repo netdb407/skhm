@@ -5,7 +5,7 @@
       <!-- 전체 페이지 -->
       <v-flex xs12>
         <v-card-title primary-title>
-          <h3 class="headline mb-0"><b>벤치마킹 정보</b>&nbsp; &nbsp;{{this.contents.r_name}}</h3>
+          <h3 class="headline mb-0">{{this.contents.r_name}}&nbsp;<b>의 벤치마킹 정보</b></h3>
         </v-card-title>
         <hr /> &nbsp;
         <v-card flat>
